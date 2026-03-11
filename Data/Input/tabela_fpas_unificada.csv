@@ -1,0 +1,1390 @@
+CNAE;RAT;FPAS;Descrição da atividade
+0500301;2,00%;507;Extração de carvão mineral
+0500302;2,00%;507;Beneficiamento de carvão mineral
+0600001;2,00%;507;Extração de petróleo e gás natural
+0600002;2,00%;507;Extração e beneficiamento de xisto
+0600003;2,00%;507;Extração e beneficiamento de areias betum inosas
+0710301;2,00%;507;Extração de minério de ferro
+0710302;2,00%;507;Pelotização, sinterização e outros benefi ciamentos de minério de ferro
+0721901;2,00%;507;Extração de minério de alumínio
+0721902;2,00%;507;Beneficiamento de minério de alumínio
+0722701;2,00%;507;Extração de minério de estanho
+0722702;2,00%;507;Beneficiamento de minério de estanho
+0723501;2,00%;507;Extração de minério de manganês
+0723502;2,00%;507;Beneficiamento de minério de manganês
+0724301;2,00%;507;Extração de minério de metais preciosos
+0724302;2,00%;507;Beneficiamento de minério de metais preci osos
+0725100;2,00%;507;Extração de minerais radioativos
+0729401;2,00%;507;Extração de minérios de nióbio e titânio
+0729402;2,00%;507;Extração de minério de tungstênio
+0729403;2,00%;507;Extração de minério de níquel
+0729404;2,00%;507;Extração de minérios de cobre, chumbo, zi nco e outros minerais metálicos
+0729405;2,00%;507;Beneficiamento de minérios de cobre, chum bo, zinco e outros minerais
+0810001;2,00%;507;Extração de ardósia e beneficiamento asso ciado
+0810002;2,00%;507;Extração de granito e beneficiamento asso ciado
+0810003;2,00%;507;Extração de mármore e beneficiamento asso ciado
+0810004;2,00%;507;Extração de calcário e dolomita e benefic iamento associado
+0810005;2,00%;507;Extração de gesso e caulim
+0810006;2,00%;507;Extração de areia, cascalho ou pedregulho  e beneficiamento associado
+0810007;2,00%;507;Extração de argila e beneficiamento assoc iado
+0810008;2,00%;507;Extração de saibro e beneficiamento assoc iado
+0810009;2,00%;507;Extração de basalto e beneficiamento asso ciado
+0810010;2,00%;507;Beneficiamento de gesso e caulim associad o à extração
+0810099;2,00%;507;Extração e britamento de pedras e outros materiais para construção e
+0891600;2,00%;507;Extração de minerais para fabricação de a dubos, fertilizantes e outros
+0892401;2,00%;507;Extração de sal marinho
+0892402;2,00%;507;Extração de sal-gema
+0892403;2,00%;507;Refino e outros tratamentos do sal
+0893200;2,00%;507;Extração de gemas (pedras preciosas e sem ipreciosas)
+0899101;2,00%;507;Extração de grafita
+0899102;2,00%;507;Extração de quartzo
+0899103;2,00%;507;Extração de amianto
+0899199;2,00%;507;Extração de outros minerais não-metálicos  não especificados anteriormente
+0910600;2,00%;507;Atividades de apoio à extração de petróle o e gás natural
+0990401;2,00%;507;Atividades de apoio à extração de minério  de ferro
+0990402;2,00%;507;Atividades de apoio à extração de minerai s metálicos não-ferrosos
+0990403;2,00%;507;Atividades de apoio à extração de minerai s não-metálicos
+1011201;3,00%;507;Frigorífico - abate de bovinos (setor ind ustrial)
+1011202;3,00%;507;Frigorífico - abate de eqüinos (setor ind ustrial)
+1011203;3,00%;507;Frigorífico - abate de ovinos e caprinos (setor industrial)
+1011204;3,00%;507;Frigorífico - abate de bufalinos (setor i ndustrial)
+1012101;3,00%;507;Abate de aves (setor industrial)
+1012102;3,00%;507;Abate de pequenos animais(setor industria l)
+1012103;3,00%;507;Frigorífico - abate de suínos (setor indu strial)
+1013901;3,00%;507;Fabricação de produtos de carne
+1013902;3,00%;507;Preparação de subprodutos do abate
+1020101;2,00%;507;Preservação de peixes, crustáceos e molus cos
+1020102;2,00%;507;Fabricação de conservas de peixes, crustá ceos e moluscos
+1031700;2,00%;507;Fabricação de conservas de frutas - indús tria
+1032501;2,00%;507;Fabricação de conservas de palmito - indú stria
+1032599;2,00%;507;Fabricação de conservas de legumes e outr os vegetais - indústria
+1033301;2,00%;507;Fabricação de sucos concentrados de fruta s, hortaliças e legumes - ind
+1033302;2,00%;507;Fabricação de sucos de frutas, hortaliças  e legumes - indústria
+1041400;2,00%;507;Fabricação de óleos vegetais em bruto, ex ceto óleo de milho - indústria
+1042200;2,00%;507;Fabricação de óleos vegetais refinados, e xceto óleo de milho - indústria
+1043100;2,00%;507;Fabricação de margarina e outras gorduras  vegetais e de óleos não-
+1053800;2,00%;507;Fabricação de sorvetes e outros gelados c omestíveis
+1061902;2,00%;507;Fabricação de produtos do arroz - indústr ia
+1066000;2,00%;507;Fabricação de alimentos para animais
+1091100;2,00%;507;Fabricação de produtos de panificação
+1092900;2,00%;507;Fabricação de biscoitos e bolachas
+1093701;2,00%;507;Fabricação de produtos derivados do cacau  e de chocolates - indústria
+1093702;2,00%;507;Fabricação de frutas cristalizadas, balas  e semelhantes
+1094500;2,00%;507;Fabricação de massas alimentícias
+1095300;2,00%;507;Fabricação de especiarias, molhos, temper os e condimentos
+1096100;2,00%;507;Fabricação de alimentos e pratos prontos
+1099601;2,00%;507;Fabricação de vinagres
+1099602;2,00%;507;Fabricação de pós alimentícios
+1099603;2,00%;507;Fabricação de fermentos e leveduras
+1099604;2,00%;507;Fabricação de gelo comum
+1099606;2,00%;507;Fabricação de adoçantes naturais e artifi ciais
+1099699;2,00%;507;Fabricação de outros produtos alimentício s não especificados anteriormente
+1111901;2,00%;507;Fabricação de aguardente de cana-de-açúca r - indústria
+1111902;2,00%;507;Fabricação de outras aguardentes e bebida s destiladas
+1113501;2,00%;507;Fabricação de malte, inclusive malte uísq ue
+1113502;2,00%;507;Fabricação de cervejas e chopes
+1121600;2,00%;507;Fabricação de águas envasadas
+1122401;2,00%;507;Fabricação de refrigerantes
+1122402;2,00%;507;Fabricação de chá mate e outros chás pron tos para consumo
+1122403;2,00%;507;Fabricação de refrescos, xaropes e pós pa ra refrescos, exceto refrescos de
+1122499;2,00%;507;Fabricação de outras bebidas não-alcoólic as não especificadas anteriormente
+1210700;3,00%;507;Processamento industrial do fumo - indúst ria
+1220401;3,00%;507;Fabricação de cigarros - indústria
+1220402;3,00%;507;Fabricação de cigarrilhas e charutos - in dústria
+1220403;3,00%;507;Fabricação de filtros para cigarros - ind ústria
+1313800;2,00%;507;Fiação de fibras artificiais e sintéticas
+1314600;2,00%;507;Fabricação de linhas para costurar e bord ar
+1321900;2,00%;507;Tecelagem de fios de algodão - indústria
+1322700;2,00%;507;Tecelagem de fios de fibras têxteis natur ais, exceto algodão - indústria
+1323500;2,00%;507;Tecelagem de fios de fibras artificiais e  sintéticas
+1330800;2,00%;507;Fabricação de tecidos de malha
+1340501;2,00%;507;Estamparia e texturização em fios, tecido s, artefatos têxteis e peças do
+1340502;2,00%;507;Alvejamento, tingimento e torção em fios,  tecidos, artefatos têxteis e peças
+1340599;2,00%;507;Outros serviços de acabamento em fios, te cidos, artefatos têxteis e peças do
+1351100;2,00%;507;Fabricação de artefatos têxteis para uso doméstico
+1352900;2,00%;507;Fabricação de artefatos de tapeçaria
+1353700;2,00%;507;Fabricação de artefatos de cordoaria
+1354500;2,00%;507;Fabricação de tecidos especiais, inclusiv e artefatos
+1359600;2,00%;507;Fabricação de outros produtos têxteis não  especificados anteriormente
+1411801;2,00%;507;Confecção de roupas íntimas
+1411802;2,00%;507;Facção de roupas íntimas
+1412601;2,00%;507;Confecção de peças do vestuário, exceto r oupas íntimas e as confeccionadas
+1412602;2,00%;507;Confecção, sob medida, de peças do vestuá rio, exceto roupas íntimas
+1412603;2,00%;507;Facção de peças do vestuário, exceto roup as íntimas
+1413401;2,00%;507;Confecção de roupas profissionais, exceto  sob medida
+1413402;2,00%;507;Confecção, sob medida, de roupas profissi onais
+1413403;2,00%;507;Facção de roupas profissionais
+1414200;2,00%;507;Fabricação de acessórios do vestuário, ex ceto para segurança e proteção
+1421500;2,00%;507;Fabricação de meias
+1422300;2,00%;507;Fabricação de artigos do vestuário, produ zidos em malharias e tricotagens,
+1510600;3,00%;507;Curtimento e outras preparações de couro
+1521100;2,00%;507;Fabricação de artigos para viagem, bolsas  e semelhantes de qualquer
+1529700;2,00%;507;Fabricação de artefatos de couro não espe cificados anteriormente
+1531901;2,00%;507;Fabricação de calçados de couro
+1531902;2,00%;507;Acabamento de calçados de couro sob contr ato
+1532700;2,00%;507;Fabricação de tênis de qualquer material
+1533500;2,00%;507;Fabricação de calçados de material sintét ico
+1539400;2,00%;507;Fabricação de calçados de materiais não e specificados anteriormente
+1540800;2,00%;507;Fabricação de partes para calçados, de qu alquer material
+1610201;2,00%;507;Serrarias com desdobramento de madeira
+1610202;2,00%;507;Serrarias sem desdobramento de madeira
+1621800;2,00%;507;Fabricação de madeira laminada e de chapa s de madeira compensada,
+1622601;2,00%;507;Fabricação de casas de madeira pré-fabric adas
+1622602;2,00%;507;Fabricação de esquadrias de madeira e de peças de madeira para instalações
+1622699;2,00%;507;Fabricação de outros artigos de carpintar ia para construção
+1623400;2,00%;507;Fabricação de artefatos de tanoaria e de embalagens de madeira
+1629301;2,00%;507;Fabricação de artefatos diversos de madei ra, exceto móveis
+1629302;2,00%;507;Fabricação de artefatos diversos de corti ça, bambu, palha, vime e outros
+1710900;2,00%;507;Fabricação de celulose e outras pastas pa ra a fabricação de papel
+1721400;2,00%;507;Fabricação de papel
+1722200;2,00%;507;Fabricação de cartolina e papel-cartão
+1731100;3,00%;507;Fabricação de embalagens de papel
+1732000;3,00%;507;Fabricação de embalagens de cartolina e p apel-cartão
+1733800;3,00%;507;Fabricação de chapas e de embalagens de p apelão ondulado
+1741901;2,00%;507;Fabricação de formulários contínuos
+1741902;2,00%;507;Fabricação de produtos de papel, cartolin a, papel-cartão e papelão ondulado
+1742701;2,00%;507;Fabricação de fraldas descartáveis
+1742702;2,00%;507;Fabricação de absorventes higiênicos
+1742799;2,00%;507;Fabricação de produtos de papel para uso doméstico e higiênico-sanitário
+1749400;2,00%;507;Fabricação de produtos de pastas celulósi cas, papel, cartolina, papel- cartão e
+1811301;2,00%;507;Impressão de jornais
+1811302;2,00%;507;Impressão de livros, revistas e outras pu blicações periódicas
+1812100;2,00%;507;Impressão de material de segurança
+1813001;2,00%;507;Impressão de material para uso publicitár io
+1813099;2,00%;507;Impressão de material para outros usos
+1821100;1,00%;507;Serviços de pré-impressão
+1822900;1,00%;507;Serviços de acabamentos gráficos
+1830001;1,00%;507;Reprodução de som em qualquer suporte
+1830002;1,00%;507;Reprodução de vídeo em qualquer suporte
+1830003;1,00%;507;Reprodução de software em qualquer suport e
+1910100;2,00%;507;Coquerias
+1921700;2,00%;507;Fabricação de produtos do refino de petró leo
+1922501;2,00%;507;Formulação de combustíveis
+1922502;2,00%;507;Rerrefino de óleos lubrificantes
+1922599;2,00%;507;Fabricação de outros produtos derivados d o petróleo, exceto produtos do
+1931400;2,00%;507;Fabricação de álcool - indústria
+1932200;2,00%;507;Fabricação de biocombustíveis, exceto álc ool
+2011800;2,00%;507;Fabricação de cloro e álcalis
+2012600;2,00%;507;Fabricação de intermediários para fertili zantes
+2013400;2,00%;507;Fabricação de adubos e fertilizantes
+2014200;2,00%;507;Fabricação de gases industriais
+2019301;2,00%;507;Elaboração de combustíveis nucleares
+2019399;2,00%;507;Fabricação de outros produtos químicos in orgânicos não especificados
+2021500;2,00%;507;Fabricação de produtos petroquímicos bási cos
+2022300;2,00%;507;Fabricação de intermediários para plastif icantes, resinas e fibras
+2029100;2,00%;507;Fabricação de produtos químicos orgânicos  não especificados anteriormente
+2031200;2,00%;507;Fabricação de resinas termoplásticas
+2032100;2,00%;507;Fabricação de resinas termofixas
+2033900;2,00%;507;Fabricação de elastômeros
+2040100;2,00%;507;Fabricação de fibras artificiais e sintét icas
+2051700;2,00%;507;Fabricação de defensivos agrícolas
+2052500;2,00%;507;Fabricação de desinfestantes domissanitár ios
+2061400;2,00%;507;Fabricação de sabões e detergentes sintét icos
+2062200;2,00%;507;Fabricação de produtos de limpeza e polim ento
+2063100;2,00%;507;Fabricação de cosméticos, produtos de per fumaria e de higiene pessoal
+2071100;2,00%;507;Fabricação de tintas, vernizes, esmaltes e lacas
+2072000;2,00%;507;Fabricação de tintas de impressão
+2073800;2,00%;507;Fabricação de impermeabilizantes, solvent es e produtos afins
+2091600;2,00%;507;Fabricação de adesivos e selantes
+2092401;2,00%;507;Fabricação de pólvoras, explosivos e deto nantes
+2092402;2,00%;507;Fabricação de artigos pirotécnicos
+2092403;2,00%;507;Fabricação de fósforos de segurança
+2093200;2,00%;507;Fabricação de aditivos de uso industrial
+2094100;2,00%;507;Fabricação de catalisadores
+2099101;2,00%;507;Fabricação de chapas, filmes, papéis e ou tros materiais e produtos químicos
+2099199;2,00%;507;Fabricação de outros produtos químicos nã o especificados anteriormente
+2110600;2,00%;507;Fabricação de produtos farmoquímicos
+2121101;2,00%;507;Fabricação de medicamentos alopáticos par a uso humano
+2121102;2,00%;507;Fabricação de medicamentos homeopáticos p ara uso humano
+2121103;2,00%;507;Fabricação de medicamentos fitoterápicos para uso humano - indústria
+2122000;2,00%;507;Fabricação de medicamentos para uso veter inário
+2123800;2,00%;507;Fabricação de preparações farmacêuticas
+2211100;2,00%;507;Fabricação de pneumáticos e de câmaras-de -ar
+2212900;2,00%;507;Reforma de pneumáticos usados
+2219600;2,00%;507;Fabricação de artefatos de borracha não e specificados anteriormente
+2221800;2,00%;507;Fabricação de laminados planos e tubulare s de material plástico
+2222600;2,00%;507;Fabricação de embalagens de material plás tico
+2223400;2,00%;507;Fabricação de tubos e acessórios de mater ial plástico para uso na construção
+2229301;2,00%;507;Fabricação de artefatos de material plást ico para uso pessoal e doméstico
+2229302;2,00%;507;Fabricação de artefatos de material plást ico para usos industriais
+2229303;2,00%;507;Fabricação de artefatos de material plást ico para uso na construção, exceto
+2229399;2,00%;507;Fabricação de artefatos de material plást ico para outros usos não
+2311700;1,00%;507;Fabricação de vidro plano e de segurança
+2312500;1,00%;507;Fabricação de embalagens de vidro
+2319200;1,00%;507;Fabricação de artigos de vidro
+2320600;3,00%;507;Fabricação de cimento
+2330301;3,00%;507;Fabricação de estruturas pré-moldadas de concreto armado, em série e sob
+2330302;3,00%;507;Fabricação de artefatos de cimento para u so na construção
+2330303;3,00%;507;Fabricação de artefatos de fibrocimento p ara uso na construção
+2330304;3,00%;507;Fabricação de casas pré-moldadas de concr eto
+2330305;3,00%;507;Preparação de massa de concreto e argamas sa para construção
+2330399;3,00%;507;Fabricação de outros artefatos e produtos  de concreto, cimento,
+2341900;3,00%;507;Fabricação de produtos cerâmicos refratár ios
+2342701;3,00%;507;Fabricação de azulejos e pisos
+2342702;3,00%;507;Fabricação de artefatos de cerâmica e bar ro cozido para uso na construção,
+2349401;3,00%;507;Fabricação de material sanitário de cerâm ica
+2349499;3,00%;507;Fabricação de produtos cerâmicos não-refr atários não especificados
+2391501;2,00%;507;Britamento de pedras, exceto associado à extração
+2391502;2,00%;507;Aparelhamento de pedras para construção, exceto associado à extração
+2391503;2,00%;507;Aparelhamento de placas e execução de tra balhos em mármore, granito,
+2392300;2,00%;507;Fabricação de cal e gesso
+2399101;2,00%;507;Decoração, lapidação, gravação, vitrifica ção e outros trabalhos em
+2399199;2,00%;507;Fabricação de outros produtos de minerais  não-metálicos não especificados
+2411300;1,00%;507;Produção de ferro-gusa
+2412100;1,00%;507;Produção de ferroligas
+2421100;3,00%;507;Produção de semi-acabados de aço
+2422901;3,00%;507;Produção de laminados planos de aço ao ca rbono, revestidos ou não
+2422902;3,00%;507;Produção de laminados planos de aços espe ciais
+2423701;3,00%;507;Produção de tubos de aço sem costura
+2423702;3,00%;507;Produção de laminados longos de aço, exce to tubos
+2424501;3,00%;507;Produção de arames de aço
+2424502;3,00%;507;Produção de relaminados, trefilados e per filados de aço, exceto arames
+2431800;2,00%;507;Produção de tubos de aço com costura
+2439300;2,00%;507;Produção de outros tubos de ferro e aço
+2441501;2,00%;507;Produção de alumínio e suas ligas em form as primárias
+2441502;2,00%;507;Produção de laminados de alumínio
+2442300;2,00%;507;Metalurgia dos metais preciosos
+2443100;2,00%;507;Metalurgia do cobre
+2449101;2,00%;507;Produção de zinco em formas primárias
+2449102;2,00%;507;Produção de laminados de zinco
+2449103;2,00%;507;Produção de soldas e ânodos para galvanop lastia
+2449199;2,00%;507;Metalurgia de outros metais não-ferrosos e suas ligas não especificados
+2451200;2,00%;507;Fundição de ferro e aço
+2452100;2,00%;507;Fundição de metais não-ferrosos e suas li gas
+2511000;2,00%;507;Fabricação de estruturas metálicas
+2512800;2,00%;507;Fabricação de esquadrias de metal
+2513600;2,00%;507;Fabricação de obras de caldeiraria pesada
+2521700;2,00%;507;Fabricação de tanques, reservatórios metá licos e caldeiras para aquecimento
+2522500;2,00%;507;Fabricação de caldeiras geradoras de vapo r, exceto para aquecimento central
+2531401;2,00%;507;Produção de forjados de aço
+2531402;2,00%;507;Produção de forjados de metais não-ferros os e suas ligas
+2532201;2,00%;507;Produção de artefatos estampados de metal
+2532202;2,00%;507;Metalurgia do pó
+2539000;2,00%;507;Serviços de usinagem, solda, tratamento e  revestimento em metais
+2541100;2,00%;507;Fabricação de artigos de cutelaria
+2542000;2,00%;507;Fabricação de artigos de serralheria, exc eto esquadrias
+2543800;2,00%;507;Fabricação de ferramentas
+2550101;2,00%;507;Fabricação de equipamento bélico pesado, exceto veículos militares de
+2550102;2,00%;507;Fabricação de armas de fogo e munições
+2591800;2,00%;507;Fabricação de embalagens metálicas
+2592601;2,00%;507;Fabricação de produtos de trefilados de m etal padronizados
+2592602;2,00%;507;Fabricação de produtos de trefilados de m etal, exceto padronizados
+2593400;2,00%;507;Fabricação de artigos de metal para uso d oméstico e pessoal
+2599301;2,00%;507;Serviços de confecção de armações metálic as para a construção
+2599399;2,00%;507;Fabricação de outros produtos de metal nã o especificados anteriormente
+2610800;1,00%;507;Fabricação de componentes eletrônicos
+2621300;1,00%;507;Fabricação de equipamentos de informática
+2622100;1,00%;507;Fabricação de periféricos para equipament os de informática
+2631100;2,00%;507;Fabricação de equipamentos transmissores de comunicação, peças e
+2632900;2,00%;507;Fabricação de aparelhos telefônicos e de outros equipamentos de
+2640000;2,00%;507;Fabricação de aparelhos de recepção, repr odução, gravação e amplificação
+2651500;1,00%;507;Fabricação de aparelhos e equipamentos de  medida, teste e controle
+2652300;1,00%;507;Fabricação de cronômetros e relógios
+2660400;1,00%;507;Fabricação de aparelhos eletromédicos e e letroterapêuticos e equipamentos
+2670101;1,00%;507;Fabricação de equipamentos e instrumentos  ópticos, peças e acessórios
+2670102;1,00%;507;Fabricação de aparelhos fotográficos e ci nematográficos, peças e acessórios
+2680900;1,00%;507;Fabricação de mídias virgens, magnéticas e ópticas
+2710401;2,00%;507;Fabricação de geradores de corrente contí nua e alternada, peças e acessórios
+2710402;2,00%;507;Fabricação de transformadores, indutores,  conversores, sincronizadores e
+2710403;2,00%;507;Fabricação de motores elétricos, peças e acessórios
+2721000;2,00%;507;Fabricação de pilhas, baterias e acumulad ores elétricos, exceto para veículos
+2722801;2,00%;507;Fabricação de baterias e acumuladores par a veículos automotores
+2722802;2,00%;507;Recondicionamento de baterias e acumulado res para veículos automotores
+2731700;2,00%;507;Fabricação de aparelhos e equipamentos pa ra distribuição e controle de
+2732500;2,00%;507;Fabricação de material elétrico para inst alações em circuito de consumo
+2733300;2,00%;507;Fabricação de fios, cabos e condutores el étricos isolados
+2740601;2,00%;507;Fabricação de lâmpadas
+2740602;2,00%;507;Fabricação de luminárias e outros equipam entos de iluminação
+2751100;3,00%;507;Fabricação de fogões, refrigeradores e má quinas de lavar e secar para uso
+2759701;3,00%;507;Fabricação de aparelhos elétricos de uso pessoal, peças e acessórios
+2759799;3,00%;507;Fabricação de outros aparelhos eletrodomé sticos não especificados
+2790201;2,00%;507;Fabricação de eletrodos, contatos e outro s artigos de carvão e grafita para
+2790202;2,00%;507;Fabricação de equipamentos para sinalizaç ão e alarme
+2790299;2,00%;507;Fabricação de outros equipamentos e apare lhos elétricos não especificados
+2811900;2,00%;507;Fabricação de motores e turbinas, peças e  acessórios, exceto para aviões e
+2812700;2,00%;507;Fabricação de equipamentos hidráulicos e pneumáticos, peças e acessórios,
+2813500;2,00%;507;Fabricação de válvulas, registros e dispo sitivos semelhantes, peças e
+2814301;2,00%;507;Fabricação de compressores para uso indus trial, peças e acessórios
+2814302;2,00%;507;Fabricação de compressores para uso não-i ndustrial, peças e acessórios
+2815101;2,00%;507;Fabricação de rolamentos para fins indust riais
+2815102;2,00%;507;Fabricação de equipamentos de transmissão  para fins industriais, exceto
+2821601;2,00%;507;Fabricação de fornos industriais, aparelh os e equipamentos não-elétricos
+2821602;2,00%;507;Fabricação de estufas e fornos elétricos para fins industriais, peças e
+2822401;2,00%;507;Fabricação de máquinas, equipamentos e ap arelhos para transporte e
+2822402;2,00%;507;Fabricação de máquinas, equipamentos e ap arelhos para transporte e
+2823200;2,00%;507;Fabricação de máquinas e aparelhos de ref rigeração e ventilação para uso
+2824101;2,00%;507;Fabricação de aparelhos e equipamentos de  ar condicionado para uso
+2824102;2,00%;507;Fabricação de aparelhos e equipamentos de  ar condicionado para uso não-
+2825900;2,00%;507;Fabricação de máquinas e equipamentos par a saneamento básico e
+2829101;2,00%;507;Fabricação de máquinas de escrever, calcu lar e outros equipamentos não-
+2829199;2,00%;507;Fabricação de outras máquinas e equipamen tos de uso geral não
+2831300;2,00%;507;Fabricação de tratores agrícolas, peças e  acessórios
+2832100;2,00%;507;Fabricação de equipamentos para irrigação  agrícola, peças e acessórios
+2833000;2,00%;507;Fabricação de máquinas e equipamentos par a a agricultura e pecuária, peças
+2840200;2,00%;507;Fabricação de máquinas-ferramenta, peças e acessórios
+2851800;2,00%;507;Fabricação de máquinas e equipamentos par a a prospecção e extração de
+2852600;2,00%;507;Fabricação de outras máquinas e equipamen tos para uso na extração
+2853400;2,00%;507;Fabricação de tratores, peças e acessório s, exceto agrícolas
+2854200;2,00%;507;Fabricação de máquinas e equipamentos par a terraplenagem, pavimentação
+2861500;2,00%;507;Fabricação de máquinas para a indústria m etalúrgica, peças e acessórios,
+2862300;2,00%;507;Fabricação de máquinas e equipamentos par a as indústrias de alimentos,
+2863100;2,00%;507;Fabricação de máquinas e equipamentos par a a indústria têxtil, peças e
+2864000;2,00%;507;Fabricação de máquinas e equipamentos par a as indústrias do vestuário, do
+2865800;2,00%;507;Fabricação de máquinas e equipamentos par a as indústrias de celulose,
+2866600;2,00%;507;Fabricação de máquinas e equipamentos par a a indústria do plástico, peças e
+2869100;2,00%;507;Fabricação de máquinas e equipamentos par a uso industrial específico não
+2910701;2,00%;507;Fabricação de automóveis, camionetas e ut ilitários
+2910702;2,00%;507;Fabricação de chassis com motor para auto móveis, camionetas e utilitários
+2910703;2,00%;507;Fabricação de motores para automóveis, ca mionetas e utilitários
+2920401;1,00%;507;Fabricação de caminhões e ônibus
+2920402;1,00%;507;Fabricação de motores para caminhões e ôn ibus
+2930101;2,00%;507;Fabricação de cabines, carrocerias e rebo ques para caminhões
+2930102;2,00%;507;Fabricação de carrocerias para ônibus
+2930103;2,00%;507;Fabricação de cabines, carrocerias e rebo ques para outros veículos
+2941700;2,00%;507;Fabricação de peças e acessórios para o s istema motor de veículos
+2942500;2,00%;507;Fabricação de peças e acessórios para os sistemas de marcha e transmissão
+2943300;2,00%;507;Fabricação de peças e acessórios para o s istema de freios de veículos
+2944100;2,00%;507;Fabricação de peças e acessórios para o s istema de direção e suspensão de
+2945000;2,00%;507;Fabricação de material elétrico e eletrôn ico para veículos automotores,
+2949201;2,00%;507;Fabricação de bancos e estofados para veí culos automotores
+2949299;2,00%;507;Fabricação de outras peças e acessórios p ara veículos automotores não
+2950600;2,00%;507;Recondicionamento e recuperação de motore s para veículos automotores
+3011301;2,00%;507;Construção de embarcações de grande porte
+3011302;2,00%;507;Construção de embarcações para uso comerc ial e para usos especiais, exceto
+3012100;2,00%;507;Construção de embarcações para esporte e lazer
+3031800;1,00%;507;Fabricação de locomotivas, vagões e outro s materiais rodantes
+3032600;1,00%;507;Fabricação de peças e acessórios para veí culos ferroviários
+3050400;2,00%;507;Fabricação de veículos militares de comba te
+3091100;1,00%;507;Fabricação de motocicletas, peças e acess órios
+3092000;1,00%;507;Fabricação de bicicletas e triciclos não- motorizados, peças e acessórios
+3099700;1,00%;507;Fabricação de equipamentos de transporte não especificados anteriormente
+3101200;2,00%;507;Fabricação de móveis com predominância de  madeira
+3102100;2,00%;507;Fabricação de móveis com predominância de  metal
+3103900;2,00%;507;Fabricação de móveis de outros materiais,  exceto madeira e metal
+3104700;2,00%;507;Fabricação de colchões
+3211601;1,00%;507;Lapidação de gemas
+3211602;1,00%;507;Fabricação de artefatos de joalheria e ou rivesaria
+3211603;1,00%;507;Cunhagem de moedas e medalhas
+3212400;1,00%;507;Fabricação de bijuterias e artefatos seme lhantes
+3220500;1,00%;507;Fabricação de instrumentos musicais, peça s e acessórios
+3230200;2,00%;507;Fabricação de artefatos para pesca e espo rte
+3240001;1,00%;507;Fabricação de jogos eletrônicos
+3240002;1,00%;507;Fabricação de mesas de bilhar, de sinuca e acessórios não associada à
+3240003;1,00%;507;Fabricação de mesas de bilhar, de sinuca e acessórios associada à locação
+3240099;1,00%;507;Fabricação de outros brinquedos e jogos r ecreativos não especificados
+3250701;2,00%;507;Fabricação de instrumentos não-eletrônico s e utensílios para uso médico,
+3250702;2,00%;507;Fabricação de mobiliário para uso médico,  cirúrgico, odontológico e de
+3250703;2,00%;507;Fabricação de aparelhos e utensílios para  correção de defeitos físicos e
+3250704;2,00%;507;Fabricação de aparelhos e utensílios para  correção de defeitos físicos e
+3250705;2,00%;507;Fabricação de materiais para medicina e o dontologia
+3250707;2,00%;507;Fabricação de artigos ópticos
+3250708;2,00%;507;Fabricação de artefatos de tecido não tec ido para uso odonto-médico-
+3291400;1,00%;507;Fabricação de escovas, pincéis e vassoura s
+3292201;1,00%;507;Fabricação de roupas de proteção e segura nça e resistentes a fogo
+3292202;1,00%;507;Fabricação de equipamentos e acessórios p ara segurança pessoal e
+3299001;1,00%;507;Fabricação de guarda-chuvas e similares
+3299002;1,00%;507;Fabricação de canetas, lápis e outros art igos para escritório
+3299003;1,00%;507;Fabricação de letras, letreiros e placas de qualquer material, exceto
+3299004;1,00%;507;Fabricação de painéis e letreiros luminos os
+3299005;1,00%;507;Fabricação de aviamentos para costura
+3299099;1,00%;507;Fabricação de produtos diversos não espec ificados anteriormente
+3311200;1,00%;507;Manutenção e reparação de tanques, reserv atórios metálicos e caldeiras,
+3312101;1,00%;507;Manutenção e reparação de equipamentos tr ansmissores de comunicação
+3312102;1,00%;507;Manutenção e reparação de aparelhos e ins trumentos de medida, teste e
+3312103;1,00%;507;Manutenção e reparação de aparelhos eletr omédicos e eletroterapêuticos e
+3312104;1,00%;507;Manutenção e reparação de equipamentos e instrumentos ópticos
+3313901;1,00%;507;Manutenção e reparação de geradores, tran sformadores e motores elétricos
+3313902;1,00%;507;Manutenção e reparação de baterias e acum uladores elétricos, exceto para
+3313999;1,00%;507;Manutenção e reparação de máquinas, apare lhos e materiais elétricos não
+3314701;1,00%;507;Manutenção e reparação de máquinas motriz es não-elétricas
+3314702;1,00%;507;Manutenção e reparação de equipamentos hi dráulicos e pneumáticos, exceto
+3314703;1,00%;507;Manutenção e reparação de válvulas indust riais
+3314704;1,00%;507;Manutenção e reparação de compressores
+3314705;1,00%;507;Manutenção e reparação de equipamentos de  transmissão para fins
+3314706;1,00%;507;Manutenção e reparação de máquinas, apare lhos e equipamentos para
+3314707;1,00%;507;Manutenção e reparação de máquinas e apar elhos de refrigeração e
+3314708;1,00%;507;Manutenção e reparação de máquinas, equip amentos e aparelhos para
+3314709;1,00%;507;Manutenção e reparação de máquinas de esc rever, calcular e de outros
+3314710;1,00%;507;Manutenção e reparação de máquinas e equi pamentos para uso geral não
+3314711;1,00%;507;Manutenção e reparação de máquinas e equi pamentos para agricultura e
+3314712;1,00%;507;Manutenção e reparação de tratores agríco las
+3314713;1,00%;507;Manutenção e reparação de máquinas-ferram enta
+3314714;1,00%;507;Manutenção e reparação de máquinas e equi pamentos para a prospecção e
+3314715;1,00%;507;Manutenção e reparação de máquinas e equi pamentos para uso na extração
+3314716;1,00%;507;Manutenção e reparação de tratores, excet o agrícolas
+3314717;1,00%;507;Manutenção e reparação de máquinas e equi pamentos de terraplenagem,
+3314718;1,00%;507;Manutenção e reparação de máquinas para a  indústria metalúrgica, exceto
+3314719;1,00%;507;Manutenção e reparação de máquinas e equi pamentos para as indústrias de
+3314720;1,00%;507;Manutenção e reparação de máquinas e equi pamentos para a indústria têxtil,
+3314721;1,00%;507;Manutenção e reparação de máquinas e apar elhos para a indústria de
+3314722;1,00%;507;Manutenção e reparação de máquinas e apar elhos para a indústria do
+3314799;1,00%;507;Manutenção e reparação de outras máquinas  e equipamentos para usos
+3315500;1,00%;507;Manutenção e reparação de veículos ferrov iários
+3319800;1,00%;507;Manutenção e reparação de equipamentos e produtos não especificados
+3321000;2,00%;507;Instalação de máquinas e equipamentos ind ustriais
+3329501;2,00%;507;Serviços de montagem de móveis de qualque r material
+3329599;2,00%;507;Instalação de outros equipamentos não esp ecificados anteriormente
+3511500;2,00%;507;Geração de energia elétrica
+3512300;2,00%;507;Transmissão de energia elétrica
+3513100;2,00%;507;Comércio atacadista de energia elétrica
+3514000;2,00%;507;Distribuição de energia elétrica
+3520401;1,00%;507;"Produção de gás; processamento de gás nat ural"
+3530100;1,00%;507;Produção e distribuição de vapor, água qu ente e ar condicionado
+3600601;2,00%;507;Captação, tratamento e distribuição de ág ua
+3701100;3,00%;507;Gestão de redes de esgoto
+3821100;3,00%;507;Tratamento e disposição de resíduos não-p erigosos
+3822000;3,00%;507;Tratamento e disposição de resíduos perig osos
+3831901;3,00%;507;Recuperação de sucatas de alumínio
+3831999;3,00%;507;Recuperação de materiais metálicos, excet o alumínio
+3832700;3,00%;507;Recuperação de materiais plásticos
+3839401;3,00%;507;Usinas de compostagem
+3839499;3,00%;507;Recuperação de materiais não especificado s anteriormente
+3900500;3,00%;507;Descontaminação e outros serviços de gest ão de resíduos
+4120400;3,00%;507;Construção de edifícios
+4211101;2,00%;507;Construção de rodovias e ferrovias
+4211102;2,00%;507;Pintura para sinalização em pistas rodovi árias e aeroportos
+4212000;2,00%;507;Construção de obras-de-arte especiais
+4213800;2,00%;507;Obras de urbanização - ruas, praças e cal çadas
+4221901;3,00%;507;Construção de barragens e represas para g eração de energia elétrica
+4221902;3,00%;507;Construção de estações e redes de distrib uição de energia elétrica
+4221903;3,00%;507;Manutenção de redes de distribuição de en ergia elétrica
+4221904;3,00%;507;Construção de estações e redes de telecom unicações
+4221905;3,00%;507;Manutenção de estações e redes de telecom unicações
+4222701;3,00%;507;Construção de redes de abastecimento de á gua, coleta de esgoto e
+4222702;3,00%;507;Obras de irrigação
+4223500;3,00%;507;Construção de redes de transportes por du tos, exceto para água e esgoto
+4291000;3,00%;507;Obras portuárias, marítimas e fluviais
+4292801;3,00%;507;Montagem de estruturas metálicas
+4292802;3,00%;507;Obras de montagem industrial
+4299501;3,00%;507;Construção de instalações esportivas e re creativas
+4299599;3,00%;507;Outras obras de engenharia civil não espe cificadas anteriormente
+4311801;2,00%;507;Demolição de edifícios e outras estrutura s
+4311802;2,00%;507;Preparação de canteiro e limpeza de terre no
+4312600;2,00%;507;Perfurações e sondagens
+4313400;2,00%;507;Obras de terraplenagem
+4319300;2,00%;507;Serviços de preparação do terreno não esp ecificados anteriormente
+4321500;2,00%;507;Instalação e manutenção elétrica
+4322301;2,00%;507;Instalações hidráulicas, sanitárias e de gás
+4322302;2,00%;507;Instalação e manutenção de sistemas centr ais de ar condicionado, de
+4322303;2,00%;507;Instalações de sistema de prevenção contr a incêndio
+4329101;2,00%;507;Instalação de painéis publicitários
+4329102;2,00%;507;Instalação de equipamentos para orientaçã o à navegação marítima, fluvial e
+4329103;2,00%;507;Instalação, manutenção e reparação de ele vadores, escadas e esteiras
+4329104;2,00%;507;Montagem e instalação de sistemas e equip amentos de iluminação e
+4329105;2,00%;507;Tratamentos térmicos, acústicos ou de vib ração
+4329199;2,00%;507;Outras obras de instalações em construçõe s não especificadas anteriormente
+4330401;2,00%;507;Impermeabilização em obras de engenharia civil
+4330402;2,00%;507;Instalação de portas, janelas, tetos, div isórias e armários embutidos de
+4330403;2,00%;507;Obras de acabamento em gesso e estuque
+4330404;2,00%;507;Serviços de pintura de edifícios em geral
+4330405;2,00%;507;Aplicação de revestimentos e de resinas e m interiores e exteriores
+4330499;2,00%;507;Outras obras de acabamento da construção
+4391600;3,00%;507;Obras de fundações
+4399101;3,00%;507;Administração de obras
+4399102;3,00%;507;Montagem e desmontagem de andaimes e outr as estruturas temporárias
+4399103;3,00%;507;Obras de alvenaria
+4399104;3,00%;507;Serviços de operação e fornecimento de eq uipamentos para transporte e
+4399105;3,00%;507;Perfuração e construção de poços de água
+4399199;3,00%;507;Serviços especializados para construção n ão especificados anteriormente
+4520001;2,00%;507;Serviços de manutenção e reparação mecâni ca de veículos automotores
+4520002;2,00%;507;Serviços de lanternagem ou funilaria e pi ntura de veículos automotores
+4520003;2,00%;507;Serviços de manutenção e reparação elétri ca de veículos automotores
+4520004;2,00%;507;Serviços de alinhamento e balanceamento d e veículos automotores
+4520006;2,00%;507;Serviços de borracharia para veículos aut omotores
+4520007;2,00%;507;Serviços de instalação, manutenção e repa ração de acessórios para veículos
+4543900;2,00%;507;Manutenção e reparação de motocicletas e motonetas
+4721101;1,00%;507;Padaria e confeitaria com predominância d e produção própria
+4911600;1,00%;507;Transporte ferroviário de carga
+4912401;1,00%;507;Transporte ferroviário de passageiros int ermunicipal e interestadual
+4912402;1,00%;507;Transporte ferroviário de passageiros mun icipal e em região metropolitana
+4912403;1,00%;507;Transporte metroviário
+4940000;1,00%;507;Transporte dutoviário
+4950700;1,00%;507;Trens turísticos, teleféricos e similares
+5221400;1,00%;507;Concessionárias de rodovias, pontes, túne is e serviços relacionados
+5310501;3,00%;507;Atividades do Correio Nacional
+5310502;3,00%;507;Atividades de franqueadas e permissionári as do Correio Nacional
+5620101;1,00%;507;Fornecimento de alimentos preparados prep onderantemente para empresas
+5911101;1,00%;507;Estúdios cinematográficos - Ind. Cinemato gráficas, inclusive laboratórios
+6110801;2,00%;507;Serviços de telefonia fixa comutada - STF C
+6110802;2,00%;507;Serviços de redes de transporte de teleco municações - SRTT
+6110803;2,00%;507;Serviços de comunicação multimídia - SCM
+6110899;2,00%;507;Serviços de telecomunicações por fio não especificados anteriormente
+6120501;2,00%;507;Telefonia móvel celular
+6120502;2,00%;507;Serviço móvel especializado - SME
+6120599;2,00%;507;Serviços de telecomunicações sem fio não especificados anteriormente
+6130200;2,00%;507;Telecomunicações por satélite
+6190601;2,00%;507;Provedores de acesso às redes de comunica ções
+6190602;2,00%;507;Provedores de voz sobre protocolo interne t - VOIP
+6190699;2,00%;507;Outras atividades de telecomunicações não  especificadas anteriormente
+6202300;1,00%;507;Desenvolvimento e licenciamento de progra mas de computador
+6203100;1,00%;507;Desenvolvimento e licenciamento de progra mas de computador não-
+7112000;1,00%;507;Serviços de engenharia, inclusive engenha ria consultiva (art. 577 Dec.Lei
+9102302;1,00%;507;Restauração e conservação de lugares e pr édios históricos
+3250706;2,00%;515;Serviços de prótese dentária - Pessoa Jur ídica
+3520402;1,00%;515;Distribuição de combustíveis gasosos por redes urbanas
+3702900;3,00%;515;Atividades relacionadas a esgoto, exceto a gestão de redes
+3811400;3,00%;515;Coleta de resíduos não-perigosos
+3812200;3,00%;515;Coleta de resíduos perigosos
+4110700;2,00%;515;Incorporação de empreendimentos imobiliár ios
+4511101;2,00%;515;Comércio a varejo de automóveis, camionet as e utilitários novos
+4511102;2,00%;515;Comércio a varejo de automóveis, camionet as e utilitários usados
+4511103;2,00%;515;Comércio por atacado de automóveis, camio netas e utilitários novos e
+4511104;2,00%;515;Comércio por atacado de caminhões novos e  usados
+4511105;2,00%;515;Comércio por atacado de reboques e semi-r eboques novos e usados
+4511106;2,00%;515;Comércio por atacado de ônibus e microôni bus novos e usados
+4512901;2,00%;515;Representantes comerciais e agentes do co mércio de veículos automotores
+4512902;2,00%;515;Comércio sob consignação de veículos auto motores
+4520005;2,00%;515;Serviços de lavagem, lubrificação e polim ento de veículos automotores
+4530701;2,00%;515;Comércio por atacado de peças e acessório s novos para veículos
+4530702;2,00%;515;Comércio por atacado de pneumáticos e câm aras-de-ar
+4530703;2,00%;515;Comércio a varejo de peças e acessórios n ovos para veículos automotores
+4530704;2,00%;515;Comércio a varejo de peças e acessórios u sados para veículos automotores
+4530705;2,00%;515;Comércio a varejo de pneumáticos e câmara s-de-ar
+4530706;2,00%;515;Representantes comerciais e agentes do co mércio de peças e acessórios
+4541201;2,00%;515;Comércio por atacado de motocicletas e mo tonetas
+4541202;2,00%;515;Comércio por atacado de peças e acessório s para motocicletas e motonetas
+4541203;2,00%;515;Comércio a varejo de motocicletas e moton etas novas
+4541204;2,00%;515;Comércio a varejo de motocicletas e moton etas usadas
+4541205;2,00%;515;Comércio a varejo de peças e acessórios p ara motocicletas e motonetas
+4542101;2,00%;515;Representantes comerciais e agentes do co mércio de motocicletas e
+4542102;2,00%;515;Comércio sob consignação de motocicletas e motonetas
+4611700;2,00%;515;Representantes comerciais e agentes do co mércio de matérias-primas
+4612500;2,00%;515;Representantes comerciais e agentes do co mércio de combustíveis,
+4613300;2,00%;515;Representantes comerciais e agentes do co mércio de madeira, material de
+4614100;2,00%;515;Representantes comerciais e agentes do co mércio de máquinas,
+4615000;2,00%;515;Representantes comerciais e agentes do co mércio de eletrodomésticos,
+4616800;2,00%;515;Representantes comerciais e agentes do co mércio de têxteis, vestuário,
+4617600;2,00%;515;Representantes comerciais e agentes do co mércio de produtos alimentícios,
+4618401;2,00%;515;Representantes comerciais e agentes do co mércio de medicamentos,
+4618402;2,00%;515;Representantes comerciais e agentes do co mércio de instrumentos e
+4618403;2,00%;515;Representantes comerciais e agentes do co mércio de jornais, revistas e
+4618499;2,00%;515;Outros representantes comerciais e agente s do comércio especializado em
+4619200;2,00%;515;Representantes comerciais e agentes do co mércio de mercadorias em geral
+4621400;2,00%;515;Comércio atacadista de café em grão
+4622200;2,00%;515;Comércio atacadista de soja
+4623101;2,00%;515;Comércio atacadista de animais vivos
+4623102;2,00%;515;Comércio atacadista de couros, lãs, peles  e outros subprodutos não-
+4623103;2,00%;515;Comércio atacadista de algodão
+4623104;2,00%;515;Comércio atacadista de fumo em folha não beneficiado
+4623105;2,00%;515;Comércio atacadista de cacau
+4623106;2,00%;515;Comércio atacadista de sementes, flores, plantas e gramas
+4623107;2,00%;515;Comércio atacadista de sisal
+4623108;2,00%;515;Comércio atacadista de matérias-primas ag rícolas com atividade de
+4623109;2,00%;515;Comércio atacadista de alimentos para ani mais
+4623199;2,00%;515;Comércio atacadista de matérias-primas ag rícolas não especificadas
+4631100;2,00%;515;Comércio atacadista de leite e laticínios
+4632001;2,00%;515;Comércio atacadista de cereais e legumino sas beneficiados
+4632002;2,00%;515;Comércio atacadista de farinhas, amidos e  féculas
+4632003;2,00%;515;Comércio atacadista de cereais e legumino sas beneficiados, farinhas,
+4633801;2,00%;515;Comércio atacadista de frutas, verduras, raízes, tubérculos, hortaliças e
+4633802;2,00%;515;Comércio atacadista de aves vivas e ovos
+4633803;2,00%;515;Comércio atacadista de coelhos e outros p equenos animais vivos para
+4634601;1,00%;515;Comércio atacadista de carnes bovinas e s uínas e derivados
+4634602;1,00%;515;Comércio atacadista de aves abatidas e de rivados
+4634603;1,00%;515;Comércio atacadista de pescados e frutos do mar
+4634699;1,00%;515;Comércio atacadista de carnes e derivados  de outros animais
+4635401;1,00%;515;Comércio atacadista de água mineral
+4635402;1,00%;515;Comércio atacadista de cerveja, chope e r efrigerante
+4635403;1,00%;515;Comércio atacadista de bebidas com ativid ade de fracionamento e
+4635499;1,00%;515;Comércio atacadista de bebidas não especi ficadas anteriormente
+4636201;1,00%;515;Comércio atacadista de fumo beneficiado
+4636202;1,00%;515;Comércio atacadista de cigarros, cigarril has e charutos
+4637101;1,00%;515;Comércio atacadista de café torrado, moíd o e solúvel
+4637102;1,00%;515;Comércio atacadista de açúcar
+4637103;1,00%;515;Comércio atacadista de óleos e gorduras
+4637104;1,00%;515;Comércio atacadista de pães, bolos, bisco itos e similares
+4637105;1,00%;515;Comércio atacadista de massas alimentícia s
+4637106;1,00%;515;Comércio atacadista de sorvetes
+4637107;1,00%;515;Comércio atacadista de chocolates, confei tos, balas, bombons e semelhantes
+4637199;1,00%;515;Comércio atacadista especializado em outr os produtos alimentícios não
+4639701;1,00%;515;Comércio atacadista de produtos alimentíc ios em geral
+4639702;1,00%;515;Comércio atacadista de produtos alimentíc ios em geral, com atividade de
+4641901;1,00%;515;Comércio atacadista de tecidos
+4641902;1,00%;515;Comércio atacadista de artigos de cama, m esa e banho
+4641903;1,00%;515;Comércio atacadista de artigos de armarin ho
+4642701;1,00%;515;Comércio atacadista de artigos do vestuár io e acessórios, exceto
+4642702;1,00%;515;Comércio atacadista de roupas e acessório s para uso profissional e de
+4643501;1,00%;515;Comércio atacadista de calçados
+4643502;1,00%;515;Comércio atacadista de bolsas, malas e ar tigos de viagem
+4644301;1,00%;515;Comércio atacadista de medicamentos e dro gas de uso humano
+4644302;1,00%;515;Comércio atacadista de medicamentos e dro gas de uso veterinário
+4645101;1,00%;515;Comércio atacadista de instrumentos e mat eriais para uso médico, cirúrgico,
+4645102;1,00%;515;Comércio atacadista de próteses e artigos  de ortopedia
+4645103;1,00%;515;Comércio atacadista de produtos odontológ icos
+4646001;1,00%;515;Comércio atacadista de cosméticos e produ tos de perfumaria
+4646002;1,00%;515;Comércio atacadista de produtos de higien e pessoal
+4647801;1,00%;515;Comércio atacadista de artigos de escritó rio e de papelaria
+4647802;1,00%;515;Comércio atacadista de livros, jornais e outras publicações
+4649401;1,00%;515;Comércio atacadista de equipamentos elétr icos de uso pessoal e doméstico
+4649402;1,00%;515;Comércio atacadista de aparelhos eletrôni cos de uso pessoal e doméstico
+4649403;1,00%;515;Comércio atacadista de bicicletas, tricic los e outros veículos recreativos
+4649404;1,00%;515;Comércio atacadista de móveis e artigos d e colchoaria
+4649405;1,00%;515;"Comércio atacadista de artigos de tapeçar ia; persianas e cortinas"
+4649406;1,00%;515;Comércio atacadista de lustres, luminária s e abajures
+4649407;1,00%;515;Comércio atacadista de filmes, CDs, DVDs,  fitas e discos
+4649408;1,00%;515;Comércio atacadista de produtos de higien e, limpeza e conservação
+4649409;1,00%;515;Comércio atacadista de produtos de higien e, limpeza e conservação
+4649410;1,00%;515;Comércio atacadista de jóias, relógios e bijuterias, inclusive pedras
+4649499;1,00%;515;Comércio atacadista de outros equipamento s e artigos de uso pessoal e
+4651601;1,00%;515;Comércio atacadista de equipamentos de in formática
+4651602;1,00%;515;Comércio atacadista de suprimentos para i nformática
+4652400;1,00%;515;Comércio atacadista de componentes eletrô nicos e equipamentos de
+4661300;1,00%;515;Comércio atacadista de máquinas, aparelho s e equipamentos para uso
+4662100;1,00%;515;Comércio atacadista de máquinas, equipame ntos para terraplenagem,
+4663000;1,00%;515;"Comércio atacadista de máquinas e equipam entos para uso industrial; partes"
+4664800;1,00%;515;Comércio atacadista de máquinas, aparelho s e equipamentos para uso
+4665600;1,00%;515;"Comércio atacadista de máquinas e equipam entos para uso comercial; partes"
+4669901;1,00%;515;"Comércio atacadista de bombas e compresso res; partes e peças"
+4669999;1,00%;515;Comércio atacadista de outras máquinas e equipamentos não especificados
+4671100;1,00%;515;Comércio atacadista de madeira e produtos  derivados
+4672900;1,00%;515;Comércio atacadista de ferragens e ferram entas
+4673700;1,00%;515;Comércio atacadista de material elétrico
+4674500;1,00%;515;Comércio atacadista de cimento
+4679601;1,00%;515;Comércio atacadista de tintas, vernizes e  similares
+4679602;1,00%;515;Comércio atacadista de mármores e granito s
+4679603;1,00%;515;Comércio atacadista de vidros, espelhos e  vitrais
+4679604;1,00%;515;Comércio atacadista especializado de mate riais de construção não
+4679699;1,00%;515;Comércio atacadista de materiais de const rução em geral
+4681801;1,00%;515;Comércio atac de álcool carburante, biodi esel, gasolina e demais derivados
+4681802;1,00%;515;Comércio atacadista de combustíveis reali zado por transportador retalhista
+4681803;1,00%;515;Comércio atacadista de combustíveis de or igem vegetal, exceto álcool
+4681804;1,00%;515;Comércio atacadista de combustíveis de or igem mineral em bruto exceto
+4681805;1,00%;515;Comércio atacadista de lubrificantes exce to pessoal de transporte
+4682600;1,00%;515;Comércio atacadista de gás liqüefeito de petróleo (GLP) exceto pessoal de
+4683400;1,00%;515;Comércio atacadista de defensivos agrícol as, adubos, fertilizantes e
+4684201;1,00%;515;Comércio atacadista de resinas e elastôme ros
+4684202;1,00%;515;Comércio atacadista de solventes
+4684299;1,00%;515;Comércio atacadista de outros produtos qu ímicos e petroquímicos não
+4685100;1,00%;515;Comércio atacadista de produtos siderúrgi cos e metalúrgicos, exceto para
+4686901;1,00%;515;Comércio atacadista de papel e papelão em  bruto
+4686902;1,00%;515;Comércio atacadista de embalagens
+4687701;1,00%;515;Comércio atacadista de resíduos de papel e papelão
+4687702;1,00%;515;Comércio atacadista de resíduos e sucatas  não-metálicos, exceto de papel e
+4687703;1,00%;515;Comércio atacadista de resíduos e sucatas  metálicos
+4689301;1,00%;515;Comércio atacadista de produtos da extraç ão mineral, exceto combustíveis
+4689302;1,00%;515;Comércio atacadista de fios e fibras têxt eis beneficiados
+4689399;1,00%;515;Comércio atacadista especializado em outr os produtos intermediários não
+4691500;1,00%;515;Comércio atacadista de mercadorias em ger al, com predominância de
+4692300;1,00%;515;Comércio atacadista de mercadorias em ger al, com predominância de
+4693100;1,00%;515;Comércio atacadista de mercadorias em ger al, sem predominância de
+4711301;2,00%;515;Comércio varejista de mercadorias em gera l, com predominância de
+4711302;2,00%;515;Comércio varejista de mercadorias em gera l, com predominância de
+4712100;1,00%;515;Comércio varejista de mercadorias em gera l, com predominância de
+4713001;1,00%;515;Lojas de departamentos ou magazines
+4713002;1,00%;515;Lojas de variedades, exceto lojas de depa rtamentos ou magazines
+4713003;1,00%;515;Lojas duty free de aeroportos internacion ais
+4721102;1,00%;515;Padaria e confeitaria com predominância d e revenda
+4721103;1,00%;515;Comércio varejista de laticínios e frios
+4721104;1,00%;515;Comércio varejista de doces, balas, bombo ns e semelhantes
+4722901;1,00%;515;Comércio varejista de carnes - açougues
+4722902;1,00%;515;Peixaria
+4723700;1,00%;515;Comércio varejista de bebidas
+4724500;1,00%;515;Comércio varejista de hortifrutigranjeiro s
+4729601;1,00%;515;Tabacaria
+4729699;1,00%;515;Comércio varejista de produtos alimentíci os em geral ou especializado em
+4731800;1,00%;515;Comércio varejista de combustíveis para v eículos automotores
+4732600;1,00%;515;Comércio varejista de lubrificantes
+4741500;1,00%;515;Comércio varejista de tintas e materiais para pintura
+4742300;1,00%;515;Comércio varejista de material elétrico
+4743100;1,00%;515;Comércio varejista de vidros
+4744001;1,00%;515;Comércio varejista de ferragens e ferrame ntas
+4744002;1,00%;515;Comércio varejista de madeira e artefatos
+4744003;1,00%;515;Comércio varejista de materiais hidráulic os
+4744004;1,00%;515;Comércio varejista de cal, areia, pedra b ritada, tijolos e telhas
+4744005;1,00%;515;Comércio varejista de materiais de constr ução não especificados
+4744099;1,00%;515;Comércio varejista de materiais de constr ução em geral
+4751200;1,00%;515;Comércio varejista especializado de equip amentos e suprimentos de
+4752100;1,00%;515;Comércio varejista especializado de equip amentos de telefonia e
+4753900;1,00%;515;Comércio varejista especializado de eletr odomésticos e equipamentos de
+4754701;1,00%;515;Comércio varejista de móveis
+4754702;1,00%;515;Comércio varejista de artigos de colchoar ia
+4754703;1,00%;515;Comércio varejista de artigos de iluminaç ão
+4755501;1,00%;515;Comércio varejista de tecidos
+4755502;1,00%;515;Comercio varejista de artigos de armarinh o
+4755503;1,00%;515;Comercio varejista de artigos de cama, me sa e banho
+4756300;1,00%;515;Comércio varejista especializado de instr umentos musicais e acessórios
+4757100;1,00%;515;Comércio varejista especializado de peças  e acessórios para aparelhos
+4759801;1,00%;515;Comércio varejista de artigos de tapeçari a, cortinas e persianas
+4759899;1,00%;515;Comércio varejista de outros artigos de u so doméstico não especificados
+4761001;1,00%;515;Comércio varejista de livros
+4761002;1,00%;515;Comércio varejista de jornais e revistas
+4761003;1,00%;515;Comércio varejista de artigos de papelari a
+4762800;1,00%;515;Comércio varejista de discos, CDs, DVDs e  fitas
+4763601;1,00%;515;Comércio varejista de brinquedos e artigo s recreativos
+4763602;1,00%;515;Comércio varejista de artigos esportivos
+4763603;1,00%;515;"Comércio varejista de bicicletas e tricic los; peças e acessórios"
+4763604;1,00%;515;Comércio varejista de artigos de caça, pe sca e camping
+4763605;1,00%;515;"Comércio varejista de embarcações e outro s veículos recreativos; peças e"
+4771701;1,00%;515;Comércio varejista de produtos farmacêuti cos, sem manipulação de
+4771702;1,00%;515;Comércio varejista de produtos farmacêuti cos, com manipulação de
+4771703;1,00%;515;Comércio varejista de produtos farmacêuti cos homeopáticos
+4771704;1,00%;515;Comércio varejista de medicamentos veteri nários
+4772500;1,00%;515;Comércio varejista de cosméticos, produto s de perfumaria e de higiene
+4773300;1,00%;515;Comércio varejista de artigos médicos e o rtopédicos
+4774100;1,00%;515;Comércio varejista de artigos de óptica
+4781400;1,00%;515;Comércio varejista de artigos do vestuári o e acessórios
+4782201;1,00%;515;Comércio varejista de calçados
+4782202;1,00%;515;Comércio varejista de artigos de viagem
+4783101;1,00%;515;Comércio varejista de artigos de joalheri a
+4783102;1,00%;515;Comércio varejista de artigos de relojoar ia
+4784900;1,00%;515;Comércio varejista de gás liqüefeito de p etróleo (GLP)
+4785701;1,00%;515;Comércio varejista de antigüidades
+4785799;1,00%;515;Comércio varejista de outros artigos usad os
+4789001;1,00%;515;Comércio varejista de suvenires, bijuteri as e artesanatos
+4789002;1,00%;515;Comércio varejista de plantas e flores na turais
+4789003;1,00%;515;Comércio varejista de objetos de arte
+4789004;1,00%;515;Comércio varejista de animais vivos e de artigos e alimentos para animais
+4789005;1,00%;515;Comércio varejista de produtos saneantes domissanitários
+4789006;1,00%;515;Comércio varejista de fogos de artifício e artigos pirotécnicos
+4789007;1,00%;515;Comércio varejista de equipamentos para e scritório
+4789008;1,00%;515;Comércio varejista de artigos fotográfico s e para filmagem
+4789009;1,00%;515;Comércio varejista de armas e munições
+4789099;1,00%;515;Comércio varejista de outros produtos não  especificados anteriormente
+5211701;2,00%;515;Armazéns gerais - emissão de warrant
+5211702;2,00%;515;Guarda-móveis
+5211799;2,00%;515;Depósitos de mercadorias para terceiros, exceto armazéns gerais e guarda-
+5222200;1,00%;515;Terminais rodoviários e ferroviários
+5223100;1,00%;515;Estacionamento de veículos
+5229001;1,00%;515;Serviços de apoio ao transporte por táxi,  inclusive centrais de chamada
+5229099;1,00%;515;Outras atividades auxiliares dos transpor tes terrestres não especificadas
+5250801;1,00%;515;Comissaria de despachos
+5250802;1,00%;515;Atividades de despachantes aduaneiros
+5250803;1,00%;515;Agenciamento de cargas, exceto para o tra nsporte marítimo
+5250804;1,00%;515;Organização logística do transporte de ca rga
+5250805;1,00%;515;Operador de transporte multimodal - OTM
+5510801;1,00%;515;Hotéis
+5510802;1,00%;515;Apart-hotéis
+5510803;1,00%;515;Motéis
+5590601;1,00%;515;Albergues, exceto assistenciais
+5590602;1,00%;515;Campings
+5590603;1,00%;515;Pensões (alojamento)
+5590699;1,00%;515;Outros alojamentos não especificados ante riormente
+5611201;1,00%;515;Restaurantes e similares
+5611202;1,00%;515;Bares e outros estabelecimentos especiali zados em servir bebidas
+5611203;1,00%;515;Lanchonetes, casas de chá, de sucos e sim ilares
+5612100;1,00%;515;Serviços ambulantes de alimentação
+5620102;1,00%;515;Serviços de alimentação para eventos e re cepções - bufê
+5620103;1,00%;515;Cantinas - serviços de alimentação privat ivos
+5620104;1,00%;515;Fornecimento de alimentos preparados prep onderantemente para consumo
+6022502;3,00%;515;Atividades relacionadas à televisão por a ssinatura, exceto programadoras
+6141800;2,00%;515;Operadoras de televisão por assinatura po r cabo
+6142600;2,00%;515;Operadoras de televisão por assinatura po r microondas
+6143400;2,00%;515;Operadoras de televisão por assinatura po r satélite
+6201500;1,00%;515;Desenvolvimento de programas de computado r sob encomenda
+6204000;1,00%;515;Consultoria em tecnologia da informação
+6209100;1,00%;515;Suporte técnico, manutenção e outros serv iços em tecnologia da informação
+6311900;1,00%;515;Tratamento de dados, provedores de serviç os de aplicação e serviços de
+6319400;1,00%;515;Portais, provedores de conteúdo e outros serviços de informação na internet
+6399200;1,00%;515;Outras atividades de prestação de serviço s de informação não especificadas
+6434400;1,00%;515;Agências de fomento
+6461100;1,00%;515;Holdings de instituições financeiras
+6462000;1,00%;515;Holdings de instituições não-financeiras
+6463800;1,00%;515;Outras sociedades de participação, exceto  holdings
+6491300;1,00%;515;Sociedades de fomento mercantil - factori ng
+6493000;1,00%;515;Administração de consórcios para aquisiçã o de bens e direitos
+6613400;1,00%;515;Administração de cartões de crédito
+6619303;1,00%;515;Representações de bancos estrangeiros
+6619305;1,00%;515;Operadoras de cartões de débito
+6619399;1,00%;515;Outras atividades auxiliares dos serviços  financeiros não especificadas
+6621501;1,00%;515;Peritos e avaliadores de seguros - Pessoa  Jurídica
+6621502;1,00%;515;Auditoria e consultoria atuarial - Pessoa  Jurídica
+6630400;2,00%;515;Atividades de administração de fundos por  contrato ou comissão
+6810201;1,00%;515;Compra e venda de imóveis próprios
+6810202;1,00%;515;Aluguel de imóveis próprios
+6821801;1,00%;515;Corretagem na compra e venda e avaliação de imóveis - Pessoa Jurídica
+6821802;1,00%;515;Corretagem no aluguel de imóveis - Pessoa  Jurídica
+6822600;1,00%;515;Gestão e administração da propriedade imo biliária
+6911701;1,00%;515;Serviços advocatícios - Pessoa Jurídica
+6911702;1,00%;515;Atividades auxiliares da justiça
+6911703;1,00%;515;Agente de propriedade industrial
+6920601;1,00%;515;Atividades de contabilidade - Pessoa Jurí dica
+6920602;1,00%;515;Atividades de consultoria e auditoria con tábil e tributária - Pessoa Jurídica
+7020400;1,00%;515;Atividades de consultoria em gestão empre sarial, exceto consultoria técnica
+7111100;1,00%;515;Serviços de arquitetura - Pessoa Jurídica
+7119701;1,00%;515;Serviços de cartografia, topografia e geo désia - Pessoa Jurídica
+7119702;1,00%;515;Atividades de estudos geológicos - Pessoa  Jurídica
+7119703;1,00%;515;Serviços de desenho técnico relacionados à arquitetura e engenharia -
+7119704;1,00%;515;Serviços de perícia técnica relacionados à segurança do trabalho - Pessoa
+7119799;1,00%;515;Atividades técnicas relacionadas à engenh aria e arquitetura não
+7120100;3,00%;515;Testes e análises técnicas - Pessoa Juríd ica
+7210000;1,00%;515;Pesquisa e desenvolvimento experimental e m ciências físicas e naturais -
+7319002;1,00%;515;Promoção de vendas
+7319004;1,00%;515;Consultoria em publicidade
+7320300;2,00%;515;Pesquisas de mercado e de opinião pública
+7420005;1,00%;515;Serviços de microfilmagem
+7490103;1,00%;515;Serviços de agronomia e de consultoria às  atividades agrícolas e pecuárias -
+7490104;1,00%;515;Atividades de intermediação e agenciament o de serviços e negócios em
+7490105;1,00%;515;Agenciamento de profissionais para ativid ades esportivas, culturais e
+7490199;1,00%;515;Outras atividades profissionais, científi cas e técnicas não especificadas
+7500100;1,00%;515;Atividades veterinárias - Pessoa Jurídica
+7719501;1,00%;515;Locação de embarcações sem tripulação, ex ceto para fins recreativos
+7719599;1,00%;515;Locação de outros meios de transporte não especific ados anteriormente, sem
+7721700;1,00%;515;Aluguel de equipamentos recreativos e esp ortivos
+7722500;1,00%;515;Aluguel de fitas de vídeo, DVDs e similar es
+7723300;1,00%;515;Aluguel de objetos do vestuário, jóias e acessórios
+7729201;1,00%;515;Aluguel de aparelhos de jogos eletrônicos
+7729202;1,00%;515;"Aluguel de móveis, utensílios e aparelhos  de uso doméstico e pessoal;"
+7729203;1,00%;515;Aluguel de material médico
+7729299;1,00%;515;Aluguel de outros objetos pessoais e domé sticos não especificados
+7731400;1,00%;515;Aluguel de máquinas e equipamentos agríco las sem operador
+7732201;1,00%;515;Aluguel de máquinas e equipamentos para c onstrução sem operador, exceto
+7732202;1,00%;515;Aluguel de andaimes
+7733100;1,00%;515;Aluguel de máquinas e equipamentos para e scritório
+7739001;1,00%;515;Aluguel de máquinas e equipamentos para e xtração de minérios e petróleo,
+7739002;1,00%;515;Aluguel de equipamentos científicos, médi cos e hospitalares, sem operador
+7739003;1,00%;515;Aluguel de palcos, coberturas e outras es truturas de uso temporário, exceto
+7739099;1,00%;515;Aluguel de outras máquinas e equipamentos  comerciais e industriais não
+7740300;1,00%;515;Gestão de ativos intangíveis não-financei ros
+7810800;2,00%;515;Seleção e agenciamento de mão-de-obra
+7830200;2,00%;515;Fornecimento e gestão de recursos humanos  para terceiros (Empresas em
+7911200;1,00%;515;Agências de viagens
+7912100;1,00%;515;Operadores turísticos
+7990200;1,00%;515;Serviços de reservas e outros serviços de  turismo não especificados
+8011101;3,00%;515;Atividades de vigilância e segurança priv ada
+8011102;3,00%;515;Serviços de adestramento de cães de guard a
+8020000;2,00%;515;Atividades de monitoramento de sistemas d e segurança
+8030700;3,00%;515;Atividades de investigação particular
+8111700;3,00%;515;Serviços combinados para apoio a edifício s, exceto condomínios prediais
+8121400;3,00%;515;Limpeza em prédios e em domicílios
+8122200;3,00%;515;Imunização e controle de pragas urbanas
+8129000;3,00%;515;Atividades de limpeza não especificadas a nteriormente
+8130300;1,00%;515;Atividades paisagísticas
+8211300;1,00%;515;Serviços combinados de escritório e apoio  administrativo
+8219901;1,00%;515;Fotocópias
+8219999;1,00%;515;Preparação de documentos e serviços especializados de apoio administrativo
+8220200;3,00%;515;Atividades de teleatendimento
+8230001;1,00%;515;Serviços de organização de feiras, congre ssos, exposições e festas
+8230002;1,00%;515;Casas de festas e eventos
+8291100;1,00%;515;Atividades de cobrança e informações cada strais
+8292000;2,00%;515;Envasamento e empacotamento sob contrato
+8299701;1,00%;515;Medição de consumo de energia elétrica, g ás e água
+8299702;1,00%;515;Emissão de vales-alimentação, vales-trans porte e similares
+8299703;1,00%;515;Serviços de gravação de carimbos, exceto confecção
+8299704;1,00%;515;Leiloeiros independentes
+8299705;1,00%;515;Serviços de levantamento de fundos sob co ntrato
+8299706;1,00%;515;Casas lotéricas
+8299707;1,00%;515;Salas de acesso à internet
+8299799;1,00%;515;Outras atividades de serviços prestados p rincipalmente às empresas não
+8423000;2,00%;515;Justiça (Terceirizações em presídios)
+8591100;1,00%;515;Ensino de esportes
+8592901;1,00%;515;Ensino de dança
+8592902;1,00%;515;Ensino de artes cênicas, exceto dança
+8592903;1,00%;515;Ensino de música
+8592999;1,00%;515;Ensino de arte e cultura não especificado  anteriormente
+8593700;1,00%;515;Ensino de idiomas
+8599601;1,00%;515;Formação de condutores
+8599602;1,00%;515;Cursos de pilotagem
+8599603;1,00%;515;Treinamento em informática
+8599604;1,00%;515;Treinamento em desenvolvimento profission al e gerencial
+8599605;1,00%;515;Cursos preparatórios para concursos
+8599699;1,00%;515;Outras atividades de ensino não especific adas anteriormente
+8610101;2,00%;515;Atividades de atendimento hospitalar, exc eto pronto-socorro e unidades
+8610102;2,00%;515;Atividades de atendimento em pronto-socor ro e unidades hospitalares para
+8621601;2,00%;515;UTI móvel
+8621602;2,00%;515;Serviços móveis de atendimento a urgência s, exceto por UTI móvel
+8630501;2,00%;515;Atividade médica ambulatorial com recurso s para realização de
+8630502;2,00%;515;Atividade médica ambulatorial com recurso s para realização de exames
+8630503;2,00%;515;Atividade médica ambulatorial restrita a consultas - Pessoa Jurídica
+8630504;2,00%;515;Atividade odontológica com recursos para realização de procedimentos
+8630505;2,00%;515;Atividade odontológica sem recursos para realização de procedimentos
+8630506;2,00%;515;Serviços de vacinação e imunização humana
+8630507;2,00%;515;Atividades de reprodução humana assistida
+8630599;2,00%;515;Atividades de atenção ambulatorial não es pecificadas anteriormente
+8640201;1,00%;515;Laboratórios de anatomia patológica e cit ológica
+8640202;1,00%;515;Laboratórios clínicos
+8640203;1,00%;515;Serviços de diálise e nefrologia
+8640204;1,00%;515;Serviços de tomografia
+8640205;1,00%;515;Serviços de diagnóstico por imagem com us o de radiação ionizante, exceto
+8640206;1,00%;515;Serviços de ressonância magnética
+8640207;1,00%;515;Serviços de diagnóstico por imagem sem us o de radiação ionizante, exceto
+8640208;1,00%;515;Serviços de diagnóstico por registro gráf ico - ECG, EEG e outros exames
+8640209;1,00%;515;Serviços de diagnóstico por métodos óptic os - endoscopia e outros exames
+8640210;1,00%;515;Serviços de quimioterapia
+8640211;1,00%;515;Serviços de radioterapia
+8640212;1,00%;515;Serviços de hemoterapia
+8640213;1,00%;515;Serviços de litotripsia
+8640214;1,00%;515;Serviços de bancos de células e tecidos h umanos
+8640299;1,00%;515;Atividades de serviços de complementação diagnóstica e terapêutica não
+8650001;1,00%;515;Atividades de enfermagem - Pessoa Jurídic a
+8650002;1,00%;515;Atividades de profissionais da nutrição -  Pessoa Jurídica
+8650003;1,00%;515;Atividades de psicologia e psicanálise - Pessoa Jurídica
+8650004;1,00%;515;Atividades de fisioterapia - Pessoa Juríd ica
+8650005;1,00%;515;Atividades de terapia ocupacional - Pesso a Jurídica
+8650006;1,00%;515;Atividades de fonoaudiologia - Pessoa Jur ídica
+8650007;1,00%;515;Atividades de terapia de nutrição enteral  e parenteral - Pessoa Jurídica
+8650099;1,00%;515;Atividades de profissionais da área de sa úde não especificadas
+8660700;1,00%;515;Atividades de apoio à gestão de saúde
+8690901;1,00%;515;Atividades de práticas integrativas e com plementares em saúde humana
+8690902;1,00%;515;Atividades de bancos de leite humano
+8690999;1,00%;515;Outras atividades de atenção à saúde huma na não especificadas
+8711501;1,00%;515;Clínicas e residências geriátricas
+8711502;1,00%;515;Instituições de longa permanência para id osos
+8711503;1,00%;515;Atividades de assistência a deficientes f ísicos, imunodeprimidos e
+8711504;1,00%;515;Centros de apoio a pacientes com câncer e  com AIDS
+8712300;1,00%;515;Atividades de fornecimento de infra-estru tura de apoio e assistência a
+8720401;1,00%;515;Atividades de centros de assistência psic ossocial
+8720499;1,00%;515;Atividades de assistência psicossocial e à saúde a portadores de distúrbios
+8730101;1,00%;515;Orfanatos
+8730102;1,00%;515;Albergues assistenciais
+8730199;1,00%;515;Atividades de assistência social prestada s em residências coletivas e
+8800600;1,00%;515;Serviços de assistência social sem alojam ento
+9001906;3,00%;515;Atividades de sonorização e de iluminação
+9003500;3,00%;515;Gestão de espaços para artes cênicas, esp etáculos e outras atividades
+9200301;1,00%;515;Casas de bingo
+9200302;1,00%;515;Exploração de apostas em corridas de cava los
+9200399;1,00%;515;Exploração de jogos de azar e apostas não  especificados anteriormente
+9311500;1,00%;515;Gestão de instalações de esportes
+9319101;1,00%;515;Produção e promoção de eventos esportivos
+9319199;1,00%;515;Outras atividades esportivas não especifi cadas anteriormente
+9321200;1,00%;515;Parques de diversão e parques temáticos
+9329801;1,00%;515;Discotecas, danceterias, salões de dança e similares
+9329802;1,00%;515;Exploração de boliches
+9329803;1,00%;515;Exploração de jogos de sinuca, bilhar e s imilares
+9329804;1,00%;515;Exploração de jogos eletrônicos recreativ os
+9329899;1,00%;515;Outras atividades de recreação e lazer nã o especificadas anteriormente
+9491000;1,00%;515;Atividades de organizações religiosas
+9492800;1,00%;515;Atividades de organizações políticas
+9511800;1,00%;515;Reparação e manutenção de computadores e de equipamentos periféricos
+9512600;1,00%;515;Reparação e manutenção de equipamentos de  comunicação
+9521500;1,00%;515;Reparação e manutenção de equipamentos el etroeletrônicos de uso pessoal e
+9529101;1,00%;515;Reparação de calçados, bolsas e artigos d e viagem
+9529102;1,00%;515;Chaveiros
+9529103;1,00%;515;Reparação de relógios
+9529104;1,00%;515;Reparação de bicicletas, triciclos e outr os veículos não-motorizados
+9529105;1,00%;515;Reparação de artigos do mobiliário
+9529106;1,00%;515;Reparação de jóias
+9529199;1,00%;515;Reparação e manutenção de outros objetos e equipamentos pessoais e
+9601701;1,00%;515;Lavanderias
+9601702;1,00%;515;Tinturarias
+9601703;1,00%;515;Toalheiros
+9602501;1,00%;515;Cabeleireiros
+9602502;1,00%;515;Outras atividades de tratamento de beleza
+9603301;1,00%;515;Gestão e manutenção de cemitérios
+9603302;1,00%;515;Serviços de cremação
+9603303;1,00%;515;Serviços de sepultamento
+9603304;1,00%;515;Serviços de funerárias
+9603305;1,00%;515;Serviços de somatoconservação
+9603399;1,00%;515;Atividades funerárias e serviços relacion ados não especificados
+9609201;1,00%;515;Clínicas de estética e similares
+9609202;1,00%;515;Agências matrimoniais
+9609203;1,00%;515;Alojamento, higiene e embelezamento de an imais
+9609204;1,00%;515;Exploração de máquinas de serviços pessoa is acionadas por moeda
+9609299;1,00%;515;Outras atividades de serviços pessoais nã o especificadas anteriormente
+9411100;1,00%;523;Atividades de organizações associativas p atronais e empresariais (566 Se
+9412000;1,00%;523;Atividades de organizações associativas p rofissionais (566 Se vinculada ao
+9420100;3,00%;523;Atividades de organizações sindicais (566  Se vinculada ao ex IAPC)
+0210107;2,00%;531;Extração de madeira em florestas plantada s
+0210108;2,00%;531;Produção de carvão vegetal - florestas pl antadas
+0220901;3,00%;531;Extração de madeira em florestas nativas
+0220902;3,00%;531;Produção de carvão vegetal - florestas na tivas
+1011201;3,00%;531;Frigorífico - abate de bovinos (setor de abate)
+1011202;3,00%;531;Frigorífico - abate de eqüinos (setor de abate)
+1011203;3,00%;531;Frigorífico - abate de ovinos e caprinos (setor de abate)
+1011204;3,00%;531;Frigorífico - abate de bufalinos (setor d e abate)
+1011205;3,00%;531;Matadouro - abate de reses sob contrato, exceto abate de suínos
+1012101;3,00%;531;Abate de aves (setor de abate)
+1012102;3,00%;531;Abate de pequenos animais (setor de abate )
+1012103;3,00%;531;Frigorífico - abate de suínos (setor de a bate)
+1012104;3,00%;531;Matadouro - abate de suínos sob contrato
+1051100;2,00%;531;Preparação do leite (825 se Agroindustria )
+1061901;2,00%;531;Beneficiamento de arroz (825 se Agroindus tria)
+0311601;2,00%;540;Pesca de peixes em água salgada
+3317101;1,00%;540;Manutenção e reparação de embarcações e e struturas flutuantes
+3317102;1,00%;540;Manutenção e reparação de embarcações par a esporte e lazer
+5011401;1,00%;540;Transporte marítimo de cabotagem - Carga
+5011402;1,00%;540;Transporte marítimo de cabotagem - passag eiros
+5012201;1,00%;540;Transporte marítimo de longo curso - Carg a
+5012202;1,00%;540;Transporte marítimo de longo curso - Pass ageiros
+5021101;1,00%;540;Transporte por navegação interior de carg a, municipal, exceto travessia
+5021102;1,00%;540;Transporte por navegação interior de carg a, intermunicipal, interestadual e
+5022001;1,00%;540;Transporte por navegação interior de pass ageiros em linhas regulares,
+5022002;1,00%;540;Transporte por navegação interior de pass ageiros em linhas regulares,
+5030101;1,00%;540;Navegação de apoio marítimo
+5030102;1,00%;540;Navegação de apoio portuário
+5091201;2,00%;540;Transporte por navegação de travessia, mu nicipal
+5091202;2,00%;540;Transporte por navegação de travessia, in termunicipal
+5099801;2,00%;540;Transporte aquaviário para passeios turís ticos
+5099899;2,00%;540;Outros transportes aquaviários não especi ficados anteriormente
+5231101;1,00%;540;Administração da infra-estrutura portuári a
+5231102;1,00%;540;Operações de terminais
+5232000;1,00%;540;Atividades de agenciamento marítimo
+5239700;1,00%;540;Atividades auxiliares dos transportes aqu aviários não especificadas
+7420002;1,00%;540;Atividades de produção de fotografias sub marinas
+7490102;1,00%;540;Escafandria e mergulho
+9412000;2,00%;540;Atividades de organizações associativas p rofissionais (empregados
+3041500;1,00%;558;Fabricação de aeronaves
+3042300;1,00%;558;Fabricação de turbinas, motores e outros componentes e peças para
+3316301;1,00%;558;Manutenção e reparação de aeronaves, exce to a manutenção na pista
+3316302;1,00%;558;Manutenção de aeronaves na pista
+4614100;2,00%;558;Representantes comerciais e agentes do co mércio de aeronaves
+5111100;3,00%;558;Transporte aéreo de passageiros regular
+5112901;3,00%;558;Serviço de táxi aéreo e locação de aerona ves com tripulação
+5112999;3,00%;558;Outros serviços de transporte aéreo de pa ssageiros não-regular
+5120000;2,00%;558;Transporte aéreo de carga
+5130700;1,00%;558;Transporte espacial
+5240101;1,00%;558;Operação dos aeroportos e campos de aterr issagem
+5240199;1,00%;558;Atividades auxiliares dos transportes aér eos, exceto operação dos aeroportos
+7420002;1,00%;558;Atividades de produção de fotografias aér eas
+7719502;1,00%;558;Locação de aeronaves sem tripulação
+5811500;1,00%;566;Edição de livros
+5812300;1,00%;566;Edição de jornais
+5813100;1,00%;566;Edição de revistas
+5819100;1,00%;566;Edição de cadastros, listas e outros prod utos gráficos
+5829800;1,00%;566;Edição de cadastros, listas e outros produtos g ráficos
+5911102;1,00%;566;Produção de filmes para publicidade
+5911199;1,00%;566;Atividades de produção cinematográfica, d e vídeos e de programas de
+5912001;1,00%;566;Serviços de dublagem
+5912002;1,00%;566;Serviços de mixagem sonora em produção au diovisual
+5912099;1,00%;566;Atividades de pós-produção cinematográfic a, de vídeos e de programas de
+5913800;1,00%;566;Distribuição cinematográfica, de vídeo e de programas de televisão
+5914600;1,00%;566;Atividades de exibição cinematográfica
+5920100;1,00%;566;Atividades de gravação de som e de edição  de música
+6010100;1,00%;566;Atividades de rádio
+6021700;3,00%;566;Atividades de televisão aberta
+6022501;3,00%;566;Programadoras
+6391700;1,00%;566;Agências de notícias
+6611801;1,00%;566;Bolsa de valores
+6611802;1,00%;566;Bolsa de mercadorias
+6611803;1,00%;566;Bolsa de mercadorias e futuros
+6611804;1,00%;566;Administração de mercados de balcão organ izados
+
+7020400;1,00%;566;Atividades de consultoria em gestão empre sarial, exceto consultoria técnica
+
+7119703;1,00%;566;Serviços de desenho técnico relacionados à arquitetura e engenharia -
+7119799;1,00%;566;Atividades técnicas relacionadas à engenh aria e arquitetura não
+7220700;1,00%;566;Pesquisa e desenvolvimento experimental e m ciências sociais e humanas -
+7311400;1,00%;566;Agências de publicidade
+7312200;1,00%;566;Agenciamento de espaços para publicidade,  exceto em veículos de
+7319001;1,00%;566;Criação de estandes para feiras e exposiç ões
+7319003;1,00%;566;Marketing direto
+7319099;1,00%;566;Outras atividades de publicidade não espe cificadas anteriormente
+7410201;1,00%;566;Design
+7410202;1,00%;566;Decoração de interiores
+7420001;1,00%;566;Atividades de produção de fotografias, ex ceto aérea e submarina
+7420003;1,00%;566;Laboratórios fotográficos
+7420004;1,00%;566;Filmagem de festas e eventos
+7490101;1,00%;566;Serviços de tradução, interpretação e sim ilares
+7490103;1,00%;566;Serviços de agronomia e de consultoria às  atividades agrícolas e pecuárias -
+8112500;3,00%;566;Condomínios prediais
+8511200;1,00%;566;Educação infantil - creche
+8512100;1,00%;566;Educação infantil - pré-escola
+8550301;1,00%;566;Administração de caixas escolares
+8550302;1,00%;566;Atividades de apoio à educação, exceto ca ixas escolares
+8630504;2,00%;566;Atividade odontológica com recursos para realização de procedimentos
+8630505;2,00%;566;Atividade odontológica sem recursos para realização de procedimentos
+8711505;1,00%;566;Condomínios residenciais para idosos
+8720499;1,00%;566;Atividades de assistência psicossocial e à saúde a portadores de distúrbios
+9001901;3,00%;566;Produção teatral
+9001902;3,00%;566;Produção musical
+9001903;3,00%;566;Produção de espetáculos de dança
+9001904;3,00%;566;Produção de espetáculos circenses, de mar ionetes e similares
+9001905;3,00%;566;Produção de espetáculos de rodeios, vaque jadas e similares
+9001999;3,00%;566;Artes cênicas, espetáculos e atividades c omplementares não especificados
+9002701;3,00%;566;Atividades de artistas plásticos, jornali stas independentes e escritores
+9002702;3,00%;566;Restauração de obras de arte
+9101500;1,00%;566;Atividades de bibliotecas e arquivos
+9102301;1,00%;566;Atividades de museus e de exploração de l ugares e prédios históricos e
+9103100;1,00%;566;Atividades de jardins botânicos, zoológic os, parques nacionais, reservas
+9312300;1,00%;566;Clubes sociais, esportivos e similares (6 47-Futebol profissional)
+9313100;1,00%;566;Atividades de condicionamento físico
+9411100;1,00%;566;Atividades de organizações associativas p atronais e empresariais (523 Se
+9412000;1,00%;566;Atividades de organizações associativas p rofissionais (523 Se não vinculada
+9420100;3,00%;566;Atividades de organizações sindicais (523  Se não vinculada ao ex IAPC)
+9430800;1,00%;566;Atividades de associações de defesa de di reitos sociais
+9493600;1,00%;566;Atividades de organizações associativas l igadas à cultura e à arte
+9499500;1,00%;566;Atividades associativas não especificadas  anteriormente
+8513900;1,00%;574;Ensino fundamental
+8520100;1,00%;574;Ensino médio
+8531700;1,00%;574;Educação superior - graduação
+8532500;1,00%;574;Educação superior - graduação e pós-gradu ação
+8533300;1,00%;574;Educação superior - pós-graduação e exten são
+8541400;1,00%;574;Educação profissional de nível técnico
+8542200;1,00%;574;Educação profissional de nível tecnológic o
+6410700;1,00%;582;Banco Central
+8411600;2,00%;582;Administração pública em geral
+8412400;2,00%;582;Regulação das atividades de saúde, educaç ão, serviços culturais e outros
+8413200;2,00%;582;Regulação das atividades econômicas
+8421300;2,00%;582;Relações exteriores
+8422100;2,00%;582;Defesa
+8423000;2,00%;582;Justiça
+8424800;2,00%;582;Segurança e ordem pública
+8425600;2,00%;582;Defesa Civil
+8430200;2,00%;582;Seguridade social obrigatória
+9900800;1,00%;582;Organismos internacionais e outras instit uições extraterritoriais sem acordo
+6912500;1,00%;590;Cartórios
+0111301;2,00%;604;Cultivo de arroz
+0111302;2,00%;604;Cultivo de milho
+0111303;2,00%;604;Cultivo de trigo
+0111399;2,00%;604;Cultivo de outros cereais não especificad os anteriormente
+0112101;2,00%;604;Cultivo de algodão herbáceo
+0112102;2,00%;604;Cultivo de juta
+0112199;2,00%;604;Cultivo de outras fibras de lavoura tempo rária não especificadas
+0113000;2,00%;604;Cultivo de cana-de-açúcar
+0114800;2,00%;604;Cultivo de fumo
+0115600;2,00%;604;Cultivo de soja
+0116401;2,00%;604;Cultivo de amendoim
+0116402;2,00%;604;Cultivo de girassol
+0116403;2,00%;604;Cultivo de mamona
+0116499;2,00%;604;Cultivo de outras oleaginosas de lavoura temporária não especificadas
+0119901;2,00%;604;Cultivo de abacaxi
+0119902;2,00%;604;Cultivo de alho
+0119903;2,00%;604;Cultivo de batata-inglesa
+0119904;2,00%;604;Cultivo de cebola
+0119905;2,00%;604;Cultivo de feijão
+0119906;2,00%;604;Cultivo de mandioca
+0119907;2,00%;604;Cultivo de melão
+0119908;2,00%;604;Cultivo de melancia
+0119909;2,00%;604;Cultivo de tomate rasteiro
+0119999;2,00%;604;Cultivo de outras plantas de lavoura temp orária não especificadas
+0121101;1,00%;604;Horticultura, exceto morango
+0121102;1,00%;604;Cultivo de morango
+0122900;1,00%;604;Cultivo de flores e plantas ornamentais
+0131800;2,00%;604;Cultivo de laranja
+0132600;1,00%;604;Cultivo de uva
+0133401;1,00%;604;Cultivo de açaí
+0133402;1,00%;604;Cultivo de banana
+0133403;1,00%;604;Cultivo de caju
+0133404;1,00%;604;Cultivo de cítricos, exceto laranja
+0133405;1,00%;604;Cultivo de coco-da-baía
+0133406;1,00%;604;Cultivo de guaraná
+0133407;1,00%;604;Cultivo de maçã
+0133408;1,00%;604;Cultivo de mamão
+0133409;1,00%;604;Cultivo de maracujá
+0133410;1,00%;604;Cultivo de manga
+0133411;1,00%;604;Cultivo de pêssego
+0133499;1,00%;604;Cultivo de frutas de lavoura permanente n ão especificadas anteriormente
+0134200;1,00%;604;Cultivo de café
+0135100;1,00%;604;Cultivo de cacau
+0139301;1,00%;604;Cultivo de chá-da-índia
+0139302;1,00%;604;Cultivo de erva-mate
+0139303;1,00%;604;Cultivo de pimenta-do-reino
+0139304;1,00%;604;Cultivo de plantas para condimento, excet o pimenta-do-reino
+0139305;1,00%;604;Cultivo de dendê
+0139306;1,00%;604;Cultivo de seringueira
+0139399;1,00%;604;Cultivo de outras plantas de lavoura perm anente não especificadas
+0141501;2,00%;604;Produção de sementes certificadas, exceto  de forrageiras para pasto
+0141502;2,00%;604;Produção de sementes certificadas de forr ageiras para formação de pasto
+0142300;2,00%;604;Produção de mudas e outras formas de prop agação vegetal, certificadas
+0151201;1,00%;604;Criação de bovinos para corte
+0151202;1,00%;604;Criação de bovinos para leite
+0151203;1,00%;604;Criação de bovinos, exceto para corte e l eite
+0152101;1,00%;604;Criação de bufalinos
+0152102;1,00%;604;Criação de eqüinos
+0152103;1,00%;604;Criação de asininos e muares
+0153901;1,00%;604;Criação de caprinos
+0153902;1,00%;604;Criação de ovinos, inclusive para produçã o de lã
+0154700;1,00%;604;Criação de suínos
+0155501;1,00%;604;Criação de frangos para corte
+0155502;1,00%;604;Produção de pintos de um dia
+0155503;1,00%;604;Criação de outros galináceos, exceto para  corte
+0155504;1,00%;604;Criação de aves, exceto galináceos
+0155505;1,00%;604;Produção de ovos
+0159801;1,00%;604;Apicultura
+0159802;1,00%;604;Criação de animais de estimação
+0159803;1,00%;604;Criação de escargô
+0159804;1,00%;604;Criação de bicho-da-seda
+0159899;1,00%;604;Criação de outros animais não especificad os anteriormente
+0170900;1,00%;604;Caça e serviços relacionados
+0210101;2,00%;604;Cultivo de eucalipto
+0210102;2,00%;604;Cultivo de acácia-negra
+0210103;2,00%;604;Cultivo de pinus
+0210104;2,00%;604;Cultivo de teca
+0210105;2,00%;604;Cultivo de espécies madeireiras, exceto e ucalipto, acácia-negra, pinus e teca
+0210106;2,00%;604;Cultivo de mudas em viveiros florestais
+0210109;2,00%;604;Produção de casca de acácia-negra - flore stas plantadas
+0210199;2,00%;604;Produção de produtos não-madeireiros não especificados anteriormente em
+0220903;3,00%;604;Coleta de castanha-do-pará em florestas n ativas
+0220904;3,00%;604;Coleta de látex em florestas nativas
+0220905;3,00%;604;Coleta de palmito em florestas nativas
+0220906;3,00%;604;Conservação de florestas nativas
+0220999;3,00%;604;Coleta de produtos não-madeireiros não es pecificados anteriormente em
+0311602;2,00%;604;Pesca de crustáceos e moluscos em água sa lgada
+0311603;2,00%;604;Coleta de outros produtos marinhos
+0312401;2,00%;604;Pesca de peixes em água doce
+0312402;2,00%;604;Pesca de crustáceos e moluscos em água do ce
+0312403;2,00%;604;Coleta de outros produtos aquáticos de ág ua doce
+0321301;2,00%;604;Criação de peixes em água salgada e salob ra
+0321302;2,00%;604;Criação de camarões em água salgada e sal obra
+0321303;2,00%;604;Criação de ostras e mexilhões em água sal gada e salobra
+0321304;2,00%;604;Criação de peixes ornamentais em água sal gada e salobra
+0321399;2,00%;604;Cultivos e semicultivos da aqüicultura em  água salgada e salobra não
+0322101;2,00%;604;Criação de peixes em água doce
+0322102;2,00%;604;Criação de camarões em água doce
+0322103;2,00%;604;Criação de ostras e mexilhões em água doc e
+0322104;2,00%;604;Criação de peixes ornamentais em água doc e
+0322105;2,00%;604;Ranicultura
+0322106;2,00%;604;Criação de jacaré
+0322199;2,00%;604;Cultivos e semicultivos da aqüicultura em  água doce não especificados
+3600602;2,00%;612;Distribuição de água por caminhões
+4681801;1,00%;612;Pessoal de Tranporte no Com. Atac. de álc ool carburante, biodiesel,
+4681802;1,00%;612;Pessoal de Tranporte no Comércio atacadis ta de combustíveis realizado por
+4681803;1,00%;612;Pessoal de Tranporte no Comércio atacadis ta de combustíveis de origem
+4681804;1,00%;612;Pessoal de Tranporte no Comércio atacadis ta de combustíveis de origem
+4681805;1,00%;612;Pessoal de Tranporte no Comércio atacadis ta de lubrificantes
+4682600;1,00%;612;Pessoal de Tranporte no Comércio atacadis ta de gás liqüefeito de petróleo
+4921301;3,00%;612;Transporte rodoviário coletivo de passage iros, com itinerário fixo,
+4921302;3,00%;612;Transporte rodoviário coletivo de passage iros, com itinerário fixo,
+4922101;3,00%;612;Transporte rodoviário coletivo de passage iros, com itinerário fixo,
+4922102;3,00%;612;Transporte rodoviário coletivo de passage iros, com itinerário fixo,
+4922103;3,00%;612;Transporte rodoviário coletivo de passage iros, com itinerário fixo,
+4923001;3,00%;612;Serviço de táxi
+4923002;3,00%;612;Serviço de transporte de passageiros - lo cação de automóveis com motorista
+4924800;3,00%;612;Transporte escolar
+4929901;3,00%;612;Transporte rodoviário coletivo de passage iros, sob regime de fretamento,
+4929902;3,00%;612;Transporte rodoviário coletivo de passage iros, sob regime de fretamento,
+4929903;3,00%;612;Organização de excursões em veículos rodo viários próprios, municipal
+4929904;3,00%;612;Organização de excursões em veículos rodo viários próprios, intermunicipal,
+4929999;3,00%;612;Outros transportes rodoviários de passage iros não especificados
+4930201;3,00%;612;Transporte rodoviário de carga, exceto pr odutos perigosos e mudanças,
+4930202;3,00%;612;Transporte rodoviário de carga, exceto pr odutos perigosos e mudanças,
+4930203;3,00%;612;Transporte rodoviário de produtos perigos os
+4930204;3,00%;612;Transporte rodoviário de mudanças
+5212500;2,00%;612;Carga e descarga
+5229002;1,00%;612;Serviços de reboque de veículos
+5320201;3,00%;612;Serviços de malote não realizados pelo Co rreio Nacional
+5320202;3,00%;612;Serviços de entrega rápida
+7711000;1,00%;612;Locação de automóveis sem condutor
+8012900;3,00%;612;Atividades de transporte de valores
+8622400;2,00%;612;Serviços de remoção de pacientes, exceto os serviços móveis de
+9312300;1,00%;647;Clubes sociais, esportivos e similares (5 66-Sem Futebol profissional)
+7820500;2,00%;655;Locação de mão-de-obra temporária
+9412000;2,00%;680;Atividades de organizações associativas p rofissionais (remuneração do
+6421200;3,00%;736;Bancos comerciais
+6422100;3,00%;736;Bancos múltiplos, com carteira comercial
+6423900;3,00%;736;Caixas econômicas
+6424701;1,00%;736;Bancos cooperativos
+6431000;3,00%;736;Bancos múltiplos, sem carteira comercial
+6432800;1,00%;736;Bancos de investimento
+6433600;1,00%;736;Bancos de desenvolvimento
+6435201;1,00%;736;Sociedades de crédito imobiliário
+6435202;1,00%;736;Associações de poupança e empréstimo
+6435203;1,00%;736;Companhias hipotecárias
+6436100;1,00%;736;Sociedades de crédito, financiamento e in vestimento - financeiras
+6437900;1,00%;736;Sociedades de crédito ao microempreendedo r
+6440900;1,00%;736;Arrendamento mercantil
+6450600;1,00%;736;Sociedades de capitalização
+6470101;1,00%;736;Fundos de investimento, exceto previdenci ários e imobiliários
+6470102;1,00%;736;Fundos de investimento previdenciários
+6470103;1,00%;736;Fundos de investimento imobiliários
+6492100;1,00%;736;Securitização de créditos
+6499901;1,00%;736;Clubes de investimento
+6499902;1,00%;736;Sociedades de investimento
+6499903;1,00%;736;Fundo garantidor de crédito
+6499904;1,00%;736;Caixas de financiamento de corporações
+6499905;1,00%;736;Concessão de crédito pelas OSCIP
+6499999;1,00%;736;Outras atividades de serviços financeiros  não especificadas anteriormente
+6511101;1,00%;736;Seguros de vida
+6511102;1,00%;736;Planos de auxílio-funeral
+6512000;1,00%;736;Seguros não-vida
+6520100;2,00%;736;Seguros-saúde
+6530800;1,00%;736;Resseguros
+6541300;1,00%;736;Previdência complementar fechada
+6542100;1,00%;736;Previdência complementar aberta
+6550200;2,00%;736;Planos de saúde
+6612601;1,00%;736;Corretoras de títulos e valores mobiliári os
+6612602;1,00%;736;Distribuidoras de títulos e valores mobil iários
+6612603;1,00%;736;Corretoras de câmbio
+6612604;1,00%;736;Corretoras de contratos de mercadorias
+6612605;1,00%;736;Agentes de investimentos em aplicações fi nanceiras
+6619301;1,00%;736;Serviços de liquidação e custódia
+6619302;1,00%;736;Correspondentes de instituições financeir as
+6619304;1,00%;736;Caixas eletrônicos
+6622300;1,00%;736;Corretores e agentes de seguros, de plano s de previdência complementar e
+6629100;1,00%;736;Atividades auxiliares dos seguros, da pre vidência complementar e dos
+0161001;1,00%;787;Serviço de pulverização e controle de pra gas agrícolas
+0161002;1,00%;787;Serviço de poda de árvores para lavouras
+0161003;1,00%;787;Serviço de preparação de terreno, cultivo  e colheita
+0161099;1,00%;787;Atividades de apoio à agricultura não esp ecificadas anteriormente
+0162801;1,00%;787;Serviço de inseminação artificial em anim ais
+0162802;1,00%;787;Serviço de tosquiamento de ovinos
+0162803;1,00%;787;Serviço de manejo de animais
+0162899;1,00%;787;Atividades de apoio à pecuária não especi ficadas anteriormente
+0163600;1,00%;787;Atividades de pós-colheita
+0230600;2,00%;787;Atividades de apoio à produção florestal
+0311604;2,00%;787;Atividades de apoio à pesca em água salga da
+0312404;2,00%;787;Atividades de apoio à pesca em água doce
+0321305;2,00%;787;Atividades de apoio à aqüicultura em água  salgada e salobra
+0322107;2,00%;787;Atividades de apoio à aqüicultura em água  doce
+1031700;2,00%;833;Fabricação de conservas de frutas - agroi ndústria
+1032501;2,00%;833;Fabricação de conservas de palmito - agro indústria
+1032599;2,00%;833;Fabricação de conservas de legumes e outr os vegetais, exceto palmito -
+1033301;2,00%;833;Fabricação de sucos concentrados de fruta s, hortaliças e legumes -
+1033302;2,00%;833;Fabricação de sucos de frutas, hortaliças  e legumes, exceto concentrados -
+1041400;2,00%;833;Fabricação de óleos vegetais em bruto, ex ceto óleo de milho - agroindústria
+1042200;2,00%;833;Fabricação de óleos vegetais refinados, e xceto óleo de milho - agroindústria
+1043100;2,00%;833;Fabricação de margarina e outras gorduras  vegetais e de óleos não-
+1061902;2,00%;833;Fabricação de produtos do arroz - agroind ústria
+1093701;2,00%;833;Fabricação de produtos derivados do cacau  e de chocolates -agroindústria
+1093702;2,00%;833;Fabricação de frutas cristalizadas, balas  e semelhantes - agroindústria
+1099601;2,00%;833;Fabricação de vinagres - agroindústria
+1111901;2,00%;833;Fabricação de aguardente de cana-de-açúca r - agroindústria
+1122499;2,00%;833;Fabricação de outras bebidas não- alcoólicas não especificadas anteriormente
+1210700;3,00%;833;Processamento industrial do fumo - agroin dústria
+1220401;3,00%;833;Fabricação de cigarros - agroindústria
+1220402;3,00%;833;Fabricação de cigarrilhas e charutos - ag roindústria
+1220403;3,00%;833;Fabricação de filtros para cigarros - agr oindústria
+1321900;2,00%;833;Tecelagem de fios de algodão - agroindúst ria
+1322700;2,00%;833;Tecelagem de fios de fibras têxteis natur ais - agroindústria
+1931400;2,00%;833;Fabricação de álcool - agroindústria
+1932200;2,00%;833;Fabricação de biocombustíveis, exceto álc ool - agroindústria
+2121103;2,00%;833;Fabricação de medicamentos fitoterápicos para uso humano - agroindústria
+9700500;0,00%;868;Serviços domésticos
+9900800;1,00%;876;Organismos internacionais e outras instit uições extraterritoriais com acordo
+1062700;2,00%;507;Fabricação de derivados do trigo - indústria
+1063500;2,00%;507;Fabricação de farinha de mandioca e derivados -  indústria
+1064300;2,00%;507;Fabricação de farinha de milho e derivados - in dústria
+1065101;2,00%;507;Fabricação de amidos e féculas de vegetais - in dústria
+1065102;2,00%;507;Fabricação de óleo de milho (bruto) - indústria
+1065103;2,00%;507;Fabricação de óleo de milho refinado - indústri a
+1069400;2,00%;507;Moagem e fabricação de outros produtos de orige m vegetal - indústria
+1071600;3,00%;507;Fabricação de açúcar - indústria
+1072402;3,00%;507;Fabricação de açúcar de cereais (dextrose) e de  beterraba - indústria
+1081302;2,00%;507;Torrefação e moagem de café - indústria
+1082100;2,00%;507;Fabricação de produtos a base de café
+1099601;2,00%;507;Fabricação de vinagres - indústria
+1099605;2,00%;507;Fabricação de produtos para infusão (chá, mate,  etc.)
+1112700;2,00%;507;Fabricação de vinho - indústria
+1220499;3,00%;507;Fabricação de outros produtos do fumo - indústr ia
+1311100;2,00%;507;Fiação de fibras de algodão - indústria
+1312000;2,00%;507;Fiação de fibras têxteis naturais - indústria
+5821200;1,00%;507;Impressão de livros
+5822100;1,00%;507;Impressão de jornais
+5823900;1,00%;507;Impressão de revistas
+5829800;1,00%;507;Impressão de cadastros, listas e outros produto s gráficos
+1051100;2,00%;531;Preparação do leite - indústria rudimentar
+1052000;2,00%;531;Fabricação de laticínios - indústria rudimentar
+1061901;2,00%;531;Beneficiamento de arroz - indústria rudimentar
+1062700;2,00%;531;Moagem de trigo - indústria rudimentar
+1064300;2,00%;531;Beneficiamento do milho - indústria rudimentar
+1072401;3,00%;531;Fabricação de açúcar de cana - indústria rudime ntar
+1081301;2,00%;531;Beneficiamento de café - indústria rudimentar
+1099605;2,00%;531;Beneficiamento de chá, mate, etc. - indústria r udimentar
+1311100;2,00%;531;Preparação de fibras de algodão - indústria rud imentar
+1312000;2,00%;531;Preparação de fibras têxteis naturais - indústr ia rudimentar
+6424702;1,00%;787;Cooperativas centrais de crédito
+6424703;1,00%;787;Cooperativas de crédito mútuo
+6424704;1,00%;787;Cooperativas de crédito rural
+1051100;2,00%;825;Preparação do leite - agroindústria (rudimentar )
+1052000;2,00%;825;Fabricação de laticínios - agroindústria (rudim entar)
+1061901;2,00%;825;Beneficiamento de arroz - agroindústria (rudime ntar)
+1062700;2,00%;825;Moagem de trigo - agroindústria (rudimentar)
+1064300;2,00%;825;Beneficiamento do milho - agroindústria (rudime ntar)
+1072401;3,00%;825;Fabricação de açúcar de cana - agroindústria (r udimentar)
+1081301;2,00%;825;Beneficiamento de café - agroindústria (rudimen tar)
+1099605;2,00%;825;Beneficiamento de chá, mate, etc. - agroindústr ia (rudimentar)
+1311100;2,00%;825;Preparação de fibras de algodão - agroindústria  (rudimentar)
+1312000;2,00%;825;Preparação de fibras têxteis naturais - agroind ústria (rudimentar)
+1062700;2,00%;833;Fabricação de derivados do trigo - agroindústri a
+1063500;2,00%;833;Fabricação de farinha de mandioca e derivados -  agroindústria
+1064300;2,00%;833;Fabricação de farinha de milho e derivados - ag roindustria
+1065101;2,00%;833;Fabricação de amidos e féculas de vegetais - ag roindústria
+1065102;2,00%;833;Fabricação de óleo de milho (bruto) - agroindús tria
+1065103;2,00%;833;Fabricação de óleo de milho refinado - agroindu stria
+1069400;2,00%;833;Moagem e fabricação de outros produtos de orige m vegetal - agroindústria
+1071600;3,00%;833;Fabricação de açúcar - agroindústria
+1072402;3,00%;833;Fabricação de açúcar de cereais (dextrose) e de  beterraba - agroindústria
+1081302;2,00%;833;Torrefação e moagem de café - agroindústria
+1112700;2,00%;833;Fabricação de vinho - agroindústria
+1220499;3,00%;833;Fabricação de outros produtos do fumo - agroind ústria
+1311100;2,00%;833;Fiação de fibras de algodão - agroindústria
+1312000;2,00%;833;Fiação de fibras têxteis naturais - agroindústr ia

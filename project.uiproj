@@ -1,0 +1,6 @@
+{
+  "Name": "LancamentoDeDespesas",
+  "ProjectType": "Process",
+  "Description": "Processo que realiza o lancamento das despesas em lote no sistema Domínio para as empresas cadastradas na Razonet contabilidade",
+  "MainFile": "Main.xaml"
+}

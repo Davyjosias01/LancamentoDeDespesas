@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="OeJHrXb0LkOi59LGIHfj9w" Reference="gV24GHqZaEyhF6_VOzZ-Ug/9zebY_HGWEKAllyvlTkhQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-10, -10, 1940, 1040" ContentHash="bJslfYeJEEu-lNaLFBYLbA" FilePath="C:\\Contabil\\contabil.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEXSURBVFhHxZKxbQJBEEUpgY4gpwl3QAtk0AXuwM4IjUQBFzpwQEhI4MDhWf8kTtZ/y+74grkvPWn1dmdWdzuLxW7VzwpENhDZQGQDkQ1ENhABdudjf//57h/RWs7PhYBo0N2+xos92vPzTSAq6Ctb+fefgKhwvd/8PkRnvK4KRIVovK4KRIVovK4KRIXZn2D2IRTH7uR3jtGen28CYXhe3vfDV/59Dq3ltOfxfgDCKL37x7UbLlu/bge0lvOE5gHCePu8eN9wVOv9AIQRGbxnCQ0khKFfPDWq9X4AwlgeNt43HNV6PwBRoDSIrYQGUEAUmDKIoQEUEAWmDGJoAAVEgSmDGBpAAZENRDYQ2UBkA5ENRDYQyfwC6bfaTaEbsU4AAAAASUVORK5CYII=" Reference="gV24GHqZaEyhF6_VOzZ-Ug/9zebY_HGWEKAllyvlTkhQQ" Selector="&lt;wnd app='contabil.exe' cls='FNWN*' title='Domínio Folha' /&gt;" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="19f07db3d8710ccefd47be4cc5f2e2ef.jpg" xmlns="">0bbrEOFJuc0GqvqvTezXTVQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

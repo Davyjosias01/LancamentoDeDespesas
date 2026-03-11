@@ -1,0 +1,14 @@
+﻿{
+  "Name": "DESTAK TRANSPORTES - 67…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "TWoZ-gRqBEa_A84nS_hGlw",
+  "Reference": "gV24GHqZaEyhF6_VOzZ-Ug/TWoZ-gRqBEa_A84nS_hGlw",
+  "ParentRef": "gV24GHqZaEyhF6_VOzZ-Ug/9zebY_HGWEKAllyvlTkhQQ",
+  "Created": "2026-02-23T11:53:07.3581408Z",
+  "Updated": "2026-02-23T11:53:07.3581408Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wls6vm0RwECLhBYDRCZGsQ" Reference="gV24GHqZaEyhF6_VOzZ-Ug/TWoZ-gRqBEa_A84nS_hGlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8dbb7d4a-96fd-4952-a1ef-dd532807b086" CvTextArea="26, 92, 88, 22" CvTextArgument="DOMÍNIO" CvType="Text" DesignTimeRectangle="10, 39, 125, 131" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd automationid='botaopesquisar' /&gt;" Guid="4a0715d5-5887-41cf-9868-ad65f1efcce9" ScopeSelectorArgument="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio Folha*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8dbb7d4a-96fd-4952-a1ef-dd532807b086" CvTextArea="151, 65, 75, 20" CvTextArgument="Controle" CvType="Text" DesignTimeRectangle="140, 56, 100, 37" FuzzySelectorArgument="&lt;wnd ctrlname='ControlAxSourcingSite' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='menuStrip1' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='Controle' matching:name='fuzzy' fuzzylevel:name='0.0' role='menu item' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Controle' /&gt;" Guid="094b663a-077a-4ebe-9ac8-66b1732216af" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e2edc099695744a24ae3806ee75d9691.jpg" xmlns="">0Lxaczg7QNkWobQjzOGNsIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
