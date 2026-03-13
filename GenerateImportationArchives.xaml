@@ -1,5 +1,6 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="GenerateImportationArchives" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
+    <x:Property Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
     <x:Property Name="in_companiesLists" Type="InArgument(scg:List(scg:List(njl:JToken)))" />
     <x:Property Name="in_transactionItem" Type="InArgument(njl:JToken)" />
   </x:Members>
@@ -149,13 +150,13 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="881,807.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="769,807.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="486,607" sap2010:WorkflowViewState.IdRef="Sequence_64">
+    <Sequence sap:VirtualizedContainerService.HintSize="486,782" sap2010:WorkflowViewState.IdRef="Sequence_64">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Int32" Name="index" />
       </Sequence.Variables>
@@ -164,22 +165,23 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ForEach x:TypeArguments="scg:List(njl:JToken)" DisplayName="For Each currentListOfJToken" sap:VirtualizedContainerService.HintSize="452,524" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
+      <ui:ForEach x:TypeArguments="scg:List(njl:JToken)" DisplayName="For Each currentListOfJToken" sap:VirtualizedContainerService.HintSize="452,699" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
         <ui:ForEach.Body>
           <ActivityAction x:TypeArguments="scg:List(njl:JToken)">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="scg:List(njl:JToken)" Name="currentListOfJToken" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,402" sap2010:WorkflowViewState.IdRef="Sequence_65">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,577" sap2010:WorkflowViewState.IdRef="Sequence_65">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="expensesImportationString" />
+                <Variable x:TypeArguments="x:String" Name="fileName" />
               </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign DisplayName="Assign - expensesImportationString" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_1">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:String">
                     <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">expensesImportationString</CSharpReference>
@@ -187,10 +189,10 @@
                 </Assign.To>
                 <Assign.Value>
                   <InArgument x:TypeArguments="x:String">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8" xml:space="preserve">string.Join(
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16" xml:space="preserve">string.Join(
     Environment.NewLine,
     currentListOfJToken.Select(x =&gt;
-        $"{in_transactionItem["dominio_code"]};" +
+		$"{in_transactionItem["dominio_code"]};" +
         $"{DateTime.ParseExact(x["venciment"].ToString(), "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture).ToString("dd/MM/yyyy")};" +
         $"{x["accounting_source"]["dominio_credit_account"]};" +
         $"{x["accounting_source"]["dominio_debit_account"]};" +
@@ -201,11 +203,37 @@
 )</CSharpValue>
                   </InArgument>
                 </Assign.Value>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Assign>
+              <Assign DisplayName="Assign - fileName" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_3">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">
+                    <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">fileName</CSharpReference>
+                  </OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13" xml:space="preserve">currentListOfJToken.All(x=&gt;x["accounting_source"]["dominio_debit_account"].ToString() == currentListOfJToken[0]["accounting_source"]["dominio_debit_account"].ToString()) ? 
+	currentListOfJToken[0]["accounting_source"]["dominio_debit_account"].ToString() : 
+	in_Config["allDebitAccountImportationArchiveName"].ToString()</CSharpValue>
+                  </InArgument>
+                </Assign.Value>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
               </Assign>
               <ui:WriteTextFile FileName="{x:Null}" Output="{x:Null}" DisplayName="Write Text File" sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="WriteTextFile_1">
                 <ui:WriteTextFile.File>
                   <InArgument x:TypeArguments="upr:ILocalResource">
-                    <CSharpValue x:TypeArguments="upr:ILocalResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">LocalResource.FromPath("ListasDeImportacao\\" + index + "")</CSharpValue>
+                    <CSharpValue x:TypeArguments="upr:ILocalResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">LocalResource.FromPath("ListasDeImportacao\\" + fileName + "")</CSharpValue>
                   </InArgument>
                 </ui:WriteTextFile.File>
                 <ui:WriteTextFile.Text>
