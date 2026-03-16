@@ -7,4 +7,5 @@
 ################################################################################
 # End of UiPath Studio common ignores
 ################################################################################
-Exceptions_Screenshots
+Exceptions_Screenshots/
+ListasDeImportacao/
