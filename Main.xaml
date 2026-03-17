@@ -186,7 +186,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <StateMachine InitialState="{x:Reference __ReferenceID0}" sap2010:Annotation.AnnotationText="LancamentoDeDespesas&#xA;Processo que realiza o lancamento das despesas em lote no sistema Domínio para as empresas cadastradas na Razonet contabilidade&#xA;Author: Davy J Scheuermann" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="334,20" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+  <StateMachine InitialState="{x:Reference __ReferenceID0}" sap2010:Annotation.AnnotationText="LancamentoDeDespesas&#xA;Processo que realiza o lancamento das despesas em lote no sistema Domínio para as empresas cadastradas na Razonet contabilidade&#xA;Author: Davy J Scheuermann" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="769,808" sap2010:WorkflowViewState.IdRef="StateMachine_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2112,7 +2112,7 @@ integrationNote</CSharpValue>
                 <Transition sap2010:Annotation.AnnotationText="This is a simple mecanism to stop the process.&#xA;In reallife scenario you can stop the process when there is no more data to process or on a schedule." DisplayName="No Data" sap:VirtualizedContainerService.HintSize="450,588" sap2010:WorkflowViewState.IdRef="Transition_11">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <av:PointCollection x:Key="ConnectorLocation">903.5,386 903.5,267 1120,267</av:PointCollection>
+                      <av:PointCollection x:Key="ConnectorLocation">903.5,386 903.5,249 1120,249</av:PointCollection>
                       <x:Int32 x:Key="SrcConnectionPointIndex">66</x:Int32>
                       <x:Int32 x:Key="DestConnectionPointIndex">33</x:Int32>
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2222,7 +2222,7 @@ integrationNote</CSharpValue>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">1120,240</av:Point>
-                          <av:Size x:Key="ShapeSize">150,60</av:Size>
+                          <av:Size x:Key="ShapeSize">20,20</av:Size>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                           <x:Double x:Key="StateContainerWidth">187.9999999999999</x:Double>
@@ -2263,7 +2263,7 @@ integrationNote</CSharpValue>
         <Transition DisplayName="System Exception (failed initialization)" sap:VirtualizedContainerService.HintSize="450,527" sap2010:WorkflowViewState.IdRef="Transition_12">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <av:PointCollection x:Key="ConnectorLocation">470,250 470,220 1210,220 1210,240</av:PointCollection>
+              <av:PointCollection x:Key="ConnectorLocation">470,250 470,219.99999999999997 1132,219.99999999999997 1132,240</av:PointCollection>
               <x:Int32 x:Key="SrcConnectionPointIndex">34</x:Int32>
               <x:Int32 x:Key="DestConnectionPointIndex">46</x:Int32>
             </scg:Dictionary>
