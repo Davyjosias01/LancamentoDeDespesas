@@ -182,7 +182,7 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Process" sap:VirtualizedContainerService.HintSize="1045,2649" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Process" sap:VirtualizedContainerService.HintSize="763,2448" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="parametrization" />
       <Variable x:TypeArguments="x:Int32" Name="defaultDelayBefore" />
@@ -712,7 +712,7 @@ stringBusinessExceptionCompilation</CSharpValue>
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
     </Sequence>
-    <Sequence DisplayName="Verification of Domínio Configurations" sap:VirtualizedContainerService.HintSize="520,760" sap2010:WorkflowViewState.IdRef="Sequence_74">
+    <Sequence DisplayName="Verification of Domínio Configurations" sap:VirtualizedContainerService.HintSize="520,559" sap2010:WorkflowViewState.IdRef="Sequence_74">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="dominioImportationLimitsDataTable" />
         <Variable x:TypeArguments="s:DateTime" Name="dbDominio_dataInicioDasAtividades" />
@@ -727,7 +727,7 @@ stringBusinessExceptionCompilation</CSharpValue>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Consulta de datas configuradas no sistema domínio" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="Sequence_87">
+      <Sequence DisplayName="Consulta de datas configuradas no sistema domínio" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_87">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -851,7 +851,7 @@ Where ctparmto.codi_emp = '{ companyDominioCode }'"</CSharpValue>
           </sap:WorkflowViewStateService.ViewState>
         </ui:MultipleAssign>
       </Sequence>
-      <Assign sap2010:Annotation.AnnotationText="Se a data de inicio da importação for anterior ao inicio das atividades da empresa ?&#xD;&#xA;&#xD;&#xA;Atribua a data de vencimento da ultima despesa da lista que contêm todas as despesas :&#xD;&#xA;&#xD;&#xA;Atribua a propria data de inicio da importação." DisplayName="Assign - expensesDateStart" sap:VirtualizedContainerService.HintSize="452,183" sap2010:WorkflowViewState.IdRef="Assign_12">
+      <Assign sap2010:Annotation.AnnotationText="Se a data de inicio da importação for anterior ao inicio das atividades da empresa ?&#xD;&#xA;&#xD;&#xA;Atribua a data de vencimento da ultima despesa da lista que contêm todas as despesas :&#xD;&#xA;&#xD;&#xA;Atribua a propria data de inicio da importação." DisplayName="Assign - expensesDateStart" sap:VirtualizedContainerService.HintSize="450,183" sap2010:WorkflowViewState.IdRef="Assign_12">
         <Assign.To>
           <OutArgument x:TypeArguments="s:DateTime">
             <CSharpReference x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpReference`1_88">expensesDateStart</CSharpReference>
@@ -877,7 +877,7 @@ Where ctparmto.codi_emp = '{ companyDominioCode }'"</CSharpValue>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </Assign>
-      <If sap2010:Annotation.AnnotationText="Se a data de fechamento for maior que a data inicial das despesas." sap:VirtualizedContainerService.HintSize="452,303" sap2010:WorkflowViewState.IdRef="If_9">
+      <If sap2010:Annotation.AnnotationText="Se a data de fechamento for maior que a data inicial das despesas." sap:VirtualizedContainerService.HintSize="450,102" sap2010:WorkflowViewState.IdRef="If_9">
         <If.Condition>
           <InArgument x:TypeArguments="x:Boolean">
             <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_343">expensesDateStart &lt; dbDominio_primeiroDiaMesDeFechamento</CSharpValue>
@@ -886,7 +886,7 @@ Where ctparmto.codi_emp = '{ companyDominioCode }'"</CSharpValue>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -950,7 +950,7 @@ Where ctparmto.codi_emp = '{ companyDominioCode }'"</CSharpValue>
           </Sequence>
         </If.Else>
       </If>
-      <If sap2010:Annotation.AnnotationText="Se a data de inicio do periodo de trabalho for menor que a a data da inicio das despesas(ou a data de vencimento da primeira despesa)&#xA;" sap:VirtualizedContainerService.HintSize="452,125" sap2010:WorkflowViewState.IdRef="If_8">
+      <If sap2010:Annotation.AnnotationText="Se a data de inicio do periodo de trabalho for menor que a a data da inicio das despesas(ou a data de vencimento da primeira despesa)&#xA;" sap:VirtualizedContainerService.HintSize="450,125" sap2010:WorkflowViewState.IdRef="If_8">
         <If.Condition>
           <InArgument x:TypeArguments="x:Boolean">
             <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_344">expensesDateStart &lt; dbDominio_dateStartPeriodoDeTrabalho</CSharpValue>
@@ -1089,7 +1089,7 @@ Where ctparmto.codi_emp = '{ companyDominioCode }'"</CSharpValue>
               <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="AbreOFechamento" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Framework\\Process\\AbreOFechamento.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
                   <InArgument x:TypeArguments="s:DateTime" x:Key="in_newClosingDate">
-                    <CSharpValue x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpValue`1_382">expensesDateStart</CSharpValue>
+                    <CSharpValue x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpValue`1_385">expensesDateStart.AddMonths(-1)</CSharpValue>
                   </InArgument>
                   <InArgument x:TypeArguments="x:Int32" x:Key="in_defaultDelayBefore">
                     <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_383">defaultDelayBefore</CSharpValue>
