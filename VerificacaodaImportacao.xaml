@@ -171,7 +171,7 @@
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="763,687" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="1045,1270" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:Image" Name="ScreenshotDominio" />
       <Variable x:TypeArguments="x:String" Name="screenshotFileName" />
@@ -181,7 +181,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Verificação da Importação" sap:VirtualizedContainerService.HintSize="520,664" sap2010:WorkflowViewState.IdRef="Sequence_97">
+    <Sequence DisplayName="Verificação da Importação" sap:VirtualizedContainerService.HintSize="556,1247" sap2010:WorkflowViewState.IdRef="Sequence_97">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="importationReport" />
       </Sequence.Variables>
@@ -190,7 +190,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:UiElementExists DisplayName="Element Exists - importationReport" sap:VirtualizedContainerService.HintSize="486,139" sap2010:WorkflowViewState.IdRef="UiElementExists_4">
+      <ui:UiElementExists DisplayName="Element Exists - importationReport" sap:VirtualizedContainerService.HintSize="522,139" sap2010:WorkflowViewState.IdRef="UiElementExists_4">
         <ui:UiElementExists.Exists>
           <OutArgument x:TypeArguments="x:Boolean">
             <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_120">importationReport</CSharpReference>
@@ -200,20 +200,26 @@
           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f749a53f-b7e4-4272-88a3-c31ae5b2d0e9" InformativeScreenshot="898de927422f9547810e757d8f3ea235" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd cls='FNWND*' title='Resumo dos Dados' /&gt;&lt;ctrl name='Resumo dos Dados' role='client' /&gt;" TimeoutMS="20000" WaitForReady="COMPLETE" />
         </ui:UiElementExists.Target>
       </ui:UiElementExists>
-      <If DisplayName="If  - importationReport" sap:VirtualizedContainerService.HintSize="486,442" sap2010:WorkflowViewState.IdRef="If_18">
+      <If DisplayName="If  - importationReport" sap:VirtualizedContainerService.HintSize="522,1025" sap2010:WorkflowViewState.IdRef="If_18">
         <If.Condition>
           <InArgument x:TypeArguments="x:Boolean">
             <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_487">importationReport</CSharpValue>
           </InArgument>
         </If.Condition>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
         <If.Then>
-          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,222" sap2010:WorkflowViewState.IdRef="Sequence_118">
+          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="520,805" sap2010:WorkflowViewState.IdRef="Sequence_118">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Erros screen" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_100">
+            <Sequence DisplayName="Erros screen" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="Sequence_100">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="aaStateErros" />
               </Sequence.Variables>
@@ -246,7 +252,7 @@
               <If DisplayName="Se houverem erros" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="If_12">
                 <If.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
-                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_416">aaStateErros == "focalizável"</CSharpValue>
+                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_489">!aaStateErros.ToLower().Contains("não disponível")</CSharpValue>
                   </InArgument>
                 </If.Condition>
                 <sap:WorkflowViewStateService.ViewState>
@@ -438,7 +444,7 @@
                 </If.Else>
               </If>
             </Sequence>
-            <Sequence DisplayName="Criticas de estruturas" sap:VirtualizedContainerService.HintSize="450,165" sap2010:WorkflowViewState.IdRef="Sequence_101">
+            <Sequence DisplayName="Criticas de estruturas" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="Sequence_101">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="aaStateCriticasDeEstruturas" />
               </Sequence.Variables>
@@ -464,10 +470,10 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:GetAttribute>
-              <If DisplayName="If - Criticas de estruturas" sap:VirtualizedContainerService.HintSize="452,157" sap2010:WorkflowViewState.IdRef="If_13">
+              <If DisplayName="If - Criticas de estruturas" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="If_13">
                 <If.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
-                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_452">aaStateCriticasDeEstruturas.ToLower().Contains("focalizável")</CSharpValue>
+                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_488">!aaStateCriticasDeEstruturas.ToLower().Contains("não disponível")</CSharpValue>
                   </InArgument>
                 </If.Condition>
                 <sap:WorkflowViewStateService.ViewState>
@@ -477,7 +483,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <If.Then>
-                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,713" sap2010:WorkflowViewState.IdRef="Sequence_102">
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_102">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:Boolean" Name="desejaGravarOsDados" />
                     </Sequence.Variables>
@@ -679,7 +685,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:Click>
-                    <Sequence DisplayName="exceptionMessage" sap:VirtualizedContainerService.HintSize="450,311" sap2010:WorkflowViewState.IdRef="Sequence_107">
+                    <Sequence DisplayName="exceptionMessage" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_107">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="exceptionMessage" />
                       </Sequence.Variables>
@@ -721,10 +727,10 @@ screenshotFileName</CSharpValue>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </ui:LogMessage>
-                      <Throw sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Throw_1">
+                      <Throw sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Throw_1">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
@@ -747,13 +753,13 @@ screenshotFileName</CSharpValue>
                 </If.Else>
               </If>
             </Sequence>
-            <Sequence DisplayName="Advertências" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_104">
+            <Sequence DisplayName="Advertências" sap:VirtualizedContainerService.HintSize="486,631" sap2010:WorkflowViewState.IdRef="Sequence_104">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="aaStateAdvertencias" />
               </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
@@ -776,7 +782,7 @@ screenshotFileName</CSharpValue>
               <If DisplayName="If" sap:VirtualizedContainerService.HintSize="452,491" sap2010:WorkflowViewState.IdRef="If_14">
                 <If.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
-                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_456">aaStateAdvertencias.Contains("focalizável")</CSharpValue>
+                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_490">!aaStateAdvertencias.Contains("não disponível")</CSharpValue>
                   </InArgument>
                 </If.Condition>
                 <sap:WorkflowViewStateService.ViewState>
@@ -1017,7 +1023,7 @@ screenshotFileName</CSharpValue>
           </Sequence>
         </If.Then>
         <If.Else>
-          <Sequence DisplayName="Ignore" sap:VirtualizedContainerService.HintSize="484,90" sap2010:WorkflowViewState.IdRef="Sequence_119">
+          <Sequence DisplayName="Ignore" sap:VirtualizedContainerService.HintSize="520,90" sap2010:WorkflowViewState.IdRef="Sequence_119">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
