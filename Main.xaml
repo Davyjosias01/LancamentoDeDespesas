@@ -197,7 +197,7 @@
         <av:PointCollection x:Key="ConnectorLocation">395,270 425.00000000000006,270 425.00000000000006,268.15 470,268.15</av:PointCollection>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <State x:Name="__ReferenceID0" sap2010:Annotation.AnnotationText="Read configuration file and initialize applications used in the process." DisplayName="Initialization" sap:VirtualizedContainerService.HintSize="200,121" sap2010:WorkflowViewState.IdRef="State_4">
+    <State x:Name="__ReferenceID0" sap2010:Annotation.AnnotationText="Read configuration file and initialize applications used in the process." DisplayName="Initialization" sap:VirtualizedContainerService.HintSize="604,2343" sap2010:WorkflowViewState.IdRef="State_4">
       <State.Entry>
         <TryCatch DisplayName="Try initializing settings and applications" sap:VirtualizedContainerService.HintSize="558,1919" sap2010:WorkflowViewState.IdRef="TryCatch_1">
           <sap:WorkflowViewStateService.ViewState>
@@ -542,7 +542,7 @@ String.IsNullOrEmpty(Config["obligationCode"].ToString())</CSharpValue>
                                     </rvbo:GetObligation.obligation_finished>
                                     <rvbo:GetObligation.obligations_jtoken_list>
                                       <OutArgument x:TypeArguments="scg:List(njl:JToken)">
-                                        <CSharpReference x:TypeArguments="scg:List(njl:JToken)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_135">GlobalVariablesNamespace.GlobalVariables.Companies</CSharpReference>
+                                        <CSharpReference x:TypeArguments="scg:List(njl:JToken)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_140">GlobalVariablesNamespace.GlobalVariables.Companies</CSharpReference>
                                       </OutArgument>
                                     </rvbo:GetObligation.obligations_jtoken_list>
                                     <rvbo:GetObligation.relationships>

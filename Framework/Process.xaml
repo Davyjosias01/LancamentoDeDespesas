@@ -75,12 +75,12 @@
       <x:String>UiPath.Database</x:String>
       <x:String>UiPath.Database.Activities</x:String>
       <x:String>UiPath.DataTableUtilities</x:String>
-      <x:String>GlobalVariablesNamespace</x:String>
-      <x:String>GlobalConstantsNamespace</x:String>
       <x:String>UiPath.UIAutomationNext.Activities</x:String>
       <x:String>UiPath.Shared.Activities</x:String>
       <x:String>UiPath.Platform.ObjectLibrary</x:String>
       <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -1609,7 +1609,7 @@ Where ctparmto.codi_emp = '{ companyDominioCode }'"</CSharpValue>
           </sap:WorkflowViewStateService.ViewState>
         </ui:Click>
       </Sequence>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="VerificaçãodaImportação" sap:VirtualizedContainerService.HintSize="450,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="VerificaçãodaImportação.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="VerificaçãodaImportação" sap:VirtualizedContainerService.HintSize="450,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="VerificacaodaImportacao.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="io_integrationNote">
             <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_422">out_IntegrationNote</CSharpValue>

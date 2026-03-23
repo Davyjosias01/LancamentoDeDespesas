@@ -64,7 +64,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Use the Kill Process activity to force the termination of the Windows processes representing applications used in the business process being automated.&#xA;Note that killing processes might have undesirable outcomes, such as losing unsaved changes to files." DisplayName="Kill All Processes" sap:VirtualizedContainerService.HintSize="1045,571" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap2010:Annotation.AnnotationText="Use the Kill Process activity to force the termination of the Windows processes representing applications used in the business process being automated.&#xA;Note that killing processes might have undesirable outcomes, such as losing unsaved changes to files." DisplayName="Kill All Processes" sap:VirtualizedContainerService.HintSize="1051,807.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -83,7 +83,7 @@
         </InArgument>
       </ui:LogMessage.Message>
     </ui:LogMessage>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,328" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="ATIVAR DEPOIS" sap:VirtualizedContainerService.HintSize="486,328" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
