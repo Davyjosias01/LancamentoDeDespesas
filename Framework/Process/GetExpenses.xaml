@@ -153,20 +153,20 @@
       <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="758,1139" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="1045,1498" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="njl:JObject" Name="jObject_responseContent" />
+      <Variable x:TypeArguments="x:String" Name="getExpenses_url" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Get Expenses" sap:VirtualizedContainerService.HintSize="548,1116" sap2010:WorkflowViewState.IdRef="Sequence_56">
+    <Sequence DisplayName="Get Expenses" sap:VirtualizedContainerService.HintSize="548,1475" sap2010:WorkflowViewState.IdRef="Sequence_56">
       <Sequence.Variables>
         <Variable x:TypeArguments="uwahm:HttpResponseSummary" Name="getExpenses_responseContent" />
         <Variable x:TypeArguments="x:String" Name="getExpenses_timeout" />
-        <Variable x:TypeArguments="x:String" Name="getExpenses_url" />
         <Variable x:TypeArguments="x:String" Name="getExpenses_perPage" />
         <Variable x:TypeArguments="x:String" Name="getExpenses_contentType" />
       </Sequence.Variables>
@@ -176,7 +176,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="514,430" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="514,604" sap2010:WorkflowViewState.IdRef="TryCatch_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -201,7 +201,7 @@
                     </ui:AssignOperation.To>
                     <ui:AssignOperation.Value>
                       <InArgument x:TypeArguments="s:DateTime">
-                        <CSharpValue x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpValue`1_283" xml:space="preserve">!string.IsNullOrEmpty(in_Config["getExpenses_dateStart"].ToString()) ? 
+                        <CSharpValue x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpValue`1_285" xml:space="preserve">!string.IsNullOrEmpty(in_Config["getExpenses_dateStart"].ToString()) ? 
 	
 	DateTime.ParseExact(
 		in_Config["getExpenses_dateStart"].ToString(), 
@@ -252,13 +252,13 @@
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_68">
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,174" sap2010:WorkflowViewState.IdRef="Sequence_68">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Throw DisplayName="Throw - new System.Exception(" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Throw_14">
+                <Throw DisplayName="Throw - new System.Exception(" sap:VirtualizedContainerService.HintSize="478,114" sap2010:WorkflowViewState.IdRef="Throw_14">
                   <InArgument x:TypeArguments="s:Exception">
                     <CSharpValue x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="CSharpValue`1_277" xml:space="preserve">new System.Exception(
 	in_Config["ExceptionMessage_ExpenseDatesDefinition"].ToString() + Environment.NewLine +
@@ -281,13 +281,13 @@
           </Sequence>
         </TryCatch.Finally>
       </TryCatch>
-      <ui:MultipleAssign sap2010:Annotation.AnnotationText="getExpensesVariables" DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="514,88" sap2010:WorkflowViewState.IdRef="MultipleAssign_6">
+      <ui:MultipleAssign sap2010:Annotation.AnnotationText="getExpensesVariables" DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="514,273" sap2010:WorkflowViewState.IdRef="MultipleAssign_6">
         <ui:MultipleAssign.AssignOperations>
           <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_15">
               <ui:AssignOperation.To>
                 <OutArgument x:TypeArguments="x:String">
-                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_44">getExpenses_url</CSharpReference>
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_52">getExpenses_url</CSharpReference>
                 </OutArgument>
               </ui:AssignOperation.To>
               <ui:AssignOperation.Value>
@@ -339,7 +339,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>

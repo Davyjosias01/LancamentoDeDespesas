@@ -164,7 +164,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="1045,2413" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="1045,1455" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:List(njl:JToken)" Name="aux_listJtoken" />
     </Sequence.Variables>
@@ -173,7 +173,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign DisplayName="Assign - especificDebitAccounts" sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_16">
+    <Assign DisplayName="Assign - especificDebitAccounts" sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="Assign_16">
       <Assign.To>
         <OutArgument x:TypeArguments="s:String[]">
           <CSharpReference x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpReference`1_39">in_especificDebitAccounts</CSharpReference>
@@ -181,7 +181,7 @@
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="s:String[]">
-          <CSharpValue x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_320" xml:space="preserve">in_especificDebitAccounts == null ?
+          <CSharpValue x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_324" xml:space="preserve">in_especificDebitAccounts == null ?
 
 	in_Config["especificDebitAccount"]
     	.ToString()
@@ -197,7 +197,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign DisplayName="Assign - out_companiesLists" sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign DisplayName="Assign - out_companiesLists" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="scg:List(scg:List(njl:JToken))">
           <CSharpReference x:TypeArguments="scg:List(scg:List(njl:JToken))" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">out_companiesLists</CSharpReference>
@@ -210,12 +210,12 @@
       </Assign.Value>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <If sap2010:Annotation.AnnotationText="Se não houverem contas de débito específicas para se gerar as listas" sap:VirtualizedContainerService.HintSize="524,2276" sap2010:WorkflowViewState.IdRef="If_1">
+    <If sap2010:Annotation.AnnotationText="Se não houverem contas de débito específicas para se gerar as listas" sap:VirtualizedContainerService.HintSize="488,1200" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Condition>
         <InArgument x:TypeArguments="x:Boolean">
           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_250">in_especificDebitAccounts == null || in_especificDebitAccounts.Count() &lt; 1</CSharpValue>
@@ -229,12 +229,12 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="522,267" sap2010:WorkflowViewState.IdRef="Sequence_70">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="486,25" sap2010:WorkflowViewState.IdRef="Sequence_70">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
               <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <Assign sap2010:Annotation.AnnotationText="Colocando a variàvel &quot;name&quot; no primeiro item da lista para nomear o arquivo." DisplayName="Assign - in_allExpenses[0][&quot;name&quot;]" sap:VirtualizedContainerService.HintSize="488,102" sap2010:WorkflowViewState.IdRef="Assign_14">
@@ -280,7 +280,7 @@
         </Sequence>
       </If.Then>
       <If.Else>
-        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="522,1848" sap2010:WorkflowViewState.IdRef="Sequence_71">
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="486,1014" sap2010:WorkflowViewState.IdRef="Sequence_71">
           <Sequence.Variables>
             <Variable x:TypeArguments="scg:List(njl:JToken)" Name="currentDebitAccountList" />
           </Sequence.Variables>
@@ -290,7 +290,7 @@
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Assign DisplayName="Assign - aux_listJtoken" sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="Assign_3">
+          <Assign DisplayName="Assign - aux_listJtoken" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="Assign_3">
             <Assign.To>
               <OutArgument x:TypeArguments="scg:List(njl:JToken)">
                 <CSharpReference x:TypeArguments="scg:List(njl:JToken)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_22">aux_listJtoken</CSharpReference>
@@ -308,7 +308,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </Assign>
-          <Assign DisplayName="Assign - currentDebitAccountList" sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="Assign_4">
+          <Assign DisplayName="Assign - currentDebitAccountList" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="Assign_4">
             <Assign.To>
               <OutArgument x:TypeArguments="scg:List(njl:JToken)">
                 <CSharpReference x:TypeArguments="scg:List(njl:JToken)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_16">currentDebitAccountList</CSharpReference>
@@ -326,19 +326,20 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </Assign>
-          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each debitAccount" sap:VirtualizedContainerService.HintSize="488,990" sap2010:WorkflowViewState.IdRef="ForEach`1_3">
+          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each debitAccount" sap:VirtualizedContainerService.HintSize="452,156" sap2010:WorkflowViewState.IdRef="ForEach`1_3">
             <ui:ForEach.Body>
               <ActivityAction x:TypeArguments="x:String">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:String" Name="debitAccount" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,859" sap2010:WorkflowViewState.IdRef="Sequence_72">
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_72">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="njl:JToken" Name="jToken_auxExpense" />
                   </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <uasc:RemoveFromCollection x:TypeArguments="njl:JToken" Index="{x:Null}" Item="{x:Null}" sap2010:Annotation.AnnotationText="limpa a lista currentDebitAccountList" DisplayName="Remove From Collection" sap:VirtualizedContainerService.HintSize="452,88" sap2010:WorkflowViewState.IdRef="RemoveFromCollection`1_2" RemoveAllElements="True">
@@ -363,7 +364,7 @@
                     </Assign.To>
                     <Assign.Value>
                       <InArgument x:TypeArguments="scg:List(njl:JToken)">
-                        <CSharpValue x:TypeArguments="scg:List(njl:JToken)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_311" xml:space="preserve">in_allExpenses
+                        <CSharpValue x:TypeArguments="scg:List(njl:JToken)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_325" xml:space="preserve">in_allExpenses
     .Where(x =&gt; x["accounting_source"]["dominio_debit_account"].ToString() == debitAccount)
 .ToList()</CSharpValue>
                       </InArgument>
@@ -668,7 +669,7 @@
               </InArgument>
             </ui:ForEach.Values>
           </ui:ForEach>
-          <If sap2010:Annotation.AnnotationText="Se houverem empresas que não estavam nas contas de débito especificadas." sap:VirtualizedContainerService.HintSize="488,684" sap2010:WorkflowViewState.IdRef="If_5">
+          <If sap2010:Annotation.AnnotationText="Se houverem empresas que não estavam nas contas de débito especificadas." sap:VirtualizedContainerService.HintSize="452,684" sap2010:WorkflowViewState.IdRef="If_5">
             <If.Condition>
               <InArgument x:TypeArguments="x:Boolean">
                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_323">in_allExpenses.Count &gt;= 1</CSharpValue>

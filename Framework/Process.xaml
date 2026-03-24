@@ -195,7 +195,7 @@
       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Process" sap:VirtualizedContainerService.HintSize="1045,2187" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Process" sap:VirtualizedContainerService.HintSize="1045,2841" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="parametrization" />
       <Variable x:TypeArguments="x:Int32" Name="defaultDelayBefore" />
@@ -266,20 +266,20 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Sequence sap2010:Annotation.AnnotationText="companyCnpj&#xA;companyDominioCode" DisplayName="Process variables" sap:VirtualizedContainerService.HintSize="556,102" sap2010:WorkflowViewState.IdRef="Sequence_57">
+    <Sequence sap2010:Annotation.AnnotationText="companyCnpj&#xA;companyDominioCode" DisplayName="Process variables" sap:VirtualizedContainerService.HintSize="556,370" sap2010:WorkflowViewState.IdRef="Sequence_57">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="currentMonthUnderscore" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="MultipleAssign_4">
+      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478,233" sap2010:WorkflowViewState.IdRef="MultipleAssign_4">
         <ui:MultipleAssign.AssignOperations>
-          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_10">
               <ui:AssignOperation.To>
                 <OutArgument x:TypeArguments="x:String">
@@ -332,7 +332,7 @@
         </ui:MultipleAssign.AssignOperations>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -1609,7 +1609,7 @@ Where ctparmto.codi_emp = '{ companyDominioCode }'"</CSharpValue>
           </sap:WorkflowViewStateService.ViewState>
         </ui:Click>
       </Sequence>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="VerificaçãodaImportação" sap:VirtualizedContainerService.HintSize="484,48" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="VerificacaodaImportacao.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="VerificaçãodaImportação" sap:VirtualizedContainerService.HintSize="484,48" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Framework\\Process\\VerificacaodaImportacao.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="io_integrationNote">
             <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_422">out_IntegrationNote</CSharpValue>
@@ -1638,39 +1638,87 @@ Where ctparmto.codi_emp = '{ companyDominioCode }'"</CSharpValue>
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
     </Sequence>
-    <Sequence DisplayName="Integrate expenses" sap:VirtualizedContainerService.HintSize="556,973" sap2010:WorkflowViewState.IdRef="Sequence_99">
+    <Sequence DisplayName="Integrate expenses" sap:VirtualizedContainerService.HintSize="556,1359" sap2010:WorkflowViewState.IdRef="Sequence_99">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="postExpense_endpoint" />
+        <Variable x:TypeArguments="x:Int32" Name="postExpense_timeout" />
+        <Variable x:TypeArguments="x:String" Name="expenseUrl" />
+      </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ForEach x:TypeArguments="scg:List(njl:JToken)" CurrentIndex="{x:Null}" DisplayName="For Each currentList" sap:VirtualizedContainerService.HintSize="522,890" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="522,211" sap2010:WorkflowViewState.IdRef="MultipleAssign_7">
+        <ui:MultipleAssign.AssignOperations>
+          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_24">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_111">postExpense_endpoint</CSharpReference>
+                </OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_448">in_Config["postExpenses_endPoint"].ToString()</CSharpValue>
+                </InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_25">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:Int32">
+                  <CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_114">postExpense_timeout</CSharpReference>
+                </OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:Int32">
+                  <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_450">int.Parse( in_Config["postExpenses_timeout"].ToString() )</CSharpValue>
+                </InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_26">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_113">expenseUrl</CSharpReference>
+                </OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_451">in_Config["expensesUrl"].ToString()</CSharpValue>
+                </InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+          </scg:List>
+        </ui:MultipleAssign.AssignOperations>
+      </ui:MultipleAssign>
+      <ui:ForEach x:TypeArguments="scg:List(njl:JToken)" CurrentIndex="{x:Null}" DisplayName="For Each currentList" sap:VirtualizedContainerService.HintSize="522,1065" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
         <ui:ForEach.Body>
           <ActivityAction x:TypeArguments="scg:List(njl:JToken)">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="scg:List(njl:JToken)" Name="currentList" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,768" sap2010:WorkflowViewState.IdRef="Sequence_100">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,943" sap2010:WorkflowViewState.IdRef="Sequence_100">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:ForEach x:TypeArguments="njl:JToken" CurrentIndex="{x:Null}" DisplayName="For Each currentExpense" sap:VirtualizedContainerService.HintSize="486,708" sap2010:WorkflowViewState.IdRef="ForEach`1_3">
+              <ui:ForEach x:TypeArguments="njl:JToken" CurrentIndex="{x:Null}" DisplayName="For Each currentExpense" sap:VirtualizedContainerService.HintSize="486,883" sap2010:WorkflowViewState.IdRef="ForEach`1_3">
                 <ui:ForEach.Body>
                   <ActivityAction x:TypeArguments="njl:JToken">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="njl:JToken" Name="currentExpense" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,586" sap2010:WorkflowViewState.IdRef="Sequence_101">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,761" sap2010:WorkflowViewState.IdRef="Sequence_101">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="IntegrateExpense" sap:VirtualizedContainerService.HintSize="450,526" sap2010:WorkflowViewState.IdRef="Sequence_102">
+                      <Sequence DisplayName="IntegrateExpense" sap:VirtualizedContainerService.HintSize="450,701" sap2010:WorkflowViewState.IdRef="Sequence_102">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:String" Name="integrateExpenseUrl" />
+                          <Variable x:TypeArguments="uwahm:HttpResponseSummary" Name="postExpense_responseContent" />
                         </Sequence.Variables>
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1685,11 +1733,17 @@ Where ctparmto.codi_emp = '{ companyDominioCode }'"</CSharpValue>
                           </Assign.To>
                           <Assign.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_437">in_Config["expensesUrl"].ToString() + "/" + currentExpense["id"].ToString() + "/set_as_integrated"</CSharpValue>
+                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_457">expenseUrl + "/" + currentExpense["id"].ToString() + "/" + postExpense_endpoint</CSharpValue>
                             </InArgument>
                           </Assign.Value>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
                         </Assign>
-                        <uwah:NetHttpRequest BasicAuthPassword="{x:Null}" BasicAuthSecurePassword="{x:Null}" BasicAuthUsername="{x:Null}" BinaryPayload="{x:Null}" ClientCertPassword="{x:Null}" ClientCertPath="{x:Null}" ClientCertSecurePassword="{x:Null}" Cookies="{x:Null}" CustomNegotiatedAuthCredentials="{x:Null}" FilePath="{x:Null}" FormData="{x:Null}" Headers="{x:Null}" LocalFiles="{x:Null}" OAuthToken="{x:Null}" OutputFileName="{x:Null}" OutputFileTargetFolder="{x:Null}" Parameters="{x:Null}" PathResource="{x:Null}" ProxyConfiguration="{x:Null}" ResourceFiles="{x:Null}" TextPayload="{x:Null}" AuthenticationType="None" ContinueOnError="True" DisableSslVerification="False" DisplayName="HTTP Request" EnableCookies="True" FileOverwrite="AutoRename" FollowRedirects="True" sap:VirtualizedContainerService.HintSize="416,268" sap2010:WorkflowViewState.IdRef="NetHttpRequest_1" InitialDelay="500" MaxRedirects="3" MaxRetryAfterDelay="30000" Method="GET" Multiplier="2" PreferRetryAfterValue="True" RequestBodyType="None" RetryCount="3" RetryPolicyType="Basic" SaveRawRequestResponse="False" SaveResponseAsFile="False" TextPayloadContentType="application/json" TextPayloadEncoding="UTF-8" TlsProtocol="Automatic" UseJitter="True" UseOsNegotiatedAuthCredentials="True">
+                        <uwah:NetHttpRequest BasicAuthPassword="{x:Null}" BasicAuthSecurePassword="{x:Null}" BasicAuthUsername="{x:Null}" BinaryPayload="{x:Null}" ClientCertPassword="{x:Null}" ClientCertPath="{x:Null}" ClientCertSecurePassword="{x:Null}" Cookies="{x:Null}" CustomNegotiatedAuthCredentials="{x:Null}" FilePath="{x:Null}" FormData="{x:Null}" LocalFiles="{x:Null}" OAuthToken="{x:Null}" OutputFileName="{x:Null}" OutputFileTargetFolder="{x:Null}" PathResource="{x:Null}" ProxyConfiguration="{x:Null}" ResourceFiles="{x:Null}" TextPayload="{x:Null}" TimeoutInMiliseconds="{x:Null}" AuthenticationType="None" ContinueOnError="True" DisableSslVerification="False" DisplayName="HTTP Request" EnableCookies="True" FileOverwrite="AutoRename" FollowRedirects="True" sap:VirtualizedContainerService.HintSize="416,277" sap2010:WorkflowViewState.IdRef="NetHttpRequest_1" InitialDelay="500" MaxRedirects="3" MaxRetryAfterDelay="30000" Method="POST" Multiplier="2" PreferRetryAfterValue="True" RequestBodyType="None" RetryCount="3" RetryPolicyType="Basic" SaveRawRequestResponse="False" SaveResponseAsFile="False" TextPayloadContentType="application/json" TextPayloadEncoding="UTF-8" TlsProtocol="Automatic" UseJitter="True" UseOsNegotiatedAuthCredentials="True">
                           <uwah:NetHttpRequest.FormDataParts>
                             <InArgument x:TypeArguments="scg:IEnumerable(uwahm:FormDataPart)">
                               <CSharpValue x:TypeArguments="scg:IEnumerable(uwahm:FormDataPart)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_428" xml:space="preserve">new List&lt;FormDataPart&gt; 
@@ -1700,11 +1754,26 @@ Where ctparmto.codi_emp = '{ companyDominioCode }'"</CSharpValue>
 }</CSharpValue>
                             </InArgument>
                           </uwah:NetHttpRequest.FormDataParts>
+                          <uwah:NetHttpRequest.Headers>
+                            <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)">
+                              <CSharpValue x:TypeArguments="scg:Dictionary(x:String, x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_439">new System.Collections.Generic.Dictionary&lt;System.String, System.String&gt;() { { "Authorization", in_Config["authorization"].ToString() } }</CSharpValue>
+                            </InArgument>
+                          </uwah:NetHttpRequest.Headers>
+                          <uwah:NetHttpRequest.Parameters>
+                            <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)">
+                              <CSharpValue x:TypeArguments="scg:Dictionary(x:String, x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_438">new System.Collections.Generic.Dictionary&lt;System.String, System.String&gt;() { { "Content-Type", "application/json" },{ "cnpj", companyCnpj } }</CSharpValue>
+                            </InArgument>
+                          </uwah:NetHttpRequest.Parameters>
                           <uwah:NetHttpRequest.RequestUrl>
                             <InArgument x:TypeArguments="x:String">
                               <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_435">integrateExpenseUrl</CSharpValue>
                             </InArgument>
                           </uwah:NetHttpRequest.RequestUrl>
+                          <uwah:NetHttpRequest.Result>
+                            <OutArgument x:TypeArguments="uwahm:HttpResponseSummary">
+                              <CSharpReference x:TypeArguments="uwahm:HttpResponseSummary" sap2010:WorkflowViewState.IdRef="CSharpReference`1_109">postExpense_responseContent</CSharpReference>
+                            </OutArgument>
+                          </uwah:NetHttpRequest.Result>
                           <uwah:NetHttpRequest.RetryStatusCodes>
                             <InArgument x:TypeArguments="scg:IEnumerable(sn:HttpStatusCode)">
                               <CSharpValue x:TypeArguments="scg:IEnumerable(sn:HttpStatusCode)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_427" xml:space="preserve">new List&lt;System.Net.HttpStatusCode&gt; 
@@ -1718,12 +1787,27 @@ Where ctparmto.codi_emp = '{ companyDominioCode }'"</CSharpValue>
 }</CSharpValue>
                             </InArgument>
                           </uwah:NetHttpRequest.RetryStatusCodes>
-                          <uwah:NetHttpRequest.TimeoutInMiliseconds>
-                            <InArgument x:TypeArguments="s:Nullable(x:Int32)">
-                              <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="10000" />
-                            </InArgument>
-                          </uwah:NetHttpRequest.TimeoutInMiliseconds>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
                         </uwah:NetHttpRequest>
+                        <ui:LogMessage DisplayName="Log Message - &quot;expense integration status: &quot; + postExpense_responseContent.StatusCode.ToString() + Environment.NewLine +" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Info">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_446" xml:space="preserve">"expense integration status: " + postExpense_responseContent.StatusCode.ToString() + Environment.NewLine +
+"current expense: " + currentExpense["id"].ToString()</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:LogMessage>
                       </Sequence>
                     </Sequence>
                   </ActivityAction>

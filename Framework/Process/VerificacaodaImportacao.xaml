@@ -171,7 +171,7 @@
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1045,1270" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="763,1270" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:Image" Name="ScreenshotDominio" />
       <Variable x:TypeArguments="x:String" Name="screenshotFileName" />
@@ -792,7 +792,7 @@ screenshotFileName</CSharpValue>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <If.Then>
-                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,336" sap2010:WorkflowViewState.IdRef="Sequence_105">
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="486,829" sap2010:WorkflowViewState.IdRef="Sequence_105">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:Boolean" Name="dadosGravadosComSucesso" />
                     </Sequence.Variables>
@@ -801,7 +801,7 @@ screenshotFileName</CSharpValue>
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:LogMessage DisplayName="Log Message - &quot;Há advertências&quot;" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="LogMessage_19" Level="Info">
+                    <ui:LogMessage DisplayName="Log Message - &quot;Há advertências&quot;" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="LogMessage_19" Level="Info">
                       <ui:LogMessage.Message>
                         <InArgument x:TypeArguments="x:Object">
                           <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_425">"Há advertências"</CSharpValue>
@@ -814,7 +814,7 @@ screenshotFileName</CSharpValue>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:LogMessage>
-                    <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Todos" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT">
+                    <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Todos" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT">
                       <ui:Click.CursorPosition>
                         <ui:CursorPosition Position="Center">
                           <ui:CursorPosition.OffsetX>
@@ -845,7 +845,7 @@ screenshotFileName</CSharpValue>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:Click>
-                    <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Gravar" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
+                    <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Gravar" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
                       <ui:Click.CursorPosition>
                         <ui:CursorPosition Position="Center">
                           <ui:CursorPosition.OffsetX>
@@ -876,7 +876,7 @@ screenshotFileName</CSharpValue>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:Click>
-                    <ui:UiElementExists DisplayName="Element Exists - Dados gravados com sucesso" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+                    <ui:UiElementExists DisplayName="Element Exists - Dados gravados com sucesso" sap:VirtualizedContainerService.HintSize="452,139" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
                       <ui:UiElementExists.Exists>
                         <OutArgument x:TypeArguments="x:Boolean">
                           <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_111">dadosGravadosComSucesso</CSharpReference>
@@ -887,12 +887,12 @@ screenshotFileName</CSharpValue>
                       </ui:UiElementExists.Target>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:UiElementExists>
-                    <If sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="If_16">
+                    <If sap:VirtualizedContainerService.HintSize="452,459" sap2010:WorkflowViewState.IdRef="If_16">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_463">dadosGravadosComSucesso</CSharpValue>
@@ -900,12 +900,12 @@ screenshotFileName</CSharpValue>
                       </If.Condition>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,222" sap2010:WorkflowViewState.IdRef="Sequence_112">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,304" sap2010:WorkflowViewState.IdRef="Sequence_112">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -960,7 +960,7 @@ screenshotFileName</CSharpValue>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:Click>
-                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Fechar" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT">
+                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Fechar" sap:VirtualizedContainerService.HintSize="416,130" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT">
                             <ui:Click.CursorPosition>
                               <ui:CursorPosition Position="Center">
                                 <ui:CursorPosition.OffsetX>
@@ -972,7 +972,7 @@ screenshotFileName</CSharpValue>
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="98bcd59d-46f4-4517-b384-6f9bf683a58c" InformativeScreenshot="d4bfefa4d4cabd1d1539518b2f1610ce" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio Contabilidade Fiscal  - Versão: 10.6A-02 - 10' /&gt;&lt;wnd cls='FNWND*' title='Importação de Arquivo' /&gt;&lt;wnd aaname='Fechar' cls='Button' title='&amp;amp;Fechar' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="98bcd59d-46f4-4517-b384-6f9bf683a58c" InformativeScreenshot="d4bfefa4d4cabd1d1539518b2f1610ce" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd cls='FNWND*' title='Importação de Arquivo' /&gt;&lt;wnd aaname='Fechar' cls='Button' title='&amp;amp;Fechar' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -983,7 +983,7 @@ screenshotFileName</CSharpValue>
                             </ui:Click.Target>
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
