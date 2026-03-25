@@ -44,6 +44,8 @@
       <x:String>System.Net.Mail</x:String>
       <x:String>System.Linq.Expressions</x:String>
       <x:String>System.Numerics</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -159,7 +161,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Deseja gravar os dados" sap:VirtualizedContainerService.HintSize="450,188" sap2010:WorkflowViewState.IdRef="Sequence_115">
+    <Sequence DisplayName="Deseja gravar os dados" sap:VirtualizedContainerService.HintSize="486,624" sap2010:WorkflowViewState.IdRef="Sequence_115">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="desejaGravarOsDados" />
       </Sequence.Variables>
@@ -168,7 +170,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:UiElementExists DisplayName="Element Exists - Deseja gravar os dados?" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
+      <ui:UiElementExists DisplayName="Element Exists - Deseja gravar os dados?" sap:VirtualizedContainerService.HintSize="452,139" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
         <ui:UiElementExists.Exists>
           <OutArgument x:TypeArguments="x:Boolean">
             <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_117">desejaGravarOsDados</CSharpReference>
@@ -185,12 +187,12 @@
         </ui:UiElementExists.Target>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:UiElementExists>
-      <If DisplayName="If - desejaGravarOsDados" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="If_17">
+      <If DisplayName="If - desejaGravarOsDados" sap:VirtualizedContainerService.HintSize="452,402" sap2010:WorkflowViewState.IdRef="If_17">
         <If.Condition>
           <InArgument x:TypeArguments="x:Boolean">
             <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_478">desejaGravarOsDados</CSharpValue>
@@ -198,18 +200,18 @@
         </If.Condition>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <If.Then>
-          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,165" sap2010:WorkflowViewState.IdRef="Sequence_116">
+          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,247" sap2010:WorkflowViewState.IdRef="Sequence_116">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Não" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Click_10" KeyModifiers="None" MouseButton="BTN_LEFT">
+            <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Não" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="Click_10" KeyModifiers="None" MouseButton="BTN_LEFT">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -231,11 +233,11 @@
                 </InArgument>
               </ui:Click.DelayMS>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f7f6eab8-c142-4602-8867-972f73dd353f" InformativeScreenshot="3d6e358f727011fd1c881815a699ed79" Selector="&lt;wnd app='contabil.exe' cls='#32770' title='Fechar' /&gt;&lt;wnd ctrlid='7' title='&amp;amp;Não' /&gt;" TimeoutMS="2500" WaitForReady="COMPLETE" />
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f7f6eab8-c142-4602-8867-972f73dd353f" InformativeScreenshot="3d6e358f727011fd1c881815a699ed79" Selector="&lt;wnd app='contabil.exe' cls='#32770' title='Fechar' /&gt;&lt;wnd ctrlid='7' matching:title='regex' title='&amp;amp;Não' /&gt;" TimeoutMS="2500" WaitForReady="COMPLETE" />
               </ui:Click.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>

@@ -186,7 +186,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <StateMachine InitialState="{x:Reference __ReferenceID0}" sap2010:Annotation.AnnotationText="LancamentoDeDespesas&#xA;Processo que realiza o lancamento das despesas em lote no sistema Domínio para as empresas cadastradas na Razonet contabilidade&#xA;Author: Davy J Scheuermann" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="769,449" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+  <StateMachine InitialState="{x:Reference __ReferenceID0}" sap2010:Annotation.AnnotationText="LancamentoDeDespesas&#xA;Processo que realiza o lancamento das despesas em lote no sistema Domínio para as empresas cadastradas na Razonet contabilidade&#xA;Author: Davy J Scheuermann" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="769,808" sap2010:WorkflowViewState.IdRef="StateMachine_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1299,13 +1299,13 @@ JsonConvert.SerializeObject(GlobalVariables.Companies, Newtonsoft.Json.Formattin
                 <Transition DisplayName="New Transaction" sap:VirtualizedContainerService.HintSize="450,527" sap2010:WorkflowViewState.IdRef="Transition_4">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <av:PointCollection x:Key="ConnectorLocation">830,435 830,465 729,465 729,526</av:PointCollection>
+                      <av:PointCollection x:Key="ConnectorLocation">830,435 830,465 828,465 828,526</av:PointCollection>
                       <x:Int32 x:Key="SrcConnectionPointIndex">39</x:Int32>
                       <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <Transition.To>
-                    <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Process a single transaction. &#xA;The result of the processing can be: 1) Success, 2) Business Exception, 3) System Exception. &#xA;In the case of a system exception, the transaction can be automatically retried." DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="498,1453" sap2010:WorkflowViewState.IdRef="State_1">
+                    <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Process a single transaction. &#xA;The result of the processing can be: 1) Success, 2) Business Exception, 3) System Exception. &#xA;In the case of a system exception, the transaction can be automatically retried." DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="240,187" sap2010:WorkflowViewState.IdRef="State_1">
                       <State.Entry>
                         <TryCatch DisplayName="Try to process transaction" sap:VirtualizedContainerService.HintSize="452,955" sap2010:WorkflowViewState.IdRef="TryCatch_4">
                           <sap:WorkflowViewStateService.ViewState>
@@ -1944,7 +1944,7 @@ integrationNote</CSharpValue>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">720,526</av:Point>
-                          <av:Size x:Key="ShapeSize">20,20</av:Size>
+                          <av:Size x:Key="ShapeSize">240,187</av:Size>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                           <x:Double x:Key="StateContainerWidth">227.9999999999998</x:Double>
@@ -1955,7 +1955,7 @@ integrationNote</CSharpValue>
                         <Transition DisplayName="System Exception" sap:VirtualizedContainerService.HintSize="450,247" sap2010:WorkflowViewState.IdRef="Transition_8">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <av:PointCollection x:Key="ConnectorLocation">728,546 728,576 570,576 570,371</av:PointCollection>
+                              <av:PointCollection x:Key="ConnectorLocation">816,713 816,743 570,743 570,371</av:PointCollection>
                               <x:Int32 x:Key="SrcConnectionPointIndex">31</x:Int32>
                               <x:Int32 x:Key="DestConnectionPointIndex">39</x:Int32>
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1991,7 +1991,7 @@ integrationNote</CSharpValue>
                         <Transition sap2010:Annotation.AnnotationText="There is no need for any action in case of successful transaction.&#xA;The process should simply go to next transaction." DisplayName="Success" sap:VirtualizedContainerService.HintSize="470,572" sap2010:WorkflowViewState.IdRef="Transition_10">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <av:PointCollection x:Key="ConnectorLocation">740,533 965,533 965,380.5 935,380.5</av:PointCollection>
+                              <av:PointCollection x:Key="ConnectorLocation">960,591.45 990,591.45 990,380.5 935,380.5</av:PointCollection>
                               <x:Int32 x:Key="SrcConnectionPointIndex">24</x:Int32>
                               <x:Int32 x:Key="DestConnectionPointIndex">36</x:Int32>
                               <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -2022,7 +2022,7 @@ integrationNote</CSharpValue>
                         <Transition sap2010:Annotation.AnnotationText="Business Rule Exception" DisplayName="Business Exception" sap:VirtualizedContainerService.HintSize="450,558" sap2010:WorkflowViewState.IdRef="Transition_9">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <av:PointCollection x:Key="ConnectorLocation">720,533 690,533 690,380.5 725,380.5</av:PointCollection>
+                              <av:PointCollection x:Key="ConnectorLocation">720,591.45 690,591.45 690,380.5 725,380.5</av:PointCollection>
                               <x:Int32 x:Key="SrcConnectionPointIndex">25</x:Int32>
                               <x:Int32 x:Key="DestConnectionPointIndex">37</x:Int32>
                               <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>

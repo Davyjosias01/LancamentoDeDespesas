@@ -158,13 +158,13 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="875,606" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="769,807.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="GetFullCompany" sap:VirtualizedContainerService.HintSize="450,583" sap2010:WorkflowViewState.IdRef="Sequence_18">
+    <Sequence DisplayName="GetFullCompany" sap:VirtualizedContainerService.HintSize="450,700" sap2010:WorkflowViewState.IdRef="Sequence_18">
       <Sequence.Variables>
         <Variable x:TypeArguments="uwahm:HttpResponseSummary" Name="response" />
       </Sequence.Variables>
@@ -214,7 +214,7 @@
         </uwah:NetHttpRequest.RetryStatusCodes>
         <uwah:NetHttpRequest.TimeoutInMiliseconds>
           <InArgument x:TypeArguments="s:Nullable(x:Int32)">
-            <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="10000" />
+            <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="20000" />
           </InArgument>
         </uwah:NetHttpRequest.TimeoutInMiliseconds>
         <sap:WorkflowViewStateService.ViewState>
@@ -224,7 +224,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uwah:NetHttpRequest>
-      <ui:DeserializeJson x:TypeArguments="njl:JObject" JsonSample="{x:Null}" Settings="{x:Null}" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1">
+      <ui:DeserializeJson x:TypeArguments="njl:JObject" JsonSample="{x:Null}" Settings="{x:Null}" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="416,174" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1">
         <ui:DeserializeJson.JsonObject>
           <OutArgument x:TypeArguments="njl:JObject">
             <CSharpReference x:TypeArguments="njl:JObject" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">out_jsonCompany</CSharpReference>
@@ -237,7 +237,7 @@
         </ui:DeserializeJson.JsonString>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
