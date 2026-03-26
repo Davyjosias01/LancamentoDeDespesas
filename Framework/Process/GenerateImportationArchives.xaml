@@ -168,7 +168,7 @@
       <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1045,862" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="763,862" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -183,7 +183,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ForEach x:TypeArguments="scg:List(njl:JToken)" DisplayName="For Each currentListOfJToken" sap:VirtualizedContainerService.HintSize="452,733" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
+      <ui:ForEach x:TypeArguments="scg:List(njl:JToken)" DisplayName="For Each currentListOfJToken" sap:VirtualizedContainerService.HintSize="452,756" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
         <ui:ForEach.Body>
           <ActivityAction x:TypeArguments="scg:List(njl:JToken)">
             <ActivityAction.Argument>
@@ -208,7 +208,7 @@
                 </Assign.To>
                 <Assign.Value>
                   <InArgument x:TypeArguments="x:String">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32" xml:space="preserve">string.Join(
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34" xml:space="preserve">string.Join(
     Environment.NewLine,
     currentListOfJToken.Select(x =&gt;
 		$"{in_transactionItem["dominio_code"]};" +
@@ -217,7 +217,7 @@
         $"{x["accounting_source"]["dominio_debit_account"]};" +
         $"{x["total"].ToString().Replace(".",",")};" +
         $"{x["accounting_source"]["history"]};" +
-        $"{x["note"]}"
+        $"{x["note"].ToString().Replace("\r", " ").Replace("\n", " - ")}"
     )
 )</CSharpValue>
                   </InArgument>
