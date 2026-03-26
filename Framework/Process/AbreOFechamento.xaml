@@ -154,13 +154,18 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="769,851.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence sap:VirtualizedContainerService.HintSize="763,465" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="AbreOFechamento" sap:VirtualizedContainerService.HintSize="484,442" sap2010:WorkflowViewState.IdRef="Sequence_86">
+    <Sequence DisplayName="AbreOFechamento" sap:VirtualizedContainerService.HintSize="520,1382" sap2010:WorkflowViewState.IdRef="Sequence_86">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="fechamentoScreen" />
       </Sequence.Variables>
@@ -169,7 +174,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope - Open Fechamento Screen" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+      <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope - Open Fechamento Screen" sap:VirtualizedContainerService.HintSize="486,593" sap2010:WorkflowViewState.IdRef="RetryScope_1">
         <ui:RetryScope.ActivityBody>
           <ActivityAction>
             <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,329" sap2010:WorkflowViewState.IdRef="Sequence_87">
@@ -190,7 +195,7 @@
                   </ui:CursorPosition>
                 </ui:Click.CursorPosition>
                 <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e38a78bc-4004-435a-a74f-4a7b23b79258" InformativeScreenshot="336bb322697e44613f24e62c368a94c8" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd ctrlname='menuStrip1' /&gt;&lt;ctrl name='Controle' role='menu item' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e38a78bc-4004-435a-a74f-4a7b23b79258" InformativeScreenshot="336bb322697e44613f24e62c368a94c8" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd ctrlname='menuStrip1' /&gt;&lt;ctrl text='Controle' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -222,7 +227,7 @@
                   </InArgument>
                 </ui:Click.DelayMS>
                 <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="88492134-3997-446a-98e9-1688e30cf0cd" InformativeScreenshot="54b58af92de8c3a9eb2c53e92d719b90" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd ctrlname='menuStrip1' /&gt;&lt;ctrl name='Controle' role='menu item' /&gt;&lt;ctrl name='Fechamento' role='menu item' /&gt;" WaitForReady="COMPLETE">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="88492134-3997-446a-98e9-1688e30cf0cd" InformativeScreenshot="54b58af92de8c3a9eb2c53e92d719b90" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;ctrl name='Controle' role='menu item' /&gt;&lt;ctrl text='Fechamento' /&gt;" WaitForReady="COMPLETE">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -236,14 +241,7 @@
           <ActivityFunc x:TypeArguments="x:Boolean">
             <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists - Fechamento Screen" sap:VirtualizedContainerService.HintSize="426,107" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
               <ui:UiElementExists.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3e4bf2e8-5236-4c7b-b44e-e403f848384f" InformativeScreenshot="271f9fd9c2f324f3a761285aa3a9b505" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd cls='FNWND*' title='Fechamento' /&gt;">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                  <ui:Target.WaitForReady>
-                    <InArgument x:TypeArguments="ui:WaitForReady" />
-                  </ui:Target.WaitForReady>
-                </ui:Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3e4bf2e8-5236-4c7b-b44e-e403f848384f" InformativeScreenshot="271f9fd9c2f324f3a761285aa3a9b505" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd cls='FNWND*' title='Fechamento' /&gt;" TimeoutMS="7500" WaitForReady="COMPLETE" />
               </ui:UiElementExists.Target>
             </ui:UiElementExists>
           </ActivityFunc>
@@ -255,7 +253,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:RetryScope>
-      <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBetweenKeys="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into - Próximo fechamento" EmptyField="True" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="TypeInto_1">
+      <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBetweenKeys="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into - Próximo fechamento" EmptyField="True" sap:VirtualizedContainerService.HintSize="486,188" sap2010:WorkflowViewState.IdRef="TypeInto_1">
         <ui:TypeInto.DelayBefore>
           <InArgument x:TypeArguments="x:Int32">
             <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">in_defaultDelayBefore</CSharpValue>
@@ -285,7 +283,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:TypeInto>
-      <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DelayMS="1000" DisplayName="Click - Gravar" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT">
+      <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DelayMS="1000" DisplayName="Click - Gravar" sap:VirtualizedContainerService.HintSize="486,139" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT">
         <ui:Click.CursorPosition>
           <ui:CursorPosition Position="Center">
             <ui:CursorPosition.OffsetX>
@@ -310,12 +308,12 @@
         </ui:Click.Target>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:Click>
-      <Sequence DisplayName="Advertencies" sap:VirtualizedContainerService.HintSize="450,188" sap2010:WorkflowViewState.IdRef="Sequence_90">
+      <Sequence DisplayName="Advertencies" sap:VirtualizedContainerService.HintSize="486,402" sap2010:WorkflowViewState.IdRef="Sequence_90">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:Boolean" Name="fechamentoReaberturaDoMesGravadoComSucesso" />
         </Sequence.Variables>
@@ -325,7 +323,7 @@
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:UiElementExists DisplayName="Element Exists - Fechamento/reabertura do mes" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="UiElementExists_4">
+        <ui:UiElementExists DisplayName="Element Exists - Fechamento/reabertura do mes" sap:VirtualizedContainerService.HintSize="452,139" sap2010:WorkflowViewState.IdRef="UiElementExists_4">
           <ui:UiElementExists.Exists>
             <OutArgument x:TypeArguments="x:Boolean">
               <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">fechamentoReaberturaDoMesGravadoComSucesso</CSharpReference>
@@ -341,7 +339,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:UiElementExists>
-        <If DisplayName="If - fechamentoReaberturaDoMesGravadoComSucesso" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="If_1">
+        <If DisplayName="If - fechamentoReaberturaDoMesGravadoComSucesso" sap:VirtualizedContainerService.HintSize="452,180" sap2010:WorkflowViewState.IdRef="If_1">
           <If.Condition>
             <InArgument x:TypeArguments="x:Boolean">
               <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">fechamentoReaberturaDoMesGravadoComSucesso</CSharpValue>
