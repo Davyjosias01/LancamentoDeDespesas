@@ -54,6 +54,7 @@
       <x:String>UiPath.UIAutomationCore.Contracts</x:String>
       <x:String>UiPath.Platform.SyncObjects</x:String>
       <x:String>System.Numerics</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -159,22 +160,23 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="763,998" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="763,1716" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Abre periodo de trabalho" sap:VirtualizedContainerService.HintSize="548,975" sap2010:WorkflowViewState.IdRef="Sequence_85">
+    <Sequence DisplayName="Abre periodo de trabalho" sap:VirtualizedContainerService.HintSize="520,1693" sap2010:WorkflowViewState.IdRef="Sequence_85">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="periodoDeTrabalhoScreen" />
+        <Variable x:TypeArguments="x:Boolean" Name="estePeriodoDeTrabalhoEstaFechado" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message - &quot;Datas do periodo de trabalho&quot; + Environment.NewLine + " sap:VirtualizedContainerService.HintSize="514,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+      <ui:LogMessage DisplayName="Log Message - &quot;Datas do periodo de trabalho&quot; + Environment.NewLine + " sap:VirtualizedContainerService.HintSize="486,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
         <ui:LogMessage.Message>
           <InArgument x:TypeArguments="x:Object">
             <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2" xml:space="preserve">"Datas do periodo de trabalho" + Environment.NewLine + 
@@ -183,10 +185,10 @@
           </InArgument>
         </ui:LogMessage.Message>
       </ui:LogMessage>
-      <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope - Open Work Period Screen" sap:VirtualizedContainerService.HintSize="514,152" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+      <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope - Open Work Period Screen" sap:VirtualizedContainerService.HintSize="452,257" sap2010:WorkflowViewState.IdRef="RetryScope_1">
         <ui:RetryScope.ActivityBody>
           <ActivityAction>
-            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_87">
+            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,329" sap2010:WorkflowViewState.IdRef="Sequence_87">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -215,7 +217,7 @@
                   </InArgument>
                 </ui:Click.DelayMS>
                 <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="caf7fc9c-2c03-4422-a24a-824adae1bed9" InformativeScreenshot="26968b4388598b83675af872140ced1e" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd ctrlname='menuStrip1' /&gt;&lt;ctrl name='Controle' role='menu item' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="caf7fc9c-2c03-4422-a24a-824adae1bed9" InformativeScreenshot="26968b4388598b83675af872140ced1e" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;ctrl name='Controle' role='menu item' text='Controle' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -247,7 +249,7 @@
                   </InArgument>
                 </ui:Click.DelayMS>
                 <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d7b68642-518d-4919-8022-31542e3ec6cb" InformativeScreenshot="9035948e9cf65067ae7b1963c4733765" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd ctrlname='menuStrip1' /&gt;&lt;ctrl name='Controle' role='menu item' /&gt;&lt;ctrl name='Período de Trabalho' role='menu item' /&gt;" WaitForReady="COMPLETE">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d7b68642-518d-4919-8022-31542e3ec6cb" InformativeScreenshot="9035948e9cf65067ae7b1963c4733765" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio Contabilidade Fiscal  - Versão: 10.6A-02 - 11' /&gt;&lt;ctrl name='Controle' role='menu item' /&gt;&lt;ctrl name='Período de Trabalho' role='menu item' text='Período de Trabalho' /&gt;" WaitForReady="COMPLETE">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -279,38 +281,136 @@
             </ui:UiElementExists>
           </ActivityFunc>
         </ui:RetryScope.Condition>
-      </ui:RetryScope>
-      <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBetweenKeys="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into - Inicial" EmptyField="True" sap:VirtualizedContainerService.HintSize="514,57" sap2010:WorkflowViewState.IdRef="TypeInto_1">
-        <ui:TypeInto.DelayBefore>
-          <InArgument x:TypeArguments="x:Int32">
-            <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">in_defaultDelayBefore</CSharpValue>
-          </InArgument>
-        </ui:TypeInto.DelayBefore>
-        <ui:TypeInto.DelayMS>
-          <InArgument x:TypeArguments="x:Int32">
-            <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">in_defaultDelayAfter</CSharpValue>
-          </InArgument>
-        </ui:TypeInto.DelayMS>
-        <ui:TypeInto.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e2821a1c-d329-4f37-a8cc-13f633380729" InformativeScreenshot="3bae39d128835fb99c115c065b18bcc9" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd cls='FNWND*' title='Período de Trabalho' /&gt;&lt;wnd cls='PBEDIT190' idx='3' /&gt;" WaitForReady="COMPLETE">
-            <ui:Target.TimeoutMS>
-              <InArgument x:TypeArguments="x:Int32" />
-            </ui:Target.TimeoutMS>
-          </ui:Target>
-        </ui:TypeInto.Target>
-        <ui:TypeInto.Text>
-          <InArgument x:TypeArguments="x:String">
-            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">new DateTime(dateStartPeriodoDeTrabalho.Year, dateStartPeriodoDeTrabalho.Month, 1).ToString("dd/MM/yyyy")</CSharpValue>
-          </InArgument>
-        </ui:TypeInto.Text>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-      </ui:TypeInto>
-      <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into - Final" sap:VirtualizedContainerService.HintSize="514,57" sap2010:WorkflowViewState.IdRef="TypeInto_2">
+      </ui:RetryScope>
+      <Sequence DisplayName="Este periodo de trabalho está fechado" sap:VirtualizedContainerService.HintSize="486,551" sap2010:WorkflowViewState.IdRef="Sequence_95">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Inicial" sap:VirtualizedContainerService.HintSize="452,139" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT">
+          <ui:Click.CursorPosition>
+            <ui:CursorPosition Position="Center">
+              <ui:CursorPosition.OffsetX>
+                <InArgument x:TypeArguments="x:Int32" />
+              </ui:CursorPosition.OffsetX>
+              <ui:CursorPosition.OffsetY>
+                <InArgument x:TypeArguments="x:Int32" />
+              </ui:CursorPosition.OffsetY>
+            </ui:CursorPosition>
+          </ui:Click.CursorPosition>
+          <ui:Click.DelayBefore>
+            <InArgument x:TypeArguments="x:Int32">
+              <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">in_defaultDelayBefore</CSharpValue>
+            </InArgument>
+          </ui:Click.DelayBefore>
+          <ui:Click.DelayMS>
+            <InArgument x:TypeArguments="x:Int32">
+              <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">in_defaultDelayAfter</CSharpValue>
+            </InArgument>
+          </ui:Click.DelayMS>
+          <ui:Click.Target>
+            <ui:Target Element="{x:Null}" Id="280e3155-3571-49ad-84c1-9c327b312091" InformativeScreenshot="e0a173bdb52e43d0b5b5051bc92694d2" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd cls='FNWND*' title='Período de Trabalho' /&gt;&lt;wnd cls='Button' title='Período de trabalho' /&gt;" TimeoutMS="2500" WaitForReady="COMPLETE">
+              <ui:Target.ClippingRegion>
+                <ui:Region Rectangle="241, 11, 127, 69" />
+              </ui:Target.ClippingRegion>
+            </ui:Target>
+          </ui:Click.Target>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:Click>
+        <ui:UiElementExists DisplayName="Element Exists - Este periodo de trabalho está fechado" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="UiElementExists_4">
+          <ui:UiElementExists.Exists>
+            <OutArgument x:TypeArguments="x:Boolean">
+              <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">estePeriodoDeTrabalhoEstaFechado</CSharpReference>
+            </OutArgument>
+          </ui:UiElementExists.Exists>
+          <ui:UiElementExists.Target>
+            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7f73af16-d983-4647-957e-6b6bd2e57df4" InformativeScreenshot="93825c3c7a9ee6bd4e3522100ef7364b" Selector="&lt;wnd app='contabil.exe' cls='#32770' title='Atenção' /&gt;&lt;wnd ctrlid='65535' title='Este período está fechado.' /&gt;" TimeoutMS="1000" WaitForReady="COMPLETE" />
+          </ui:UiElementExists.Target>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:UiElementExists>
+        <If sap:VirtualizedContainerService.HintSize="452,263" sap2010:WorkflowViewState.IdRef="If_2">
+          <If.Condition>
+            <InArgument x:TypeArguments="x:Boolean">
+              <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">estePeriodoDeTrabalhoEstaFechado</CSharpValue>
+            </InArgument>
+          </If.Condition>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <If.Then>
+            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_96">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - OK" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT">
+                <ui:Click.CursorPosition>
+                  <ui:CursorPosition Position="Center">
+                    <ui:CursorPosition.OffsetX>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetX>
+                    <ui:CursorPosition.OffsetY>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetY>
+                  </ui:CursorPosition>
+                </ui:Click.CursorPosition>
+                <ui:Click.DelayBefore>
+                  <InArgument x:TypeArguments="x:Int32">
+                    <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">in_defaultDelayBefore</CSharpValue>
+                  </InArgument>
+                </ui:Click.DelayBefore>
+                <ui:Click.DelayMS>
+                  <InArgument x:TypeArguments="x:Int32">
+                    <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">in_defaultDelayAfter</CSharpValue>
+                  </InArgument>
+                </ui:Click.DelayMS>
+                <ui:Click.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f37d92f7-d4bf-4ab3-8466-c015ba89ed9f" InformativeScreenshot="e6554153b3d0d914466b1f5a97bba497" Selector="&lt;wnd app='contabil.exe' cls='#32770' title='Atenção' /&gt;&lt;wnd ctrlid='2' title='OK' /&gt;" TimeoutMS="2500" WaitForReady="COMPLETE" />
+                </ui:Click.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:Click>
+            </Sequence>
+          </If.Then>
+          <If.Else>
+            <Sequence DisplayName="Ignore" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_97">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </Sequence>
+          </If.Else>
+        </If>
+      </Sequence>
+      <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBetweenKeys="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into - Inicial" EmptyField="True" sap:VirtualizedContainerService.HintSize="486,188" sap2010:WorkflowViewState.IdRef="TypeInto_2">
         <ui:TypeInto.DelayBefore>
           <InArgument x:TypeArguments="x:Int32">
             <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">in_defaultDelayBefore</CSharpValue>
@@ -322,7 +422,33 @@
           </InArgument>
         </ui:TypeInto.DelayMS>
         <ui:TypeInto.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ac83d889-6d5b-4d23-adee-f5a60fb79820" InformativeScreenshot="4a0c73643d30ec47107e5f4f1e8e4b77" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd cls='FNWND*' title='Período de Trabalho' /&gt;&lt;wnd cls='PBEDIT190' idx='2' /&gt;" WaitForReady="COMPLETE">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ac83d889-6d5b-4d23-adee-f5a60fb79820" InformativeScreenshot="5660abb1b4f116b27e4b3d72bd751c22" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;wnd cls='FNWND*' title='Período de Trabalho' /&gt;&lt;wnd cls='PBEDIT190' automationid='1015' /&gt;" TimeoutMS="1500" WaitForReady="COMPLETE" />
+        </ui:TypeInto.Target>
+        <ui:TypeInto.Text>
+          <InArgument x:TypeArguments="x:String">
+            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">new DateTime(dateStartPeriodoDeTrabalho.Year, dateStartPeriodoDeTrabalho.Month, 1).ToString("dd/MM/yyyy")</CSharpValue>
+          </InArgument>
+        </ui:TypeInto.Text>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:TypeInto>
+      <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBetweenKeys="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into - Final" EmptyField="True" sap:VirtualizedContainerService.HintSize="486,188" sap2010:WorkflowViewState.IdRef="TypeInto_1">
+        <ui:TypeInto.DelayBefore>
+          <InArgument x:TypeArguments="x:Int32">
+            <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">in_defaultDelayBefore</CSharpValue>
+          </InArgument>
+        </ui:TypeInto.DelayBefore>
+        <ui:TypeInto.DelayMS>
+          <InArgument x:TypeArguments="x:Int32">
+            <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">in_defaultDelayAfter</CSharpValue>
+          </InArgument>
+        </ui:TypeInto.DelayMS>
+        <ui:TypeInto.Target>
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e2821a1c-d329-4f37-a8cc-13f633380729" InformativeScreenshot="33b2c58c4028d5258b92bf7808a0aa41" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio Contabilidade Fiscal  - Versão: 10.6A-02 - 11' /&gt;&lt;wnd cls='FNWND*' title='Período de Trabalho' /&gt;&lt;wnd cls='PBEDIT190' automationid='1014' /&gt;" WaitForReady="COMPLETE">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -330,17 +456,17 @@
         </ui:TypeInto.Target>
         <ui:TypeInto.Text>
           <InArgument x:TypeArguments="x:String">
-            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">new DateTime(dateEndPeriodoDeTrabalho.Year, dateEndPeriodoDeTrabalho.Month, 1).ToString("dd/MM/yyyy")</CSharpValue>
+            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">new DateTime(dateEndPeriodoDeTrabalho.Year, dateEndPeriodoDeTrabalho.Month, 1).ToString("dd/MM/yyyy")</CSharpValue>
           </InArgument>
         </ui:TypeInto.Text>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:TypeInto>
-      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While - Click em gravar" sap:VirtualizedContainerService.HintSize="514,451" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While - Click em gravar" sap:VirtualizedContainerService.HintSize="486,451" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
         <ui:InterruptibleDoWhile.Body>
           <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,329" sap2010:WorkflowViewState.IdRef="Sequence_88">
             <sap:WorkflowViewStateService.ViewState>
