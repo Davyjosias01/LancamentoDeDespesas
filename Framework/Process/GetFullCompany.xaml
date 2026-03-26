@@ -156,15 +156,16 @@
       <AssemblyReference>System.Net.Requests</AssemblyReference>
       <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="769,807.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="1041,1087" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="GetFullCompany" sap:VirtualizedContainerService.HintSize="450,700" sap2010:WorkflowViewState.IdRef="Sequence_18">
+    <Sequence DisplayName="GetFullCompany" sap:VirtualizedContainerService.HintSize="486,1064" sap2010:WorkflowViewState.IdRef="Sequence_18">
       <Sequence.Variables>
         <Variable x:TypeArguments="uwahm:HttpResponseSummary" Name="response" />
       </Sequence.Variables>
@@ -173,7 +174,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uwah:NetHttpRequest BasicAuthPassword="{x:Null}" BasicAuthSecurePassword="{x:Null}" BasicAuthUsername="{x:Null}" BinaryPayload="{x:Null}" ClientCertPassword="{x:Null}" ClientCertPath="{x:Null}" ClientCertSecurePassword="{x:Null}" Cookies="{x:Null}" CustomNegotiatedAuthCredentials="{x:Null}" FilePath="{x:Null}" FormData="{x:Null}" LocalFiles="{x:Null}" OAuthToken="{x:Null}" OutputFileName="{x:Null}" OutputFileTargetFolder="{x:Null}" PathResource="{x:Null}" ProxyConfiguration="{x:Null}" ResourceFiles="{x:Null}" TextPayload="{x:Null}" AuthenticationType="None" ContinueOnError="True" DisableSslVerification="False" DisplayName="HTTP Request" EnableCookies="True" FileOverwrite="AutoRename" FollowRedirects="True" sap:VirtualizedContainerService.HintSize="416,277" sap2010:WorkflowViewState.IdRef="NetHttpRequest_1" InitialDelay="500" MaxRedirects="3" MaxRetryAfterDelay="30000" Method="GET" Multiplier="2" PreferRetryAfterValue="True" RequestBodyType="None" RequestUrl="https://app.razonet.com.br//integration/v1/companies" RetryCount="3" RetryPolicyType="Basic" SaveRawRequestResponse="False" SaveResponseAsFile="False" TextPayloadContentType="application/json" TextPayloadEncoding="UTF-8" TlsProtocol="Automatic" UseJitter="True" UseOsNegotiatedAuthCredentials="True">
+      <uwah:NetHttpRequest BasicAuthPassword="{x:Null}" BasicAuthSecurePassword="{x:Null}" BasicAuthUsername="{x:Null}" BinaryPayload="{x:Null}" ClientCertPassword="{x:Null}" ClientCertPath="{x:Null}" ClientCertSecurePassword="{x:Null}" Cookies="{x:Null}" CustomNegotiatedAuthCredentials="{x:Null}" FilePath="{x:Null}" FormData="{x:Null}" LocalFiles="{x:Null}" OAuthToken="{x:Null}" OutputFileName="{x:Null}" OutputFileTargetFolder="{x:Null}" PathResource="{x:Null}" ProxyConfiguration="{x:Null}" ResourceFiles="{x:Null}" TextPayload="{x:Null}" AuthenticationType="None" ContinueOnError="True" DisableSslVerification="False" DisplayName="HTTP Request" EnableCookies="True" FileOverwrite="AutoRename" FollowRedirects="True" sap:VirtualizedContainerService.HintSize="452,277" sap2010:WorkflowViewState.IdRef="NetHttpRequest_1" InitialDelay="500" MaxRedirects="3" MaxRetryAfterDelay="30000" Method="GET" Multiplier="2" PreferRetryAfterValue="True" RequestBodyType="None" RequestUrl="https://app.razonet.com.br//integration/v1/companies" RetryCount="3" RetryPolicyType="Basic" SaveRawRequestResponse="False" SaveResponseAsFile="False" TextPayloadContentType="application/json" TextPayloadEncoding="UTF-8" TlsProtocol="Automatic" UseJitter="True" UseOsNegotiatedAuthCredentials="True">
         <uwah:NetHttpRequest.FormDataParts>
           <InArgument x:TypeArguments="scg:IEnumerable(uwahm:FormDataPart)">
             <CSharpValue x:TypeArguments="scg:IEnumerable(uwahm:FormDataPart)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35" xml:space="preserve">new List&lt;FormDataPart&gt; 
@@ -224,25 +225,55 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uwah:NetHttpRequest>
-      <ui:DeserializeJson x:TypeArguments="njl:JObject" JsonSample="{x:Null}" Settings="{x:Null}" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="416,174" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1">
-        <ui:DeserializeJson.JsonObject>
-          <OutArgument x:TypeArguments="njl:JObject">
-            <CSharpReference x:TypeArguments="njl:JObject" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">out_jsonCompany</CSharpReference>
-          </OutArgument>
-        </ui:DeserializeJson.JsonObject>
-        <ui:DeserializeJson.JsonString>
-          <InArgument x:TypeArguments="x:String">
-            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_44">response.TextContent.ToString()</CSharpValue>
+      <If sap:VirtualizedContainerService.HintSize="452,538" sap2010:WorkflowViewState.IdRef="If_1">
+        <If.Condition>
+          <InArgument x:TypeArguments="x:Boolean">
+            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_53">response.StatusCode == HttpStatusCode.OK</CSharpValue>
           </InArgument>
-        </ui:DeserializeJson.JsonString>
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            <x:Boolean x:Key="IsPinned">False</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </ui:DeserializeJson>
-      <Assign DisplayName="Assign - io_json_company" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_2">
+        </If.Condition>
+        <If.Then>
+          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="Sequence_19">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:DeserializeJson x:TypeArguments="njl:JObject" JsonSample="{x:Null}" Settings="{x:Null}" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="416,165" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1">
+              <ui:DeserializeJson.JsonObject>
+                <OutArgument x:TypeArguments="njl:JObject">
+                  <CSharpReference x:TypeArguments="njl:JObject" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">out_jsonCompany</CSharpReference>
+                </OutArgument>
+              </ui:DeserializeJson.JsonObject>
+              <ui:DeserializeJson.JsonString>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_44">response.TextContent.ToString()</CSharpValue>
+                </InArgument>
+              </ui:DeserializeJson.JsonString>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:DeserializeJson>
+          </Sequence>
+        </If.Then>
+        <If.Else>
+          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_20">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Throw DisplayName="Throw - Houve um erro no request get company" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Throw_1">
+              <InArgument x:TypeArguments="s:Exception">
+                <CSharpValue x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="CSharpValue`1_56" xml:space="preserve">new Exception("Houve um erro no request get company."  + Environment.NewLine + response.TextContent.ToString())</CSharpValue>
+              </InArgument>
+            </Throw>
+          </Sequence>
+        </If.Else>
+      </If>
+      <Assign DisplayName="Assign - out_json_company" sap:VirtualizedContainerService.HintSize="452,166" sap2010:WorkflowViewState.IdRef="Assign_2">
         <Assign.To>
           <OutArgument x:TypeArguments="njl:JObject">
             <CSharpReference x:TypeArguments="njl:JObject" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">out_jsonCompany</CSharpReference>
