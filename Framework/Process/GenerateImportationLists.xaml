@@ -167,7 +167,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="1040,1310" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="953,2077" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:List(njl:JToken)" Name="aux_listJtoken" />
     </Sequence.Variables>
@@ -176,21 +176,21 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Limpando a lista de despesas" sap:VirtualizedContainerService.HintSize="486,242" sap2010:WorkflowViewState.IdRef="Sequence_89">
+    <Sequence DisplayName="Limpando a lista de despesas" sap:VirtualizedContainerService.HintSize="590,1009" sap2010:WorkflowViewState.IdRef="Sequence_89">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap2010:Annotation.AnnotationText="Retirando da lista principal as despesas que pertencem as contas de debito especificadas" DisplayName="Retirando as contas de debito especificadas" sap:VirtualizedContainerService.HintSize="450,102" sap2010:WorkflowViewState.IdRef="Sequence_85">
+      <Sequence sap2010:Annotation.AnnotationText="Retirando da lista principal as despesas que pertencem as contas de debito especificadas" DisplayName="Retirando as contas de debito especificadas" sap:VirtualizedContainerService.HintSize="556,869" sap2010:WorkflowViewState.IdRef="Sequence_85">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Assign DisplayName="Assign - in_especificExceptDebitAcount" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_19">
+        <Assign DisplayName="Assign - in_especificExceptDebitAcount" sap:VirtualizedContainerService.HintSize="522,57" sap2010:WorkflowViewState.IdRef="Assign_19">
           <Assign.To>
             <OutArgument x:TypeArguments="s:String[]">
               <CSharpReference x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpReference`1_49">in_especificExceptDebitAcounts</CSharpReference>
@@ -214,19 +214,102 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </Assign>
-        <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentEspecificExceptDebitAccount" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="ForEach`1_4">
+        <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentEspecificExceptDebitAccount" sap:VirtualizedContainerService.HintSize="522,689" sap2010:WorkflowViewState.IdRef="ForEach`1_4">
           <ui:ForEach.Body>
             <ActivityAction x:TypeArguments="x:String">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:String" Name="currentEspecificExceptDebitAccount" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_86">
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,567" sap2010:WorkflowViewState.IdRef="Sequence_86">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="scg:List(njl:JToken)" Name="aux_defineIntegrationNote" />
+                </Sequence.Variables>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Assign DisplayName="Assign - in_allExpenses" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_20">
+                <Sequence sap2010:Annotation.AnnotationText="Atribui à integration note um relatório de todas as despesas que não vão ser importadas, para controle do contabil" DisplayName="Increment io_integrationNote" sap:VirtualizedContainerService.HintSize="486,341" sap2010:WorkflowViewState.IdRef="Sequence_96">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign DisplayName="Assign - aux_defineIntegrationNote" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="Assign_24">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="scg:List(njl:JToken)">
+                        <CSharpReference x:TypeArguments="scg:List(njl:JToken)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_58">aux_defineIntegrationNote</CSharpReference>
+                      </OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="scg:List(njl:JToken)">
+                        <CSharpValue x:TypeArguments="scg:List(njl:JToken)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_368" xml:space="preserve">in_allExpenses
+	.Where(
+		x =&gt; x["accounting_source"]["dominio_debit_account"].ToString() != currentEspecificExceptDebitAccount
+ 	).ToList()</CSharpValue>
+                      </InArgument>
+                    </Assign.Value>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Assign>
+                  <ui:ForEach x:TypeArguments="njl:JToken" CurrentIndex="{x:Null}" DisplayName="For Each currentExpense" sap:VirtualizedContainerService.HintSize="452,147" sap2010:WorkflowViewState.IdRef="ForEach`1_7">
+                    <ui:ForEach.Body>
+                      <ActivityAction x:TypeArguments="njl:JToken">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="njl:JToken" Name="currentExpense" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_95">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign DisplayName="Assign - io_integrationNote" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_25">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_59">io_integrationNote</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_371" xml:space="preserve">io_integrationNote + Environment.NewLine +
+"Despesa não importada: " + 	currentExpense["note"].ToString() + Environment.NewLine +
+"/t/tvencimento: " + 				currentExpense["venciment"].ToString() + Environment.NewLine +
+"/t/tconta de débito: " + 			currentExpense["accounting_source"]["dominio_debit_account"].ToString() + Environment.NewLine +
+"/t/ttotal: " + 							currentExpense["total"].ToString()</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Assign>
+                        </Sequence>
+                      </ActivityAction>
+                    </ui:ForEach.Body>
+                    <ui:ForEach.Values>
+                      <InArgument x:TypeArguments="sc:IEnumerable">
+                        <CSharpValue x:TypeArguments="sc:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_369">aux_defineIntegrationNote</CSharpValue>
+                      </InArgument>
+                    </ui:ForEach.Values>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:ForEach>
+                </Sequence>
+                <Assign DisplayName="Assign - in_allExpenses" sap:VirtualizedContainerService.HintSize="486,166" sap2010:WorkflowViewState.IdRef="Assign_20">
                   <Assign.To>
                     <OutArgument x:TypeArguments="scg:List(njl:JToken)">
                       <CSharpReference x:TypeArguments="scg:List(njl:JToken)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_50">in_allExpenses</CSharpReference>
@@ -234,7 +317,7 @@
                   </Assign.To>
                   <Assign.Value>
                     <InArgument x:TypeArguments="scg:List(njl:JToken)">
-                      <CSharpValue x:TypeArguments="scg:List(njl:JToken)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_338" xml:space="preserve">in_allExpenses
+                      <CSharpValue x:TypeArguments="scg:List(njl:JToken)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_366" xml:space="preserve">in_allExpenses
 	.Where(
 		x =&gt; x["accounting_source"]["dominio_debit_account"].ToString() != currentEspecificExceptDebitAccount
  	).ToList()</CSharpValue>
@@ -251,13 +334,13 @@
           </ui:ForEach.Values>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:ForEach>
       </Sequence>
-      <Sequence DisplayName="Retirando as despesas sem conta de débito" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_90">
+      <Sequence DisplayName="Retirando as despesas sem conta de débito" sap:VirtualizedContainerService.HintSize="556,48" sap2010:WorkflowViewState.IdRef="Sequence_90">
         <Sequence.Variables>
           <Variable x:TypeArguments="scg:List(njl:JToken)" Name="noDebitAccountExpenses" />
           <Variable x:TypeArguments="x:Int32" Name="currentExpense" />
@@ -361,7 +444,7 @@ currentExpense["venciment"].ToString()</CSharpValue>
         </Assign>
       </Sequence>
     </Sequence>
-    <If sap:VirtualizedContainerService.HintSize="486,338" sap2010:WorkflowViewState.IdRef="If_6">
+    <If sap:VirtualizedContainerService.HintSize="590,338" sap2010:WorkflowViewState.IdRef="If_6">
       <If.Condition>
         <InArgument x:TypeArguments="x:Boolean">
           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_365">in_allExpenses.Count == 0</CSharpValue>
@@ -394,7 +477,7 @@ currentExpense["venciment"].ToString()</CSharpValue>
         </Sequence>
       </If.Else>
     </If>
-    <Sequence DisplayName="Separando a lista em contas de débito especificadas" sap:VirtualizedContainerService.HintSize="486,707" sap2010:WorkflowViewState.IdRef="Sequence_87">
+    <Sequence DisplayName="Separando a lista em contas de débito especificadas" sap:VirtualizedContainerService.HintSize="590,707" sap2010:WorkflowViewState.IdRef="Sequence_87">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
