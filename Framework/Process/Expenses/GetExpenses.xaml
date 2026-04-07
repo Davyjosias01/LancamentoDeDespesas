@@ -153,7 +153,7 @@
       <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1045,1498" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="953,1324" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="njl:JObject" Name="jObject_responseContent" />
       <Variable x:TypeArguments="x:String" Name="getExpenses_url" />
@@ -163,7 +163,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Get Expenses" sap:VirtualizedContainerService.HintSize="548,1475" sap2010:WorkflowViewState.IdRef="Sequence_56">
+    <Sequence DisplayName="Get Expenses" sap:VirtualizedContainerService.HintSize="548,1301" sap2010:WorkflowViewState.IdRef="Sequence_56">
       <Sequence.Variables>
         <Variable x:TypeArguments="uwahm:HttpResponseSummary" Name="getExpenses_responseContent" />
         <Variable x:TypeArguments="x:String" Name="getExpenses_timeout" />
@@ -176,7 +176,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="514,604" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="514,430" sap2010:WorkflowViewState.IdRef="TryCatch_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -201,7 +201,7 @@
                     </ui:AssignOperation.To>
                     <ui:AssignOperation.Value>
                       <InArgument x:TypeArguments="s:DateTime">
-                        <CSharpValue x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpValue`1_285" xml:space="preserve">!string.IsNullOrEmpty(in_Config["getExpenses_dateStart"].ToString()) ? 
+                        <CSharpValue x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpValue`1_286" xml:space="preserve">!string.IsNullOrEmpty(in_Config["getExpenses_dateStart"].ToString()) ? 
 	
 	DateTime.ParseExact(
 		in_Config["getExpenses_dateStart"].ToString(), 
@@ -222,7 +222,7 @@
                     </ui:AssignOperation.To>
                     <ui:AssignOperation.Value>
                       <InArgument x:TypeArguments="s:DateTime">
-                        <CSharpValue x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpValue`1_282" xml:space="preserve">!string.IsNullOrEmpty(in_Config["getExpenses_dateEnd"].ToString()) ? 
+                        <CSharpValue x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpValue`1_287" xml:space="preserve">!string.IsNullOrEmpty(in_Config["getExpenses_dateEnd"].ToString()) ? 
 	
 	DateTime.ParseExact(
 		in_Config["getExpenses_dateEnd"].ToString(), 
