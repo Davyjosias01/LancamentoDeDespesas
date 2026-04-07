@@ -4,6 +4,8 @@
 
 Este documento foi montado para servir como base de documentação técnica e também como insumo para uma IA gerar um fluxograma do projeto.
 
+**Correção desta versão:** o relatório foi revisado para separar corretamente três situações diferentes: (a) workflow existente e ativo internamente; (b) workflow invocado pelo `Main`; e (c) activity específica mantida em `CommentOut`. A principal correção foi em torno de `InitAllApplications.xaml` e `KillAllProcesses.xaml`.
+
 O foco aqui é:
 - descrever a **arquitetura geral** do robô;
 - registrar a **sequência de execução** do `Main.xaml`;
@@ -167,7 +169,7 @@ Após montar a lista de transações:
 Ainda na inicialização, o `Main.xaml` checa se o limite de exceções consecutivas de sistema foi ultrapassado. Se ultrapassou, lança exceção e termina.
 
 ### 5.1.6 Inicialização de aplicações
-O `Main.xaml` contém uma chamada para `InitAllApplications.xaml`, porém ela está dentro de um **`CommentOut` com o rótulo “ATIVAR DEPOIS”**. Na versão analisada, essa inicialização **não é executada a partir do Main**.
+O `Main.xaml` contém a chamada para `InitAllApplications.xaml` dentro de um **`CommentOut` com o rótulo “ATIVAR DEPOIS”**. Portanto, **na execução orquestrada pelo `Main` essa inicialização não roda**. Porém, o **workflow `InitAllApplications.xaml` em si está implementado e ativo**, contendo log de abertura e a chamada da activity customizada `LoginToDominioSystem`.
 
 ---
 
@@ -266,11 +268,23 @@ Ou seja, **na execução real observada, o dictionary `Config` é formado por es
 Inicializar aplicações.
 
 ### Ação identificada
-- log de inicialização;
-- chamada da activity customizada `LoginToDominioSystem`.
+- log de inicialização com a mensagem **"Opening applications..."**;
+- chamada da activity customizada `LoginToDominioSystem`;
+- login no **Domínio Contabilidade** usando:
+  - executável `C:\Contabil\contabil.exe`;
+  - módulo `contabilidade`;
+  - usuário vindo de `Config["dominioLoginUsername"]`;
+  - senha vinda de `Config["dominioLoginPassword"]`;
+  - timeout vindo de `Config["login_at_domonio_timeout"]`.
 
-### Observação
-Apesar de existir, a invocação dentro do `Main.xaml` está comentada/desativada na versão analisada.
+### Observação corrigida
+O **workflow está implementado e não está vazio nem comentado internamente**.  
+A correção necessária é de interpretação:
+
+- o **arquivo `InitAllApplications.xaml` contém lógica executável**;
+- o que está comentado/desativado, na versão reenviada, é a **invocação dele dentro do `Main.xaml`**.
+
+Ou seja: o fluxo de login existe, mas **não participa da execução atual enquanto a chamada no `Main` permanecer dentro do `CommentOut`**.
 
 ---
 
@@ -280,11 +294,18 @@ Apesar de existir, a invocação dentro do `Main.xaml` está comentada/desativad
 Encerrar processos do ambiente.
 
 ### Ação identificada
-- log “Kill processes”.
+- log **"Killing processes..."**;
+- existe uma activity `Kill Process` configurada para o processo **`contabil`** e com `AppliesTo="All"`.
 
-### Observação crítica
-O bloco que efetivamente contém `Kill Process` está dentro de um **`CommentOut` (“ATIVAR DEPOIS”)**.  
-Na prática, nesta versão, o workflow **registra log, mas não evidencia execução real do encerramento de processos**.
+### Observação corrigida
+O **workflow `KillAllProcesses.xaml` é efetivamente chamado pelo `Main.xaml` e pelo `CloseAllApplications.xaml`**.  
+Porém, dentro dele, a única activity que realmente mataria o processo (`Kill Process` do executável `contabil`) está dentro de um **`CommentOut` (“ATIVAR DEPOIS”)**.
+
+Então o comportamento real desta versão é:
+
+- o workflow **é invocado**;
+- o log é executado;
+- mas o encerramento forçado do processo **não acontece**, porque a activity de kill está desativada.
 
 ---
 
@@ -298,7 +319,7 @@ Encerramento normal das aplicações.
 - invoca `KillAllProcesses.xaml`.
 
 ### Implicação
-Como `KillAllProcesses.xaml` está praticamente vazio/comentado, o fechamento normal também fica reduzido.
+Como a activity de kill dentro de `KillAllProcesses.xaml` está comentada, o fechamento normal fica reduzido, na prática, a log + chamada de workflow sem eliminação forçada comprovada do processo `contabil`.
 
 ---
 
@@ -960,19 +981,21 @@ Settings
 ## 10. Pontos de atenção identificados
 
 ### 10.1 Blocos comentados/desativados
-Existem trechos relevantes desativados no projeto analisado:
+Existem trechos relevantes desativados no projeto analisado, mas com uma distinção importante entre **workflow existente** e **invocação/atividade comentada**:
 
-1. **`InitAllApplications` no `Main.xaml`**
-   - presente, mas dentro de `CommentOut`.
+1. **Invocação de `InitAllApplications` no `Main.xaml`**
+   - o workflow existe e contém lógica executável;
+   - porém a chamada a ele, no `Main`, está dentro de `CommentOut`.
 
-2. **`KillProcess` em `KillAllProcesses.xaml`**
-   - workflow existe, porém o encerramento real está comentado.
+2. **`Kill Process` dentro de `KillAllProcesses.xaml`**
+   - o workflow existe e é chamado em vários pontos;
+   - porém a activity que mata o processo `contabil` está comentada.
 
 3. **Integração de status da obrigação em `SetObligationStatus.xaml`**
    - blocos de sucesso, business exception e parte do system exception estão comentados.
 
 Esses pontos impactam diretamente qualquer fluxograma “as is”.  
-Para um fluxograma fiel à versão atual, esses blocos devem aparecer como **etapas previstas, porém desativadas**.
+Para um fluxograma fiel à versão atual, eles devem aparecer como **etapas previstas na solução, mas desativadas na execução observada**.
 
 ### 10.2 Timeout de `GetExpenses`
 A expressão de timeout aparenta estar invertida e merece revisão.
