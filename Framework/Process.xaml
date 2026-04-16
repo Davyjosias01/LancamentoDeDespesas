@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Activity mc:Ignorable="sap sap2010" x:Class="Process" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:rvda="clr-namespace:RazoLib.V1.Dominio.AlterDominioCompany;assembly=RazoLib" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property sap2010:Annotation.AnnotationText="Dictionary structure to store configuration data of the process (settings, constants and assets)." Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))">
@@ -195,7 +196,7 @@
       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Process" sap:VirtualizedContainerService.HintSize="998,1439" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Process" sap:VirtualizedContainerService.HintSize="1159.2,2422.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="parametrization" />
       <Variable x:TypeArguments="x:Int32" Name="defaultDelayBefore" />
@@ -219,7 +220,7 @@
         <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+    <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="550.4,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
       <ui:LogMessage.Message>
         <InArgument x:TypeArguments="x:Object">
           <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"Started Process"</CSharpValue>
@@ -232,7 +233,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <ui:LogMessage DisplayName="Log Message - Company identification" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info">
+    <ui:LogMessage DisplayName="Log Message - Company identification" sap:VirtualizedContainerService.HintSize="550.4,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info">
       <ui:LogMessage.Message>
         <InArgument x:TypeArguments="x:Object">
           <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_225" xml:space="preserve">"Company at process: " + Environment.NewLine  + 
@@ -249,7 +250,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <Assign DisplayName="Assign - out_integrationNote" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign DisplayName="Assign - out_integrationNote" sap:VirtualizedContainerService.HintSize="550.4,56.8" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">
           <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">out_IntegrationNote</CSharpReference>
@@ -267,7 +268,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Sequence sap2010:Annotation.AnnotationText="companyCnpj&#xA;companyDominioCode" DisplayName="Process variables" sap:VirtualizedContainerService.HintSize="486,102" sap2010:WorkflowViewState.IdRef="Sequence_57">
+    <Sequence sap2010:Annotation.AnnotationText="companyCnpj&#xA;companyDominioCode" DisplayName="Process variables" sap:VirtualizedContainerService.HintSize="550.4,100.8" sap2010:WorkflowViewState.IdRef="Sequence_57">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="currentMonthUnderscore" />
       </Sequence.Variables>
@@ -339,7 +340,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:MultipleAssign>
     </Sequence>
-    <Sequence DisplayName="Folders" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="Sequence_60">
+    <Sequence DisplayName="Folders" sap:VirtualizedContainerService.HintSize="550.4,56.8" sap2010:WorkflowViewState.IdRef="Sequence_60">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="currentMonthUnderscore" />
         <Variable x:TypeArguments="x:String" Name="mainPath" />
@@ -452,7 +453,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:CreateDirectory>
     </Sequence>
-    <Sequence sap2010:Annotation.AnnotationText="Espaço para verificação da existencia das informações necessárias para executar o processo." DisplayName="Business exceptions" sap:VirtualizedContainerService.HintSize="486,102" sap2010:WorkflowViewState.IdRef="Sequence_26">
+    <Sequence sap2010:Annotation.AnnotationText="Espaço para verificação da existencia das informações necessárias para executar o processo." DisplayName="Business exceptions" sap:VirtualizedContainerService.HintSize="550.4,100.8" sap2010:WorkflowViewState.IdRef="Sequence_26">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="stringBusinessExceptionCompilation" />
       </Sequence.Variables>
@@ -621,7 +622,7 @@ stringBusinessExceptionCompilation</CSharpValue>
         </If>
       </Sequence>
     </Sequence>
-    <Sequence DisplayName="Generate importation files" sap:VirtualizedContainerService.HintSize="486,791" sap2010:WorkflowViewState.IdRef="Sequence_55">
+    <Sequence DisplayName="Generate importation files" sap:VirtualizedContainerService.HintSize="550.4,820.8" sap2010:WorkflowViewState.IdRef="Sequence_55">
       <Sequence.Variables>
         <Variable x:TypeArguments="njl:JObject" Name="jObject_responseContent" />
         <Variable x:TypeArguments="s:String[]" Name="especificDebitAccounts" />
@@ -632,7 +633,7 @@ stringBusinessExceptionCompilation</CSharpValue>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="GetExpenses " sap:VirtualizedContainerService.HintSize="452,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Framework\\Process\\Expenses\\GetExpenses.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="GetExpenses " sap:VirtualizedContainerService.HintSize="449.6,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Framework\\Functions\\Expenses\\GetExpenses.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">
             <CSharpValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_282">in_Config</CSharpValue>
@@ -657,7 +658,7 @@ stringBusinessExceptionCompilation</CSharpValue>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
-      <If sap2010:Annotation.AnnotationText="Se não houverem despesas na empresa em questão." DisplayName="If - allExpenses == null" sap:VirtualizedContainerService.HintSize="452,417" sap2010:WorkflowViewState.IdRef="If_12">
+      <If sap2010:Annotation.AnnotationText="Se não houverem despesas na empresa em questão." DisplayName="If - allExpenses == null" sap:VirtualizedContainerService.HintSize="449.6,448" sap2010:WorkflowViewState.IdRef="If_12">
         <If.Condition>
           <InArgument x:TypeArguments="x:Boolean">
             <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_479">allExpenses == null</CSharpValue>
@@ -671,14 +672,14 @@ stringBusinessExceptionCompilation</CSharpValue>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <If.Then>
-          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,222" sap2010:WorkflowViewState.IdRef="Sequence_110">
+          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,221.6" sap2010:WorkflowViewState.IdRef="Sequence_110">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:LogMessage DisplayName="Log Message - ExceptionMessage_AnyExpense" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Info">
+            <ui:LogMessage DisplayName="Log Message - ExceptionMessage_AnyExpense" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Info">
               <ui:LogMessage.Message>
                 <InArgument x:TypeArguments="x:Object">
                   <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_480">in_Config["ExceptionMessage_AnyExpense"].ToString()</CSharpValue>
@@ -691,7 +692,7 @@ stringBusinessExceptionCompilation</CSharpValue>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:LogMessage>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_17">
+            <Assign sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="Assign_17">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_107">out_IntegrationNote</CSharpReference>
@@ -709,11 +710,11 @@ stringBusinessExceptionCompilation</CSharpValue>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <ui:Return sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Return_1" />
+            <ui:Return sap:VirtualizedContainerService.HintSize="382.4,48" sap2010:WorkflowViewState.IdRef="Return_1" />
           </Sequence>
         </If.Then>
         <If.Else>
-          <Sequence DisplayName="Ignore" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_111">
+          <Sequence DisplayName="Ignore" sap:VirtualizedContainerService.HintSize="416,24.8" sap2010:WorkflowViewState.IdRef="Sequence_111">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -723,7 +724,7 @@ stringBusinessExceptionCompilation</CSharpValue>
           </Sequence>
         </If.Else>
       </If>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="GenerateImportationLists" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Framework\\Process\\GenerateImportationLists.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="GenerateImportationLists" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Framework\\Functions\\GenerateImportationLists.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InOutArgument x:TypeArguments="x:String" x:Key="io_integrationNote">
             <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_106">out_IntegrationNote</CSharpReference>
@@ -750,7 +751,7 @@ stringBusinessExceptionCompilation</CSharpValue>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="GenerateImportationArchives" sap:VirtualizedContainerService.HintSize="452,48" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Framework\\Process\\GenerateImportationArchives.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="GenerateImportationArchives" sap:VirtualizedContainerService.HintSize="449.6,48" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Framework\\Functions\\GenerateImportationArchives.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="in_importationArchivesPath">
             <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_408">importationArchivesPath</CSharpValue>
@@ -773,7 +774,7 @@ stringBusinessExceptionCompilation</CSharpValue>
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
     </Sequence>
-    <Sequence DisplayName=" Domínio Configurations Verification" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="Sequence_74">
+    <Sequence DisplayName=" Domínio Configurations Verification" sap:VirtualizedContainerService.HintSize="550.4,56.8" sap2010:WorkflowViewState.IdRef="Sequence_74">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="dominioImportationLimitsDataTable" />
         <Variable x:TypeArguments="s:DateTime" Name="dbDominio_dataInicioDasAtividades" />
@@ -1155,15 +1156,15 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
         </If.Else>
       </If>
     </Sequence>
-    <Sequence sap2010:Annotation.AnnotationText="Toda iteração com a UI deve ser executada dentro dessa sequencia" DisplayName="Operational" sap:VirtualizedContainerService.HintSize="486,88" sap2010:WorkflowViewState.IdRef="Sequence_22">
+    <Sequence sap2010:Annotation.AnnotationText="Toda iteração com a UI deve ser executada dentro dessa sequencia" DisplayName="Operational" sap:VirtualizedContainerService.HintSize="550.4,1044.8" sap2010:WorkflowViewState.IdRef="Sequence_22">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <rvda:AlterDominioCompany sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="AlterDominioCompany_3">
+      <rvda:AlterDominioCompany sap:VirtualizedContainerService.HintSize="516.8,56.8" sap2010:WorkflowViewState.IdRef="AlterDominioCompany_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1181,7 +1182,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
           </InArgument>
         </rvda:AlterDominioCompany.timeout>
       </rvda:AlterDominioCompany>
-      <Sequence DisplayName="Fechamento" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_71">
+      <Sequence DisplayName="Fechamento" sap:VirtualizedContainerService.HintSize="516.8,56.8" sap2010:WorkflowViewState.IdRef="Sequence_71">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1221,7 +1222,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:LogMessage>
-              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="AbreOFechamento" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Framework\\Process\\AbreOFechamento.xaml">
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="AbreOFechamento" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Framework\\Functions\\AbreOFechamento.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
                   <InArgument x:TypeArguments="s:DateTime" x:Key="in_newClosingDate">
                     <CSharpValue x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpValue`1_475">GlobalVariables.getExpenses_dateStart.AddMonths(-2)</CSharpValue>
@@ -1254,7 +1255,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
           </If.Else>
         </If>
       </Sequence>
-      <Sequence DisplayName="Periodo de Trabalho" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_72">
+      <Sequence DisplayName="Periodo de Trabalho" sap:VirtualizedContainerService.HintSize="516.8,56.8" sap2010:WorkflowViewState.IdRef="Sequence_72">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1294,7 +1295,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:LogMessage>
-              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="AbrePeriodoDeTrabalho" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Framework\\Process\\AlteraPeriodoDeTrabalho.xaml">
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="AbrePeriodoDeTrabalho" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Framework\\Functions\\AlteraPeriodoDeTrabalho.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
                   <InArgument x:TypeArguments="x:Int32" x:Key="in_defaultDelayAfter">
                     <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_376">defaultDelayAfter</CSharpValue>
@@ -1334,14 +1335,14 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
           </If.Else>
         </If>
       </Sequence>
-      <Sequence DisplayName="Importação" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_73">
+      <Sequence DisplayName="Importação" sap:VirtualizedContainerService.HintSize="516.8,703.2" sap2010:WorkflowViewState.IdRef="Sequence_73">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Open importation screen" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_92">
+        <Sequence DisplayName="Open importation screen" sap:VirtualizedContainerService.HintSize="483.2,56.8" sap2010:WorkflowViewState.IdRef="Sequence_92">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1486,7 +1487,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
             </sap:WorkflowViewStateService.ViewState>
           </ui:RetryScope>
         </Sequence>
-        <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into - Tipo:" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="T[k(enter)]">
+        <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into - Tipo:" sap:VirtualizedContainerService.HintSize="483.2,56.8" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="T[k(enter)]">
           <ui:TypeInto.DelayBefore>
             <InArgument x:TypeArguments="x:Int32">
               <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_395">defaultDelayBefore</CSharpValue>
@@ -1511,7 +1512,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:TypeInto>
-        <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into - Conjunto de dados" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="x[k(enter)]">
+        <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into - Conjunto de dados" sap:VirtualizedContainerService.HintSize="483.2,56.8" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="x[k(enter)]">
           <ui:TypeInto.DelayBefore>
             <InArgument x:TypeArguments="x:Int32">
               <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_393">defaultDelayBefore</CSharpValue>
@@ -1536,14 +1537,14 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:TypeInto>
-        <Sequence DisplayName="Configure importation path" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_94">
+        <Sequence DisplayName="Configure importation path" sap:VirtualizedContainerService.HintSize="483.2,310.4" sap2010:WorkflowViewState.IdRef="Sequence_94">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope - Click - ..." sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="5">
+          <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope - Click - ..." sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="5">
             <ui:RetryScope.ActivityBody>
               <ActivityAction>
                 <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_95">
@@ -1612,7 +1613,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:RetryScope>
-          <Sequence DisplayName="Typing the archive address" sap:VirtualizedContainerService.HintSize="450,165" sap2010:WorkflowViewState.IdRef="Sequence_96">
+          <Sequence DisplayName="Typing the archive address" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_96">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1658,7 +1659,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
               </sap:WorkflowViewStateService.ViewState>
             </ui:SendHotkey>
           </Sequence>
-          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Todos" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT">
+          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Todos" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT">
             <ui:Click.CursorPosition>
               <ui:CursorPosition Position="Center">
                 <ui:CursorPosition.OffsetX>
@@ -1670,7 +1671,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
               </ui:CursorPosition>
             </ui:Click.CursorPosition>
             <ui:Click.Target>
-              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a1127605-76b8-43bc-ac52-05d4ae354e13" InformativeScreenshot="681ec9de03af3deed1b35acb29f3cb90" Selector="&lt;wnd app='contabil.exe' cls='FNWNS*' title='Seleção de arquivos' /&gt;&lt;wnd aaname='Todos' cls='Button' title='&amp;amp;Todos' /&gt;">
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a1127605-76b8-43bc-ac52-05d4ae354e13" InformativeScreenshot="407ba5e6e5eb81b53f76d10ca199f572" Selector="&lt;wnd app='contabil.exe' cls='FNWNS*' title='Seleção de arquivos' /&gt;&lt;wnd aaname='Todos' cls='Button' title='&amp;amp;Todos' /&gt;">
                 <ui:Target.TimeoutMS>
                   <InArgument x:TypeArguments="x:Int32" />
                 </ui:Target.TimeoutMS>
@@ -1686,7 +1687,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:Click>
-          <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - OK" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
+          <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - OK" sap:VirtualizedContainerService.HintSize="449.6,48" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
             <ui:Click.CursorPosition>
               <ui:CursorPosition Position="Center">
                 <ui:CursorPosition.OffsetX>
@@ -1708,7 +1709,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
               </InArgument>
             </ui:Click.DelayMS>
             <ui:Click.Target>
-              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d845d38b-108d-49e8-b0dc-ccfb85b37e25" InformativeScreenshot="7c99752a62f738ef0ba3b3d95e8b3817" Selector="&lt;wnd app='contabil.exe' cls='FNWNS*' title='Seleção de arquivos' /&gt;&lt;wnd aaname='OK' cls='Button' title='&amp;amp;OK' /&gt;" WaitForReady="COMPLETE">
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d845d38b-108d-49e8-b0dc-ccfb85b37e25" InformativeScreenshot="ac14130993d17cc1ae27fe75fbebec04" Selector="&lt;wnd app='contabil.exe' cls='FNWNS*' title='Seleção de arquivos' /&gt;&lt;wnd aaname='OK' cls='Button' title='&amp;amp;OK' /&gt;" WaitForReady="COMPLETE">
                 <ui:Target.TimeoutMS>
                   <InArgument x:TypeArguments="x:Int32" />
                 </ui:Target.TimeoutMS>
@@ -1722,7 +1723,7 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
             </sap:WorkflowViewStateService.ViewState>
           </ui:Click>
         </Sequence>
-        <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Importar" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:Click AlterIfDisabled="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click - Importar" sap:VirtualizedContainerService.HintSize="483.2,130.4" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT">
           <ui:Click.CursorPosition>
             <ui:CursorPosition Position="Center">
               <ui:CursorPosition.OffsetX>
@@ -1748,13 +1749,13 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
           </ui:Click.Target>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:Click>
       </Sequence>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="VerificaçãodaImportação" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Framework\\Process\\VerificacaodaImportacao.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="VerificaçãodaImportação" sap:VirtualizedContainerService.HintSize="516.8,48" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Framework\\Functions\\VerificacaodaImportacao.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="io_integrationNote">
             <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_422">out_IntegrationNote</CSharpValue>
@@ -1783,14 +1784,14 @@ dbDominio_dateEndPeriodoDeTrabalho &lt; GlobalVariables.getExpenses_dateEnd</CSh
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
     </Sequence>
-    <Sequence DisplayName="Integrate all importated expenses" sap:VirtualizedContainerService.HintSize="486,48" sap2010:WorkflowViewState.IdRef="Sequence_105">
+    <Sequence DisplayName="Integrate all importated expenses" sap:VirtualizedContainerService.HintSize="550.4,48" sap2010:WorkflowViewState.IdRef="Sequence_105">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="IntegrateAllExpenses" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="Framework\\Process\\Expenses\\IntegrateAllExpenses.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="IntegrateAllExpenses" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="Framework\\Functions\\Expenses\\IntegrateAllExpenses.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">
             <CSharpValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_462">in_Config</CSharpValue>
