@@ -187,18 +187,18 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <StateMachine InitialState="{x:Reference __ReferenceID0}" sap2010:Annotation.AnnotationText="LancamentoDeDespesas&#xA;Processo que realiza o lancamento das despesas em lote no sistema Domínio para as empresas cadastradas na Razonet contabilidade&#xA;Author: Davy J Scheuermann" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="959,808" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+  <StateMachine InitialState="{x:Reference __ReferenceID0}" sap2010:Annotation.AnnotationText="LancamentoDeDespesas&#xA;Processo que realiza o lancamento das despesas em lote no sistema Domínio para as empresas cadastradas na Razonet contabilidade&#xA;Author: Davy J Scheuermann" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="1004,808" sap2010:WorkflowViewState.IdRef="StateMachine_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-        <av:Point x:Key="ShapeLocation">345,245</av:Point>
+        <av:Point x:Key="ShapeLocation">325,235</av:Point>
         <x:Double x:Key="StateContainerWidth">1340</x:Double>
         <x:Double x:Key="StateContainerHeight">927</x:Double>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-        <av:PointCollection x:Key="ConnectorLocation">395,270 425,270 425,268.15 470,268.15</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">375,260 405,260 405,268.15 470,268.15</av:PointCollection>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <State x:Name="__ReferenceID0" sap2010:Annotation.AnnotationText="Read configuration file and initialize applications used in the process." DisplayName="Initialization" sap:VirtualizedContainerService.HintSize="568,2859" sap2010:WorkflowViewState.IdRef="State_4">
+    <State x:Name="__ReferenceID0" sap2010:Annotation.AnnotationText="Read configuration file and initialize applications used in the process." DisplayName="Initialization" sap:VirtualizedContainerService.HintSize="200,121" sap2010:WorkflowViewState.IdRef="State_4">
       <State.Entry>
         <TryCatch DisplayName="Try initializing settings and applications" sap:VirtualizedContainerService.HintSize="522,2435" sap2010:WorkflowViewState.IdRef="TryCatch_1">
           <sap:WorkflowViewStateService.ViewState>
@@ -233,7 +233,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </Assign>
-              <If sap2010:Annotation.AnnotationText="An uninitialized Config dictionary indicates that it is the first run of the process." DisplayName="If first run, read local configuration file" sap:VirtualizedContainerService.HintSize="486,1336" sap2010:WorkflowViewState.IdRef="If_1">
+              <If sap2010:Annotation.AnnotationText="An uninitialized Config dictionary indicates that it is the first run of the process." DisplayName="If first run, read local configuration file" sap:VirtualizedContainerService.HintSize="486,1456" sap2010:WorkflowViewState.IdRef="If_1">
                 <If.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
                     <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_42">Config == null</CSharpValue>
@@ -247,7 +247,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <If.Then>
-                  <Sequence DisplayName="First run" sap:VirtualizedContainerService.HintSize="484,1127" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence DisplayName="First run" sap:VirtualizedContainerService.HintSize="484,1247" sap2010:WorkflowViewState.IdRef="Sequence_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -303,7 +303,7 @@
                       <If sap2010:Annotation.AnnotationText="Se as variáveis de datas das obrigações não forem definidas no arquivo de configuração, o seguinte processo define o primeiro e o ultimo dia do mês atual como datas padrão do processo." sap:VirtualizedContainerService.HintSize="416,134" sap2010:WorkflowViewState.IdRef="If_10">
                         <If.Condition>
                           <InArgument x:TypeArguments="x:Boolean">
-                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_354" xml:space="preserve">String.IsNullOrEmpty(Config["obligationDateStart"].ToString()) || 
+                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_468" xml:space="preserve">String.IsNullOrEmpty(Config["obligationDateStart"].ToString()) || 
 String.IsNullOrEmpty(Config["obligationDateEnd"].ToString())</CSharpValue>
                           </InArgument>
                         </If.Condition>
@@ -457,7 +457,7 @@ String.IsNullOrEmpty(Config["getExpenses_dateEnd"].ToString())</CSharpValue>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <If.Then>
-                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="548,866" sap2010:WorkflowViewState.IdRef="Sequence_91">
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,442" sap2010:WorkflowViewState.IdRef="Sequence_91">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="s:DateTime" Name="hoje" />
                             </Sequence.Variables>
@@ -467,7 +467,7 @@ String.IsNullOrEmpty(Config["getExpenses_dateEnd"].ToString())</CSharpValue>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <WriteLine DisplayName="Write Line - &quot;Não foram declaradas as datas de inicio e final do range de datas das despesas.&quot; + Environment.NewLine +" sap:VirtualizedContainerService.HintSize="514,57" sap2010:WorkflowViewState.IdRef="WriteLine_2">
+                            <WriteLine DisplayName="Write Line - &quot;Não foram declaradas as datas de inicio e final do range de datas das despesas.&quot; + Environment.NewLine +" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="WriteLine_2">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -479,7 +479,7 @@ String.IsNullOrEmpty(Config["getExpenses_dateEnd"].ToString())</CSharpValue>
 "O sistema irá declarar de forma autônoma"</CSharpValue>
                               </InArgument>
                             </WriteLine>
-                            <Assign DisplayName="Assign - hoje" sap:VirtualizedContainerService.HintSize="514,57" sap2010:WorkflowViewState.IdRef="Assign_40">
+                            <Assign DisplayName="Assign - hoje" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_40">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="s:DateTime">
                                   <CSharpReference x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpReference`1_148">hoje</CSharpReference>
@@ -497,7 +497,7 @@ String.IsNullOrEmpty(Config["getExpenses_dateEnd"].ToString())</CSharpValue>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </Assign>
-                            <If sap2010:Annotation.AnnotationText="Definção do range de datas das despesas à serem importadas." DisplayName="If " sap:VirtualizedContainerService.HintSize="514,644" sap2010:WorkflowViewState.IdRef="If_17">
+                            <If sap2010:Annotation.AnnotationText="Definção do range de datas das despesas à serem importadas." DisplayName="If " sap:VirtualizedContainerService.HintSize="416,102" sap2010:WorkflowViewState.IdRef="If_17">
                               <If.Condition>
                                 <InArgument x:TypeArguments="x:Boolean">
                                   <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_453">DateTime.Now.Month &lt;= 2</CSharpValue>
@@ -506,19 +506,19 @@ String.IsNullOrEmpty(Config["getExpenses_dateEnd"].ToString())</CSharpValue>
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                               <If.Then>
-                                <Sequence sap2010:Annotation.AnnotationText="Caso o mês atual for janeiro ou fevereiro, ainda estaremos importando as despesas do ano anterior." DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,198" sap2010:WorkflowViewState.IdRef="Sequence_89">
+                                <Sequence sap2010:Annotation.AnnotationText="Caso o mês atual for janeiro ou fevereiro, ainda estaremos importando as despesas do ano anterior." DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,321" sap2010:WorkflowViewState.IdRef="Sequence_89">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:MultipleAssign sap2010:Annotation.AnnotationText="getExpenses_dateStart&#xA;getExpenses_dateEnd" DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478,93" sap2010:WorkflowViewState.IdRef="MultipleAssign_5">
+                                  <ui:MultipleAssign sap2010:Annotation.AnnotationText="getExpenses_dateStart&#xA;getExpenses_dateEnd" DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478,216" sap2010:WorkflowViewState.IdRef="MultipleAssign_5">
                                     <ui:MultipleAssign.AssignOperations>
                                       <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_10">
@@ -549,8 +549,8 @@ String.IsNullOrEmpty(Config["getExpenses_dateEnd"].ToString())</CSharpValue>
                                     </ui:MultipleAssign.AssignOperations>
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
@@ -604,31 +604,31 @@ String.IsNullOrEmpty(Config["getExpenses_dateEnd"].ToString())</CSharpValue>
                                 </Sequence>
                               </If.Else>
                             </If>
-                            <ui:LogMessage DisplayName="Log Message - &quot;getExpenses_dateStart: &quot; + GlobalVariables.getExpenses_dateStart + Environment.NewLine +" sap:VirtualizedContainerService.HintSize="514,48" sap2010:WorkflowViewState.IdRef="LogMessage_25">
+                            <ui:LogMessage DisplayName="Log Message - &quot;getExpenses_dateStart: &quot; + GlobalVariables.getExpenses_dateStart + Environment.NewLine +" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_25">
                               <ui:LogMessage.Message>
                                 <InArgument x:TypeArguments="x:Object">
-                                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_462" xml:space="preserve">"getExpenses_dateStart: " + GlobalVariables.getExpenses_dateStart + Environment.NewLine +
-"getExpenses_dateEnd: " + GlobalVariables.getExpenses_dateEnd</CSharpValue>
+                                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_467" xml:space="preserve">"getExpenses_dateStart: " + GlobalVariables.getExpenses_dateStart.ToString("dd/MM/yyyy") + Environment.NewLine +
+"getExpenses_dateEnd: " + GlobalVariables.getExpenses_dateEnd.ToString("dd/MM/yyyy")</CSharpValue>
                                 </InArgument>
                               </ui:LogMessage.Message>
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:LogMessage>
                           </Sequence>
                         </If.Then>
                         <If.Else>
-                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="548,328" sap2010:WorkflowViewState.IdRef="Sequence_92">
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,328" sap2010:WorkflowViewState.IdRef="Sequence_92">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ui:MultipleAssign sap2010:Annotation.AnnotationText="getExpenses_dateStart,&#xA;getExpenses_dateEnd" DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="514,102" sap2010:WorkflowViewState.IdRef="MultipleAssign_8">
+                            <ui:MultipleAssign sap2010:Annotation.AnnotationText="getExpenses_dateStart,&#xA;getExpenses_dateEnd" DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="416,102" sap2010:WorkflowViewState.IdRef="MultipleAssign_8">
                               <ui:MultipleAssign.AssignOperations>
                                 <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_15">
@@ -673,11 +673,11 @@ String.IsNullOrEmpty(Config["getExpenses_dateEnd"].ToString())</CSharpValue>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:MultipleAssign>
-                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="514,166" sap2010:WorkflowViewState.IdRef="LogMessage_26">
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_26">
                               <ui:LogMessage.Message>
                                 <InArgument x:TypeArguments="x:Object">
-                                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_463" xml:space="preserve">"getExpenses_dateStart: " + GlobalVariables.getExpenses_dateStart + Environment.NewLine +
-"getExpenses_dateEnd: " + GlobalVariables.getExpenses_dateEnd</CSharpValue>
+                                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_466" xml:space="preserve">"getExpenses_dateStart: " + GlobalVariables.getExpenses_dateStart.ToString("dd/MM/yyyy") + Environment.NewLine +
+"getExpenses_dateEnd: " + GlobalVariables.getExpenses_dateEnd.ToString("dd/MM/yyyy")</CSharpValue>
                                 </InArgument>
                               </ui:LogMessage.Message>
                             </ui:LogMessage>
@@ -685,7 +685,7 @@ String.IsNullOrEmpty(Config["getExpenses_dateEnd"].ToString())</CSharpValue>
                         </If.Else>
                       </If>
                     </Sequence>
-                    <Sequence DisplayName="GetTransactionItems" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                    <Sequence DisplayName="GetTransactionItems" sap:VirtualizedContainerService.HintSize="450,210.00000000000003" sap2010:WorkflowViewState.IdRef="Sequence_37">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -695,7 +695,7 @@ String.IsNullOrEmpty(Config["getExpenses_dateEnd"].ToString())</CSharpValue>
                       <ui:IfElseIfV2 sap2010:Annotation.AnnotationText="Só pode haver um dos código, ou o código do serviço ou o código da obrigação" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="416,102" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
                         <ui:IfElseIfV2.Condition>
                           <InArgument x:TypeArguments="x:Boolean">
-                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_437" xml:space="preserve">!String.IsNullOrEmpty(Config["serviceCode"].ToString()) &amp;&amp; 
+                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_465" xml:space="preserve">!String.IsNullOrEmpty(Config["serviceCode"].ToString()) &amp;&amp; 
 String.IsNullOrEmpty(Config["obligationCode"].ToString())</CSharpValue>
                           </InArgument>
                         </ui:IfElseIfV2.Condition>
@@ -737,7 +737,7 @@ String.IsNullOrEmpty(Config["obligationCode"].ToString())</CSharpValue>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <rvbo:GetObligation obligations_json="{x:Null}" sap:VirtualizedContainerService.HintSize="460,48" sap2010:WorkflowViewState.IdRef="GetObligation_2" fields="id" has_procuration="false" obligation_endpoint="https://app.razonet.com.br/integration/v1/companies/index" timeout="60000">
+                                  <rvbo:GetObligation obligations_json="{x:Null}" sap:VirtualizedContainerService.HintSize="460,48" sap2010:WorkflowViewState.IdRef="GetObligation_2" fields="id" has_procuration="true" obligation_endpoint="https://app.razonet.com.br/integration/v1/companies/index" timeout="60000">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -813,15 +813,15 @@ String.IsNullOrEmpty(Config["obligationCode"].ToString())</CSharpValue>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <ui:IfElseIfV2.Then>
-                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="494,25" sap2010:WorkflowViewState.IdRef="Sequence_64">
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="494,279" sap2010:WorkflowViewState.IdRef="Sequence_64">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="scg:List(njl:JToken)" Name="auxCompaniesList" />
                               <Variable x:TypeArguments="njl:JObject" Name="currentJtoken" />
                             </Sequence.Variables>
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <rvbs:GetServices services_json="{x:Null}" sap:VirtualizedContainerService.HintSize="460,57" sap2010:WorkflowViewState.IdRef="GetServices_1" has_procuration="true" services_endpoint="https://app.razonet.com.br/integration/v1/company_services?" timeout="60000">
@@ -1061,15 +1061,15 @@ JsonConvert.SerializeObject(GlobalVariables.Companies, Newtonsoft.Json.Formattin
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" sap2010:Annotation.AnnotationText="Fecha todas as telas do processo, que possivelmente estavam abertas anteriormente." DisplayName="Invoke KillAllProcesses workflow" sap:VirtualizedContainerService.HintSize="450,102" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_25" UnSafe="False" WorkflowFileName="Framework\KillAllProcesses.xaml">
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" sap2010:Annotation.AnnotationText="Fecha todas as telas do processo, que possivelmente estavam abertas anteriormente." DisplayName="Invoke KillAllProcesses workflow" sap:VirtualizedContainerService.HintSize="450,222" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_27" UnSafe="False" WorkflowFileName="Framework\KillAllProcesses.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
                         <scg:Dictionary x:TypeArguments="x:String, Argument" />
                       </ui:InvokeWorkflowFile.Arguments>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:InvokeWorkflowFile>
@@ -1145,7 +1145,7 @@ JsonConvert.SerializeObject(GlobalVariables.Companies, Newtonsoft.Json.Formattin
                   </Sequence>
                 </If.Else>
               </If>
-              <If sap2010:Annotation.AnnotationText="Inicia as aplicações do processo" DisplayName="Se houver empresas com a obrigação ativa." sap:VirtualizedContainerService.HintSize="486,414" sap2010:WorkflowViewState.IdRef="If_15">
+              <If sap2010:Annotation.AnnotationText="Inicia as aplicações do processo" DisplayName="Se houver empresas com a obrigação ativa." sap:VirtualizedContainerService.HintSize="486,294" sap2010:WorkflowViewState.IdRef="If_15">
                 <If.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
                     <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_421">GlobalVariables.Companies.Count != 0</CSharpValue>
@@ -1159,13 +1159,13 @@ JsonConvert.SerializeObject(GlobalVariables.Companies, Newtonsoft.Json.Formattin
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <If.Then>
-                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,228" sap2010:WorkflowViewState.IdRef="Sequence_81">
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_81">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke InitAllApplications workflow" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_26" UnSafe="False" WorkflowFileName="Framework\InitAllApplications.xaml">
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke InitAllApplications workflow" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_28" UnSafe="False" WorkflowFileName="Framework\InitAllApplications.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
                         <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">
                           <CSharpValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">Config</CSharpValue>
@@ -1173,8 +1173,8 @@ JsonConvert.SerializeObject(GlobalVariables.Companies, Newtonsoft.Json.Formattin
                       </ui:InvokeWorkflowFile.Arguments>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:InvokeWorkflowFile>
@@ -1531,7 +1531,7 @@ JsonConvert.SerializeObject(GlobalVariables.Companies, Newtonsoft.Json.Formattin
                 <Transition DisplayName="New Transaction" sap:VirtualizedContainerService.HintSize="450,527" sap2010:WorkflowViewState.IdRef="Transition_4">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <av:PointCollection x:Key="ConnectorLocation">840,435 840,465 828,465 828,526</av:PointCollection>
+                      <av:PointCollection x:Key="ConnectorLocation">840,435 840,464.99999999999994 828,464.99999999999994 828,526</av:PointCollection>
                       <x:Int32 x:Key="SrcConnectionPointIndex">39</x:Int32>
                       <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
                     </scg:Dictionary>
@@ -2300,7 +2300,7 @@ integrationNote</CSharpValue>
                 <Transition sap2010:Annotation.AnnotationText="This is a simple mecanism to stop the process.&#xA;In reallife scenario you can stop the process when there is no more data to process or on a schedule." DisplayName="No Data" sap:VirtualizedContainerService.HintSize="450,588" sap2010:WorkflowViewState.IdRef="Transition_11">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <av:PointCollection x:Key="ConnectorLocation">913.5,326 913.5,249 1000,249</av:PointCollection>
+                      <av:PointCollection x:Key="ConnectorLocation">913.5,326 913.5,293.55 1000,293.55</av:PointCollection>
                       <x:Int32 x:Key="SrcConnectionPointIndex">66</x:Int32>
                       <x:Int32 x:Key="DestConnectionPointIndex">33</x:Int32>
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2410,7 +2410,7 @@ integrationNote</CSharpValue>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">1000,240</av:Point>
-                          <av:Size x:Key="ShapeSize">20,20</av:Size>
+                          <av:Size x:Key="ShapeSize">200,119</av:Size>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                           <x:Double x:Key="StateContainerWidth">187.9999999999999</x:Double>
@@ -2451,7 +2451,7 @@ integrationNote</CSharpValue>
         <Transition DisplayName="System Exception (failed initialization)" sap:VirtualizedContainerService.HintSize="450,527" sap2010:WorkflowViewState.IdRef="Transition_12">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <av:PointCollection x:Key="ConnectorLocation">560,250 560,219.99999999999997 1012,219.99999999999997 1012,240</av:PointCollection>
+              <av:PointCollection x:Key="ConnectorLocation">560,250 560,219.99999999999997 1120,219.99999999999997 1120,240</av:PointCollection>
               <x:Int32 x:Key="SrcConnectionPointIndex">34</x:Int32>
               <x:Int32 x:Key="DestConnectionPointIndex">46</x:Int32>
             </scg:Dictionary>
