@@ -160,13 +160,13 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="763,1716" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="876,1716" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Abre periodo de trabalho" sap:VirtualizedContainerService.HintSize="520,1693" sap2010:WorkflowViewState.IdRef="Sequence_85">
+    <Sequence DisplayName="Abre periodo de trabalho" sap:VirtualizedContainerService.HintSize="548,1693" sap2010:WorkflowViewState.IdRef="Sequence_85">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="periodoDeTrabalhoScreen" />
         <Variable x:TypeArguments="x:Boolean" Name="estePeriodoDeTrabalhoEstaFechado" />
@@ -176,7 +176,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message - &quot;Datas do periodo de trabalho&quot; + Environment.NewLine + " sap:VirtualizedContainerService.HintSize="486,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+      <ui:LogMessage DisplayName="Log Message - &quot;Datas do periodo de trabalho&quot; + Environment.NewLine + " sap:VirtualizedContainerService.HintSize="514,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
         <ui:LogMessage.Message>
           <InArgument x:TypeArguments="x:Object">
             <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2" xml:space="preserve">"Datas do periodo de trabalho" + Environment.NewLine + 
@@ -185,7 +185,7 @@
           </InArgument>
         </ui:LogMessage.Message>
       </ui:LogMessage>
-      <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope - Open Work Period Screen" sap:VirtualizedContainerService.HintSize="452,257" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+      <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope - Open Work Period Screen" sap:VirtualizedContainerService.HintSize="514,57" sap2010:WorkflowViewState.IdRef="RetryScope_1">
         <ui:RetryScope.ActivityBody>
           <ActivityAction>
             <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,329" sap2010:WorkflowViewState.IdRef="Sequence_87">
@@ -249,7 +249,7 @@
                   </InArgument>
                 </ui:Click.DelayMS>
                 <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d7b68642-518d-4919-8022-31542e3ec6cb" InformativeScreenshot="9035948e9cf65067ae7b1963c4733765" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio Contabilidade Fiscal  - Versão: 10.6A-02 - 11' /&gt;&lt;ctrl name='Controle' role='menu item' /&gt;&lt;ctrl name='Período de Trabalho' role='menu item' text='Período de Trabalho' /&gt;" WaitForReady="COMPLETE">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d7b68642-518d-4919-8022-31542e3ec6cb" InformativeScreenshot="9035948e9cf65067ae7b1963c4733765" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio*' /&gt;&lt;ctrl name='Controle' role='menu item' /&gt;&lt;ctrl name='Período de Trabalho' role='menu item' text='Período de Trabalho' /&gt;" WaitForReady="COMPLETE">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -288,7 +288,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:RetryScope>
-      <Sequence DisplayName="Este periodo de trabalho está fechado" sap:VirtualizedContainerService.HintSize="486,551" sap2010:WorkflowViewState.IdRef="Sequence_95">
+      <Sequence DisplayName="Este periodo de trabalho está fechado" sap:VirtualizedContainerService.HintSize="514,551" sap2010:WorkflowViewState.IdRef="Sequence_95">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -448,7 +448,7 @@
           </InArgument>
         </ui:TypeInto.DelayMS>
         <ui:TypeInto.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e2821a1c-d329-4f37-a8cc-13f633380729" InformativeScreenshot="33b2c58c4028d5258b92bf7808a0aa41" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio Contabilidade Fiscal  - Versão: 10.6A-02 - 11' /&gt;&lt;wnd cls='FNWND*' title='Período de Trabalho' /&gt;&lt;wnd cls='PBEDIT190' automationid='1014' /&gt;" WaitForReady="COMPLETE">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e2821a1c-d329-4f37-a8cc-13f633380729" InformativeScreenshot="33b2c58c4028d5258b92bf7808a0aa41" Selector="&lt;wnd app='contabil.exe' cls='FNWND*' title='Domínio *' /&gt;&lt;wnd cls='FNWND*' title='Período de Trabalho' /&gt;&lt;wnd cls='PBEDIT190' automationid='1014' /&gt;" WaitForReady="COMPLETE">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
